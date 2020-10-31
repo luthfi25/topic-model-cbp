@@ -34,4 +34,14 @@ apostrophes = dict({
 	"haven't": "have not",
 	"didn't": "did not",
 	"company's": "company",
-	"other's": "other"})
+	"other's": "other",
+	"customers'": "customer",
+	"manager's": "manager",
+	"manufacturer's": "manufacturer",
+	"isn't": "is not",
+	"members'": "member",
+	"product's": "product",
+	"market's": "market",
+	"wouldn't": "would not",
+	"partners'": "partner",
+	"user's": "user"})
