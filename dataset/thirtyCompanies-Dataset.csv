@@ -1,0 +1,1939 @@
+no,company_id,question_type,classification,organization_level,sentence_english,sentence_japanese
+1,0,1,BP,1,Lack of early design validation causing rework and re-creation,設計の初期検討が不十分で、あとになってやり直しや手戻りが多い
+2,0,1,IT,2,"Users, including partners and suppliers, struggle to view and share multi-CAD design data",技術データ(CADデータ、技術文書等)の共有に苦労している
+3,0,1,BP,3,"Inability to validate cost, product and service compliance during the design phase",国や地域・業界等の規制情報を設計段階で考慮できない
+4,0,1,BP,5,"Lack of visibility into supply chain / manufacturing data, compliance and risk for design decisions",設計や製造の情報を、意思決定者(経営層)がタイムリーに把握できない 
+5,0,1,BP,3,"Lack of traceability between software requirements and code, and visibility into release readiness",制御ソフト開発の要求仕様とコード間の追跡ができず進捗状況を把握できない
+6,0,1,BP,3,Lack of integrated view of service organization or service network,保守サービス部門の組織体制やサービス網の全体を把握することが難しい
+7,0,1,BP,3,Lack of collaboration due to disconnected engineering disciplines; no cross-discipline view,開発拠点が分断しお互いの連携不足のため、部門間をまたがる状況把握ができない
+8,0,1,BP,1,"Limited visibility into product performance, usage, environment and quality",自社製品の顧客先での普段の利用状況がよくわからない
+9,0,1,HD,1,Inability for non-CAD users to visualize / interrogate data and provide input during product development,設計ツール(CAD等) を使っていない人(営業・調達等)は、設計データを見ることができない
+10,0,1,BP,4,"Inconsistent, inefficient and fragmented hardware, software and systems engineering processes",業務プロセスが全体的に一貫性がなく、個々にばらばらで仕事の効率が非常に悪い
+11,0,1,HD,1,"Lack of standardization, reuse and repurpose; re-creation of designs and revalidation of requirements",データの標準化やルールが無いので、何でも新規に設計データや資料を作成する傾向が強い
+12,0,1,IT,4,Cost / compliance data is scattered across systems and disconnected from the product definition,コストやコンプライアンス情報は複数のITシステムに分散し、製品データと切り離されている
+13,0,1,BP,2,Inconsistent processes to identify / engage suppliers and communicate product / part requirements,サプライヤや協力会社に対して、製品や部品の要件の伝え方に一貫性がない
+14,0,1,BP,2,Difficulty predicting product development projects cost and time to complete,製品開発プロジェクトの開始から完了までの総コストや所要時間を予測するのが難しい
+15,0,1,BP,5,"Difficulty managing change across engineering, manufacturing, production and service",設計、調達、生産、サービスといった、ものづくり全体で変更を管理することが難しい
+16,0,1,IT,3,Inflexible across manufacturing sites; lack of manufacturing process / resource reuse,製造工程のデータやリソースの再利用について、複数の拠点間で情報連携する柔軟性がない
+17,0,1,BP,1,Difficulty providing accurate manufacturing information to production on time,生産現場のメンバーに、製造情報を正確かつタイムリーに提供することが難しい
+18,0,1,IT,3,"Limited lifecycle traceability across requirements, system models, designs and test cases",社内のITシステムの開発要件の定義、コーディング、テスト等のトレーサビリティが限定的である
+19,0,1,IT,3,"Inability to manage or rapidly implement changing product, software and service requirements",製品本体、ソフトウェア、サービス等に関する要件管理が不十分で、突然の変更に対処ができない
+20,0,1,CM,3,Inability to meet local market demands / customer requirements or easily penetrate new markets,最新の需要や市場動向がわからないので、新しい事業機会があっても短期間で刈り取ることができない
+21,0,1,CM,4,"Increasing product, regulation and service complexity (global, local)",グローバルやローカル市場で年々増加し続ける製品/規制/サービスの複雑性に追随できない
+22,0,1,BP,2,"Duplicate or disparate parts, materials and suppliers across product lines; common cost variance",製品カテゴリをまたがって、部品やサプライヤの重複やミスマッチによる原価の不一致がある
+23,0,1,BP,3,Difficult to predict / track quality and feedback and identify root cause; rising warranty repair costs,品質や不具合の根本原因の特定が難しく、保証修理にかかる自社経費が増加している
+24,0,1,BP,5,Poor capture and management of quality-related feedback causing repeated problems,繰り返し発生している品質問題の対策結果を会社全体で適切に共有・管理できていない
+25,0,1,HD,1,Unidentified field-failure trends; ongoing product quality and performance issues,現場で発生している不具合が特定できず、製品の品質や性能の問題が常に発生している
+26,0,1,BP,2,"Poor quality, inaccurate or overly complex service information",保守サービスに関する資料や情報の品質が低く、中身も古いので現場の作業が混乱している
+27,0,1,CM,2,Inability to manage and optimize product architecture to efficiently meet local demands,製品アーキテクチャ(製品基本仕様)の管理が不十分で、引き合い需要を効率的に取り込めない
+28,0,1,BP,3,Inefficient warranty support process; OEMs recover little of warranty costs,保証サポートの業務効率が悪いので、保証コストはほとんど回収できていない
+29,0,1,HD,1,"Poor user experience ordering parts, requesting and receiving service; slow response / resolution times",保守の部品やサービスの利用者からの評価が低く、サービス対応時間や修理の解決時間も長い
+30,0,1,BP,3,High customer support call volumes; unnecessary / multiple dispatches,顧客からのサポート依頼の件数が多い、実際には訪問する必要のなかった派遣の件数も多い
+31,0,1,HD,1,Lack of field technician visibility into parts / service information; inefficient service / diagnostic processes,フィールド技術者が部品やサービス情報を把握できず、効率の悪いサービス診断手順になっている
+32,0,1,HD,2,High service workforce turnover or technician downtime; reliance on aging / experienced workforce,サービス担当者の入替えが多く、技術者の稼働率も低い、かつ経験豊富な人材が高齢化している
+33,0,1,BP,4,Unable to balance utilization across planned / break-fix or expand service into new markets,アフターサービスや修理に関する利用率や契約率が悪く、新市場にサービス事業を拡張できない
+34,0,1,CM,4,Lack of accurate and automated parts planning result in excessive and obsolete parts inventory,部品の調達計画が不正確で自動化もできず、常に部品在庫に余剰が発生している
+35,0,1,BP,3,Missed service level agreement (SLA) compliance,保守サービスの現場の業務内容が、サービス品質保証契約 (SLA) に準拠していない
+36,0,1,BP,3,Inefficient warranty contract sales process; low install base penetration of service contracts,保証契約を販売するプロセス(手順)の効率が悪く、サービス契約の浸透率や成約率が低い
+37,0,1,BP,3,High or unscheduled product / equipment downtime; poor product performance,製品の非稼働時間が長く、保守サービスが計画的でないので、製品のパフォーマンスが悪い
+38,0,1,IT,5,"Disparate and redundant data sources, lack of current “single source of truth”","データの出所が多種多様で、最新データを格納した ""唯一の正しい情報源"" という概念がない"
+39,0,1,IT,3,IoT application development tools limit rapid innovation and modification,IoTアプリケーション開発ツールの機能に問題があるので、情報システムの開発スピードが遅い
+40,0,1,IT,3,Long IoT project cycles; inability to securely connect products and manage data,IoTシステムの開発のプロジェクト期間が長く、安全にデータを管理する仕組みも不十分
+41,0,1,HD,4,"Inability to secure, reuse and share data and intellectual property",顧客データや製品の知的財産に関する安全な管理、再利用、共有ができない
+42,0,1,IT,1,"Lack of secure access on multiple platforms (desktop, mobile, cloud)",外出先のモバイル端末から、社内の情報システムやデータベースやクラウドに安全にアクセスできない
+43,0,1,IT,3,Poor application / system performance; difficult scaling technology to meet evolving business needs,現行のアプリケーションやシステムが老朽化し、変化の激しい事業環境に追いついていない
+44,0,2,CM,5,"Increase market share, revenue and growth",市場シェア / 収益 / 成長率 
+45,0,2,CM,3,Decrease warranty costs as a percent of revenue; warranty efficiency,収益に占める保証コストの割合、保証効率
+46,0,2,BP,3,Increase Service and parts revenue and profitability,サービスおよび部品による収益 / 利益率 
+47,0,2,CM,4,Increase revenue from new products or new variant,新製品 ( 新バリエーション) による収益
+48,0,2,BP,3,Effective useage of R&D expense; total development cost per project / budget,研究開発費、プロジェクト / 予算あたりの合計開発コスト 
+49,0,2,HD,2,Cut rework costs,やり直しのコスト
+50,0,2,BP,3,Reduce scrap costs,スクラップのコスト
+51,0,2,BP,3,Reduce product cost and cost of goods sold (COGS),製品原価、売上原価
+52,0,2,BP,3,Reduce service costs,サービス コスト
+53,0,2,IT,4,Reduce IT spend ,IT 関連支出
+54,0,2,BP,3,Decrease spend per supplier; material cost variance ,サプライヤあたりの支出、材料原価差異
+55,0,2,BP,3,On-time delivery or time in design phase,納期の順守または設計期間
+56,0,2,BP,1,Reduce time doing non-value-add activities ,付加価値を生まない作業に費やしている時間
+57,0,2,HD,1,Reduce engineering time spent on rework,エンジニアがやり直し作業に費やしている時間
+58,0,2,BP,3,Measure average ECO (Engineering Change Order) and software change cycle-time,平均 ECO およびソフトウェア変更サイクル時間
+59,0,2,BP,3,Meausre number of ECOs to fix quality / compliance issues; ECOs after product release ,品質 / コンプライアンスに関する問題を解決するための ECO の数、製品リリース後の ECO 
+60,0,2,HD,1,Visualization of field technician utilization rate ,フィールド サービス技術者の稼働率
+61,0,2,IT,3,Faster software development cycle time; IoT application development time,ソフトウェア開発サイクル時間、IoT アプリケーション開発期間
+62,0,2,IT,3,"Reuse of requirements, designs, processes and test assets ",要件、設計、プロセス、テスト アセットの再利用
+63,0,2,BP,3,Visualization of manufacturing cycle time; overall equipment effectiveness (OEE),製造サイクル時間、総合設備効率 (OEE)
+64,0,2,IT,3,Reuse of parts in BOM or software asset reuse; resource and tool reuse ,BOM の再利用部品またはソフトウェア アセットの再利用、リソースとツールの再利用
+65,0,2,HD,2,Improve first time fix rate (FTFR) ,初回修理完了率 (FTFR)
+66,0,2,BP,2,Reduce number of physical prototypes,物理プロトタイプ ( 実機試作) の数
+67,0,2,CM,3,Evaluate number of new parts or software features introduced and introduction rate,新規部品またはソフトウェア機能の投入数や投入率
+68,0,2,BP,3,"Measure product failure rate (e.g. MTBF, mean time between failure) ",製品の故障率 (MTBF、平均故障間隔)
+69,0,2,BP,2,Shorter mean time to repair (MTTR),平均修理時間 (MTTR) 
+70,0,2,CM,3,"Recude inventory turns, costs and parts inventory turnover rate",在庫回転数、コスト、部品の在庫回転率
+71,0,2,BP,3,Measure first-time yield,歩留まり
+72,0,2,CM,4,Measure number of products launched at cost target per budget ,予算内の目標コストで市場投入した製品
+73,0,2,BP,4,Measure warranty and service contract renewal rate; new service business per new markets ,保証およびサービスの契約更新率、新規サービス ビジネス / 新規市場
+74,0,2,BP,4,Visualization of number of days for NPI (new product introduction) or time-to-market on average,NPI ( 新製品導入) または市場投入期間の平均日数
+75,0,2,BP,3,Measure SLA (Service Level Agreement) compliance; Visualization of product per part or technician availability ,SLA コンプライアンス、製品 / 部品の在庫または技術者の対応可能性
+76,0,2,BP,4,"Visualization of number of recalls, exceptions, warning letters, rework and audits ",リコール、例外、警告書、再作業、監査の数
+77,0,2,HD,4,Count number of occurrences of lost intellectual property (IP),IP ( 知的財産) の紛失回数
+78,0,2,CM,4,Decrease of number of occurrences of non-compliance in global markets,グローバル市場におけるコンプライアンス違反の回数
+79,0,2,CM,5,Reduce fines and liability or lost revenue due to compliance issues and missed SLAs,コンプライアンス問題および SLA 違反に起因する罰金および不利益、または収益減
+80,0,2,CM,5,"Improve customer satisfaction, loyalty scores and net promoter score (NPS)",顧客満足度 / ロイヤリティ スコア、推奨者正味比率 (NPS) 
+81,0,2,HD,2,"Measure average resolution time, customer wait time; remote fix rate",平均解決時間 / 顧客待機時間、リモート修理率
+82,0,2,BP,3,Improve equipment up-time / product quality ,機器の稼働時間 / 製品の品質
+83,0,2,HD,5,Improve Employee satisfaction,社員満足度
+84,1,1,CM,3,New product sales targets are not being met,新商品の売上げ目標が達成できない
+85,1,1,CM,3,Gap between planned volume and sales volume,計画数量と販売数量のギャップ
+86,1,1,CM,4,Increased production and production capacity,増産対応、生産能力アップ
+87,1,1,HD,2,Training of young people,若手層の育成
+88,1,1,IT,3,Lack of efficient collection and analysis of Voice of the Customer (VOC),顧客の声（VOC）の効率良い収集、分析が不足
+89,1,1,CM,3,Switching between existing and new products (how to handle existing products),既存品と新商品の切替（既存品の扱い方）
+90,1,1,HD,1,Design know-how is not shared by individual designers,設計ノウハウが属人的で共有できていない
+91,1,1,HD,2,Not enough personnel to do cost planning.,原価企画できる人材が少ない
+92,1,1,BP,3,VE extraction (no idea),VEの抽出（アイデアがない）
+93,1,1,BP,4,"Difficulty in coordinating with production bases, including those overseas",海外含めた生産拠点との連携がうまくできない
+94,1,1,BP,3,Unable to meet development deadlines.,開発納期を守れない
+95,1,1,CM,3,Shortening the product cycle,商品サイクルの短命化
+96,1,1,BP,2,Collaboration within the Chinese design department,中国の設計部内との連携
+97,1,1,BP,4,Backtracking occurs after product release.,商品リリース後に後戻りが発生
+98,1,1,BP,2,Delays and setbacks due to delays in procuring prototype parts,試作部品の手配遅れによる試作遅れ、後戻り
+99,1,1,CM,4,Production of parts is discontinued.,部品の生産中止
+100,1,1,CM,4,Many parts are discontinued.,部品の生産中止が多い
+101,1,1,CM,3,Production was suspended due to parts shortages.,部品欠品による生産停止
+102,1,1,CM,3,The environment for collaboration with China is not well-developed.,中国とのコラボレーション環境が整備されていない
+103,1,1,BP,2,Reduction of man-hours between production and development departments in China,中国の生産部門と開発部門との工数削減
+104,1,1,BP,2,Unable to reduce the cost of goods purchased.,仕入れ商品のコストダウンができない
+105,1,1,CM,4,Unable to gain a tremendous technological advantage over the competitors,競合に対する圧倒的な優位技術が獲得できない
+106,1,1,IT,4,Poor coordination with global locations (information sharing and processes),グローバル拠点との連携が悪い（情報共有やプロセス）
+107,1,1,BP,3,Market response costs (failure costs) are high.,市場対応コスト（失敗コスト）が大きい
+108,1,1,IT,3,Development deliverables are not shared and managed,開発にかんする成果物が共有管理できていない
+109,1,1,HD,2,Training of human resources for system development,システム開発の人材育成
+110,1,1,CM,4,Large investments are on the rise,大型投資が増大傾向
+111,1,2,CM,5,Define technology and product strategies to extend the life cycle,ライフサイクルを延ばすための技術・商品戦略の明確
+112,1,2,CM,5,A roadmap that includes the life cycle through portfolio management,ポートフォリオマネジメントによってライフサイクルを含めたロードマップ
+113,1,2,IT,4,Informed decisions on which products to develop,どの製品を開発するか、情報に基づいた決定
+114,1,2,CM,3,Having someone to manage it.,管理する人がいること
+115,1,2,IT,3,Information sharing with each functional department under development,開発中の各機能部門との情報共有
+116,1,2,IT,3,We have tools to manage it.,管理するツールがある
+117,1,2,BP,3,"Influence, including quality guidance to component manufacturers",部品メーカーへの品質指導含めた影響力
+118,1,2,IT,4,Sharing of quality information with global bases,グローバル拠点含めた品質情報共有
+119,1,2,BP,3,Setting quality standards for products developed in the fastest way possible with the latest technology,最新技術で最速で開発する商品の品質基準の設定
+120,1,2,IT,2,Quality maintenance control independent of people,人に依存しない品質維持の管理
+121,1,2,BP,3,Determine product requirements based on quantitative knowledge of customer needs,お客様ニーズを定量的に知って商品の要件を決定する
+122,1,2,CM,3,New product specifications are not influenced by the voice of some users.,新商品の仕様が一部のユーザの声に左右されない
+123,1,2,IT,3,Get more customers than your competitors with valid information,競合よりも多くの顧客を、有効な情報を入手する
+124,1,2,IT,3,Developers understand the customer's application and set specifications.,開発者が顧客のアプリケーションを把握し、仕様を決める
+125,1,2,IT,1,Take your time and document it for later reuse.,時間を取って、後で再利用可能なドキュメント化する
+126,1,2,BP,2,Allowing design to be done with undetermined information in the early stages of design,設計初期に未確定情報でも設計ができるようにする
+127,1,2,BP,3,More lateral development of designs for each model family,機種群毎の設計の横展開を多くする
+128,1,2,IT,2,Methods for managing know-how,ノウハウを管理する手法
+129,1,2,HD,3,Improve cost planning skills,原価企画のスキルの向上
+130,1,2,CM,3,Clarification of roles and responsibilities in the development process,開発プロセスにおける役割・責任部門の明確化
+131,1,2,BP,3,Establishing a review process for component selection,部材選定のレビュープロセスの確立
+132,1,2,BP,4,Unifying the development process,開発プロセスの統一
+133,1,2,IT,4,IT Tools for Communicating with Foreign Countries,海外とやり取りするためのITツール
+134,1,2,CM,4,Strengthening Overseas Cooperation,海外連携強化
+135,1,2,IT,4,Building an Information Sharing Environment with Overseas,海外との情報共有環境の構築
+136,1,2,BP,3,Development of low-cost parts for BRICS,BRICS向けローコスト部材の開拓
+137,1,2,CM,4,Take advantage by implementing bulk purchases like our competitors.,競合のように一括購入を実施して有利になる
+138,2,1,CM,3,The service business is weak.,サービスビジネスが弱い
+139,2,1,CM,5,I don't have all the information and numbers I need for management.,経営幹部の必要な情報、数字揃っていないが
+140,2,1,CM,4,Regulatory Compliance,規制対応
+141,2,1,CM,5,Our Core Technology Vision for the Future,当社の将来のコア技術ビジョン
+142,2,1,CM,5,Core Competencies for Future Products,今後の製品のコアコンコンピタンス
+143,2,1,BP,3,Unable to see product cost information as PLM,製品のコスト情報をPLMとして見ることが出来ない
+144,2,1,BP,3,quality,品質
+145,2,1,BP,4,Departmental interests take precedence and the company-wide perspective is less important,部門の利害が優先され全社視点が薄い
+146,2,1,IT,4,There's a trauma to globalization in the information system.,情シスにグローバルに対するトラウマがある
+147,2,1,BP,4,We can't solve problems across all departments.,全部門横断で問題解決できない
+148,2,1,CM,5,Company-wide common (including overseas),全社共通化（海外含む）
+149,2,1,HD,3,Transfer of technical skills (education),技術力の伝達（教育）
+150,2,1,HD,3,Training of human resources in your department,自部門内の人材育成
+151,2,1,HD,3,The right people are not in the right place,人材が適材適所に配置されていない
+152,2,1,HD,2,Shortage of human resources in our department,自部内の人材不足
+153,2,1,HD,4,Lack of training (growth) of the next generation of leaders,次世代リーダの育成（成長）不足
+154,2,1,HD,4,Leadership Development,リーダ層の育成
+155,2,1,IT,3,IT development management (getting things done),IT開発のマネジメント（やりくり）
+156,2,1,HD,2,"Misperceptions of the problem, even between the person in charge and the supervisor",担当と上司間でも問題認識のズレ
+157,2,1,HD,1,I have a lot of personal matters to deal with and I can't judge.,個人の担当案件が多く裁ききれない
+158,2,1,HD,1,The skills required are too great.,求められるスキルが大きすぎる
+159,2,1,BP,3,Difficult to grasp costs in the upstream design stage,設計上流段階での原価を把握しづらい
+160,2,1,BP,3,Insufficient level of design process,設計工程のレベル不足
+161,2,1,IT,3,information sharing,情報活用
+162,2,1,IT,4,The nature of the design problem is not understood by the IT department.,設計問題の本質がIT部門で理解できていない
+163,2,1,IT,3,information sharing,情報共有
+164,2,1,BP,3,Sharing of Design Methods,設計手法の共有
+165,2,1,IT,4,The information you need is scattered and difficult to gather.,必要な情報が分散していて集めにくい
+166,2,1,BP,3,How to bridge the gap between business processes and tools,業務プロセスとツールのギャップの埋め方
+167,2,1,IT,2,Full use of 3D data,3Dデータのフル活用
+168,2,1,IT,3,The effectiveness (happiness) of IT proposals and how to show them,IT提案の効果（うれしさ）と見せ方
+169,2,2,CM,4,A system for determining strategic (company-wide) business models and products,戦略的（全社的）なビジネスモデル、製品を決定する仕組み
+170,2,2,IT,5,Management and IT working together by the CIO,CIOによる、経営とITが連動
+171,2,2,IT,4,Mechanisms for information sharing and agreement between departments,部門間での情報共有・合意の仕組み
+172,2,2,CM,4,Future Projections of Product Function Configuration,製品機能構成の将来予測
+173,2,2,CM,3,Clear responsibility for the product,製品の責任者が明確
+174,2,2,BP,3,Realization of effects through visualization,見える化による効果の実感
+175,2,2,IT,4,"Unlike in the past, you can invest in IT.",過去とちがい、IT投資が出来きる
+176,2,2,CM,4,Market demand levels and goals for the product are aligned,製品に対する市場要求レベルと目標が合っている
+177,2,2,BP,4,Achieve both partial and total optimization,部分最適と全体最適の両立を実現する
+178,2,2,CM,4,A company-wide system of activities without prioritizing interdepartmental interests,部門間の利害を優先せずに、全社視点での活動体制
+179,2,2,BP,4,The department responsible for managing and supervising product information,製品情報を管理監督する責任部門
+180,2,2,BP,4,The degree of impact of the change is visible.,変更による影響度合いが見える
+181,2,2,IT,3,Digitization of Product Information,製品情報のデジタル化
+182,2,2,BP,3,The number of predictions and details of the process are incorporated into the process,工程の予測数や詳細工程への落とし込み
+183,2,2,IT,2,Duty to enter the required information into the system,必要な情報をシステムに登録するための入力義務
+184,2,2,BP,3,Setting up project management,プロジェクトマネジメントの設置
+185,2,2,BP,4,"There is no divisional cover, which is viewed centrally by product rather than as a complete division.",部門完結にせず製品で一元的に見る、部門のカベがない
+186,2,2,BP,3,No unreasonable schedule and good planning.,スケジュールにムリがなく計画性がある
+187,2,2,HD,4,People and organizations grow even when there is a lot of organizational change.,組織変更が多くても人や組織が育つ
+188,2,2,BP,3,Design know-how can be shared and there are no barriers (tacit knowledge) between departments.,設計ノウハウの共有化が出来て、部門間の壁（暗黙知）がない
+189,2,2,IT,3,The base data management is in place.,ベースとなるデータ管理が出来ている
+190,2,2,BP,4,Integrated project management tools allow for centralization.,統合的なプロジェクト管理ツールで一元化が出来ている
+191,2,2,BP,4,Common internal projects are made explicit.,社内共通のプロジェクトが明示化されている
+192,2,2,BP,3,Project units are not obscured across the company.,プロジェクトの単位が全社で曖昧にしない
+193,2,2,BP,2,Problems in the initial design (conceptual design) are shared,初期設計（構想設計）時の問題が共有出来ている
+194,2,2,BP,3,No gap in man-hours or time frame with the ideal process,理想工程との工数や期間のギャップがない
+195,2,2,BP,3,Not a lot of complexity.,複雑な要素が多くない
+196,2,2,BP,3,Freedom vs. Completion,自由度　VS　やりきり
+197,2,2,BP,4,"Timely communication of information on quality issues, including overseas",海外含め品質問題の情報がタイムリーに伝わる
+198,2,2,IT,3,There is a detailed history of product information and a department to maintain it.,製品情報の詳細履歴管理があり、その整備する部門もある
+199,2,2,IT,2,Information in multiple languages does not take much time for interpretation,情報が多言語でも通訳に時間がかからない
+200,2,2,BP,3,Standardization of operations,業務の標準化
+201,2,2,CM,3,inbound marketing,インバウンドマーケティング
+202,2,2,BP,4,Shared product requirements across the board,製品要件の横断的共有
+203,2,2,IT,4,Information sharing (IT) is taking center stage at each site and function,拠点毎、機能毎でも情報共有（IT化）が中心になっている
+204,2,2,IT,4,"Even if the data is in a functional department, it's all consolidated.",データが機能部門にあっても集約してある
+205,2,2,IT,2,Procurement analysis skills,調達の分析スキル
+206,2,2,BP,4,Cooperation between headquarters,本部間の協力体制
+207,2,2,IT,3,The Bottom Line of Service Department Improvement and Its IT Strategy,サービス部門改善の底上げとそのIT戦略
+208,3,1,IT,2,Lots of paperwork and emails.,書類やメールが多い
+209,3,1,IT,1,All sorts of information has been made personal.,各種情報が個人的になっている
+210,3,1,BP,3,There are no design standards.,設計標準がない
+211,3,1,IT,2,There's a lot of paperwork involved.,書類業務が多い
+212,3,1,IT,3,We're not sharing information.,情報共有が出来ていない
+213,3,1,BP,3,The design has not been standardized.,設計の標準化ができていない
+214,3,1,IT,4,There's a gap in the level of information with the manufacturing department.,製造部門との情報レベルに差がある
+215,3,1,HD,2,There's a lot of variability in training of subordinates.,部下の教育にばらつきが多い
+216,3,1,BP,1,I don't have time to go to customers or partner companies.,顧客や協力会社へ行く時間が無い
+217,3,1,HD,2,Improving the level of young engineers,若手技術者のレベルアップ
+218,3,1,IT,1,IT systems are not being used effectively,ITシステムを効果的に使用していない
+219,3,1,BP,2,Lots of meetings.,会議が多い
+220,3,1,BP,3,Poor service to designers.,設計者へのサービスが悪い
+221,3,1,BP,3,Just carrying out development events and not much substance.,開発イベントを遂行するだけで、中身が薄い
+222,3,1,BP,4,Interdepartmental barriers,部門間の壁
+223,3,1,BP,4,Poor coordination with the factory.,工場との連携が悪い
+224,3,1,BP,3,Development lead time is not improved.,開発リードタイムが改善されない
+225,3,1,BP,2,The costs are hard to see.,コストが見えにくい状況になっている
+226,3,1,CM,3,New product development is not progressing as planned.,新製品開発が計画通りに進まない
+227,3,1,CM,3,Few new development themes.,新規開発テーマが少ない
+228,3,1,BP,3,Demand for lower prices,低価格の要求
+229,3,1,BP,2,Inefficient business conditions,非効率な業務状況
+230,3,1,BP,5,Global Coverage,グローバル対応
+231,3,1,BP,5,No clear business plan or strategy for overseas expansion,海外展開のビジネスプランや戦略が明確になっていない
+232,3,2,BP,4,Incorporate requirements at the conceptual stage before entering the development process,開発プロセスに入る前段階の構想段階で要件を取り込む
+233,3,2,CM,4,Strengthen access to information in new markets,新規市場に対する情報入手力の強化
+234,3,2,BP,4,A system that allows each department to follow up on project delays,プロジェクトの遅れに対して各部門がフォローする体制
+235,3,2,CM,3,Centralized progress management from Japan,進捗管理を日本側で集中管理
+236,3,2,BP,3,The current development process involves each department with a sense of participation,現在の開発プロセスは各部門の参加意識をもって参加してもらう
+237,3,2,CM,4,"When developing globally, the division of roles and management between domestic and overseas development should be clear.",グローバルで開発する場合に、国内と海外とで役割分担と管理が明確にする
+238,3,2,CM,4,Transferring to the plant will keep operations running as planned.,工場に移管しても業務が計画通りに進む
+239,3,2,BP,3,Make sure that the details of the detailed design verification are implemented.,詳細設計の検証内容をしっかり実施する
+240,3,2,HD,3,Design Education for Foreigners,外国人への設計教育
+241,3,2,HD,4,Sharing of know-how between global development sites,グローバル開発拠点間でのノウハウの共有
+242,3,2,BP,3,Design events effectively and efficiently,設計イベントを効果的かつ効率的に
+243,3,2,BP,4,Organizational Collaboration,組織的なコラボレーション
+244,3,2,BP,3,Limit schedule delays due to repeated evaluations and modifications,評価や改造の繰り返しによるスケジュール遅延の抑制
+245,3,2,BP,2,There is no variation in the items to be done during the evaluation.,評価の時にやるべき項目にばらつきがない
+246,3,2,BP,3,Allow enough time for product and equipment evaluation to avoid problems during the mass production phase,製品や設備の評価時間を十分にとって、量産段階で問題が発生しないようにする
+247,3,2,BP,3,Sufficient validation at the product build-out stage,製品の作り込み段階で十分な検証
+248,3,2,BP,3,Evaluation and verification based on design standards,設計標準に基づいた評価や検証
+249,3,2,BP,4,Quality control overseas and quality control for use at customers' sites,海外における品質管理、かつ、顧客先での使い方を想定した品質管理
+250,3,2,CM,4,Strengthen domestic and international procurement functions,国内国外の調達機能の強化
+251,3,2,CM,5,Development of Overseas Partners,海外協力会社の開拓
+252,3,2,BP,3,Considering the constraints of parts procurement,部品調達の制約を考慮
+253,3,2,CM,4,Gathering information on overseas suppliers,海外の調達先の情報収集
+254,3,2,CM,5,Expanding overseas with no gap between domestic and overseas,国内と海外とのギャップのない海外展開
+255,3,2,HD,3,Securing personnel in other departments who can understand facility design,他部門で設備設計を理解できる人材の確保
+256,4,1,CM,5,Decline in business strategy,事業戦略の衰退
+257,4,1,IT,4,Information management at each production site,製造拠点毎の情報管理
+258,4,1,IT,4,Product data is not shared between departments ,部門間で製品データの共有ができていない 
+259,4,1,IT,4,Strengthen system integration and cooperation with each company,各社とのシステム統合及び連携強化
+260,4,1,IT,3,Design data is not being used effectively throughout the entire manufacturing process.,設計データが、ものづくり全体で有効活用できていない
+261,4,1,HD,4,shortage of personnel,人材不足
+262,4,1,HD,3,Only a limited number of designers can be entrusted with important tasks.,重要な仕事を任せられる設計者が限られる
+263,4,1,HD,3,Insufficient efforts to develop human resources capable of leading the entire product development process,製品開発全体をリードできる人材育成への取組みが不十分
+264,4,1,HD,3,The quality of in-process design data varies depending on the designer and design team assigned to the project.,担当した設計者や設計チームによって、仕掛り設計データの品質にバラツキが出てしまう
+265,4,1,HD,1,Design quality is dependent on the abilities and skills of some ace designers,設計品質は、一部のエース級設計者の能力やスキルに依存している
+266,4,1,HD,2,It takes time to train personnel (new and mid-career),人材（新人・中途）を育てるのに時間がかかる
+267,4,1,HD,1,Education in Design Skills,設計力の教育
+268,4,1,BP,1,You can't see the workload of various tasks and suddenly you discover that you can't meet the deadline one day.,各種業務の作業負荷が見えず、突然、ある日に納期に間に合わないことが発覚する
+269,4,1,IT,3,You're not managing resources across the design.,設計全体でのリソース管理が出来ていない
+270,4,1,BP,2,"As a result, the design man-hours are exceeded because of the large number of quality check items, which are called ""product quality build-up"".",製品品質の作り込みと称して、品質チェック項目が多く、結果、設計工数が超過している
+271,4,1,BP,3,Design rework due to the manufacturing phase,製造フェーズによる設計手戻り作業
+272,4,1,BP,3,There is a lot of design-related rework at the production stage.,生産段階において、設計に起因する手戻りが多い
+273,4,1,BP,4,Inconsistencies in the design work are not uncovered until later in the design process.,設計作業の矛盾点は、設計の後半にならないと発覚しない
+274,4,1,IT,4,Inability to incorporate data on manufacturing requirements at the design stage,設計段階で製造要件のデータを取り入れることができない
+275,4,1,IT,4,The exact performance of a product cannot be known until the actual product is built.,製品の性能は実際に現物を造ってみないと、正確な値がわからない。
+276,4,1,IT,3,Centralization of scattered documents,点在しているドキュメントの一元化
+277,4,1,IT,4,Degradation of IT infrastructure,IT基盤の劣化
+278,4,1,IT,5,System integration and linkage enhancement (including BCP),システム統合及び連携強化(BCP含む)
+279,4,1,IT,4,Response deterioration,レスポンス悪化
+280,4,1,IT,3,More data and worse system response.,データが増えシステムのレスポンスが悪化
+281,4,1,IT,3,"Development costs cannot be grasped in real time. Or, it takes a lot of man-hours to figure it out.",開発コストの推移がリアルタイムに把握できない。もしくは、把握するまでに非常に作業工数がかかる
+282,4,1,IT,3,There is no system to keep track of environmental regulatory data while designing products.,環境規制データを常に把握しながら製品設計をすすめる仕組みがない
+283,4,1,IT,3,Component information (discontinuation and regulatory compliance) is not shared among designers,部品情報（中止・規制対応）が設計者間で共有されていない
+284,4,1,IT,5,Design data is not being used effectively throughout the entire manufacturing process.,設計データが、ものづくり全体で有効活用できていない
+285,4,1,IT,4,"Design data, documents and calculations are owned by individuals and not shared with stakeholders.",設計のデータ、ドキュメント、計算書が個人持ちで、関係者と共有できていない
+286,4,1,IT,2,Effective use of 3D CAD data,3次元CADデータの有効活用
+287,4,1,HD,4,Design products cannot be reused as they are owned by the individual,設計成果物が個人持ちのため再利用ができない
+288,4,1,HD,2,"Gathering, accumulating and passing on know-how",ノウハウの収集、蓄積、伝承
+289,4,1,HD,4,"Past complaints, defects and failures are not shared, so the same mistakes are repeated.",過去のクレーム・不具合、失敗事例が共有化されていないので、同じ失敗を繰り返している
+290,4,1,HD,4,Design know-how is owned by individuals and is not good at sharing it as departmental knowledge.,設計ノウハウは個人持ちで、部門のナレッジとして共有するのが得意でない
+291,4,2,IT,3,Upgrading market trend research.,市場動向調査とバージョンアップをする
+292,4,2,IT,4,System integration and cooperation with each company is necessary,各社とのシステム統合、連携強化が必要
+293,4,2,IT,3,System Unification,システムの統一
+294,4,2,IT,4,Integration of CAD systems and strengthening of linkages with mission-critical systems. And urgent BCP measures are needed.,各CADシステムの統合や基幹システムとの連携強化。及び早急なBCP対策が必要
+295,4,2,HD,3,"In particular, we need a system for collecting data. It is important to raise awareness that each person should accumulate know-how, not just a tool theory.",特に収集する仕組みが必要。ツール論ではなく、ひとりひとりがノウハウを蓄積するという意識付けが大切
+296,4,2,IT,4,Introduce examples of data use and develop new applications,データ活用事例の紹介新規活用事例の開拓
+297,4,2,IT,4,Centralized or virtualized database to clarify document storage rules,ドキュメント保管ルールを明確にするDBの一元化または、仮想的な一元化
+298,4,2,HD,3,"We do not teach tools, but design and manufacturing skills necessary for manufacturing.",ツールの教育ではなく、ものづくりとして必要となる設計、製造の教育を実施する
+299,4,2,HD,4,A dedicated project manager's department and training environment is needed,プロジェクトマネージャ専門の部門および育成環境が必要
+300,4,2,CM,3,We need a dedicated resource management department.,リソース管理専門の部門が必要
+301,4,2,IT,2,Analysis using a pre-validation tool is required.,事前検証ツールによる解析が必要
+302,4,2,HD,3,Manufacturing practice by the designer is required.,設計者による製造の実習が必要
+303,4,2,CM,3,Establishing a dedicated project manager's department for timely release to the market,プロジェクトマネージャ専門部署の設置し、タイムリーな市場投入
+304,4,2,IT,4,"Update hardware (server and client), decentralize data, and make the system easy to use without stress",ハード(サーバ、クライアント)の更新、データを分散化し、ストレスを感じずシステムを利用できるようにする
+305,4,2,IT,4,A fundamental review of how design data is used is needed.,設計データの活用方法の根本的見直しが必要
+306,4,2,IT,3,Fundamentally reviewing the use of 3D CAD data and establishing how to utilize it.,三次元CADデータの活用方法を根本的に見直し、活用方法を確立する
+307,4,2,HD,3,Introduce examples of data use and develop new applications,データ活用事例の紹介、新規活用事例の開拓
+308,4,2,IT,2,Investigation of the analysis-driven design process and its development,解析主導設計プロセスの検討とその展開
+309,4,2,IT,3,Centralized or virtualized database to clarify document storage rules,ドキュメント保管ルールを明確にするDBの一元化または、仮想的な一元化
+310,5,1,CM,5,You can't develop a product that sells.,売れる商品を開発できない
+311,5,1,CM,5,Fewer No. 1 products!,No.1商品が少ない！
+312,5,1,BP,4,"Unified and individual, difficult to find the best!",統一と個別、最適の見極め難！
+313,5,1,BP,3,Role.,役割が。。。
+314,5,1,BP,3,Specification leak,仕様洩れ
+315,5,1,BP,3,additional cost,追加コスト
+316,5,1,BP,3,delayed delivery,納期遅れ
+317,5,1,BP,4,The whole thing is not pointing in the same direction as a single unit.,全体一丸となって同じベクトルに向けてない
+318,5,1,CM,5,The axis of manufacturing is swinging.,ものづくりの軸が揺れている
+319,5,1,CM,5,ODM constitution,ODM体質
+320,5,1,BP,3,Inability to adequately reflect the needs of the field,現場の要望を充分に反映できない
+321,5,1,HD,1,Say this and say that.,ああ言えばこう言う。
+322,5,1,CM,1,Dragging the past away.,昔を引きずる
+323,5,1,HD,2,Design = Adjuster,設計＝調整屋
+324,5,1,HD,1,Employee Motivation. Downward spiral,社員のモチベーション。。低下ぎみ
+325,5,1,HD,3,technological strength,技術力
+326,5,1,CM,5,Automotive equipment,車載のこと。。
+327,5,1,BP,3,Conservative Constitution,コンサル体質
+328,5,2,BP,3,Rules for getting the design right from the start,最初から正しい設計を進めるためのルール
+329,5,2,CM,5,Raising Management Awareness,マネジメントの意識改革
+330,5,2,CM,5,Organizational Flexibility,組織の柔軟化
+331,5,2,CM,4,Building project management with control over in-house/outsourcing,内製/アウトソーシングのコントロールが出来るプロジェクトマネジメントの構築
+332,5,2,BP,3,Building a process that allows for the systematic incorporation of past successes/failures,過去の成功/失敗事例の体系的な取り込みができるプロセスの構築
+333,5,2,BP,3,Early FIX of design specifications and direction,設計仕様、方向性の早期FIX
+334,5,2,IT,3,Evaluative support for design proposals through the use of CAE,CAE利用による設計案の評価的裏付け
+335,5,2,IT,2,Tools that embody building in your head,頭での構築を具現化するツール
+336,5,2,IT,3,Establishment of an integrated system from upstream to downstream (manufacturing),上流→下流（製造）で一気通貫したしくみの構築
+337,5,2,IT,2,information retrieval,情報検索
+338,5,2,IT,3,Systematization of variation development (automation),バリエーション展開のシステム化（自動化）
+339,5,2,IT,3,Breaking away from Excel,Excelからの脱却
+340,5,2,BP,3,Variations in design/reuse of past models for faster completion　 ,バリエーション設計/過去モデルのリユースによる早期完成度UP　 
+341,5,2,IT,3,"It's all recombined on an Excel basis, which looks good, but it's hard to create and manage　",すべてExcelベースで組み替えが行われていて、一見良さそうだが、作成や管理に苦労している　
+342,5,2,IT,4,Higher efficiency through centralized P/N and P/S management,P/N、P/S一元管理による高効率化
+343,5,2,IT,3,Complexity of information transfer between design methods and CAD files,設計手法、CADファイル間の情報伝達が複雑
+344,5,2,BP,2,"If a problem arises, can you get the drawings and any changes to the documents immediately? That said, I'm having a pretty hard time with it.",何か問題が発せした際、図面やその変更書類をすぐに出せるか？というと、結構苦労している
+345,5,2,BP,3,Early design - even details are hard to manage in the configuration.,設計初期～詳細も、構成管理が大変
+346,5,2,IT,4,There are no rules for managing changes before the original drawing is registered (because of the importance of speed).,原図登録前の変更管理のルールがない（スピード重視だからだが）
+347,5,2,BP,4,Is it necessary to manage the deliverables of an outside manufacturer in the first place? And so on.　,外部メーカの成果物管理がそもそも必要か？等、事業所によりバラバラ　
+348,5,2,BP,4,Outsourcing Design Quality Improvement,アウトソーシング設計品質改善
+349,5,2,CM,4,The business process at ODM is not clear. Groping,ODMでの業務プロセスが明確でない。手さぐり
+350,5,2,IT,3,Design Information Transfer,設計情報伝達
+351,6,1,CM,3,Weak marketing.,マーケティングが弱い
+352,6,1,CM,5,Too many product lines.,商品ラインナップが多すぎる
+353,6,1,CM,4,"The products handled by the entire company have different characteristics, making it difficult to adopt a unified approach.",全社で扱う製品の特性がまちまち、統一した手法がとりにくい
+354,6,1,IT,3,We don't have the tools to collaborate.,コラボ（連携）する為のツールがない
+355,6,1,BP,3,cost consciousness,コスト意識
+356,6,1,HD,2,Know-how is focused on the individual.,ノウハウが個人に集中
+357,6,1,IT,3,Insufficient information sharing,情報共有が不十分
+358,6,1,CM,4,"Fewer derivative products, some of which seem to have popped up?",派生製品の少なさ、ポッと出てきたような製品がある？
+359,6,1,CM,4,"Competitors get bigger through acquisitions, and the competitive edge makes the difference.",競合が買収で大きくなり競争力で差がつく
+360,6,1,BP,5,Global Development,グローバル開発
+361,6,1,IT,4,Poor manufacturing and design infrastructure,製造、設計インフラが貧弱
+362,6,1,BP,4,Control of overseas manufacturing sites (do you think they are not cost/quality conscious?),海外製造拠点の統制（コスト/品質意識が取れていないのでは？）
+363,6,1,BP,1,There's too much load on the technicians.,技術者の負荷が多すぎる
+364,6,1,IT,3,Information is dispersed.,情報が分散している
+365,6,1,CM,5,"New technology doesn't come out, and we become a normal company and go down.",新しい技術が出てこなくて普通の会社になり下る
+366,6,1,CM,4,Other companies are launching new products that are vastly superior in performance.,他社が圧倒的に性能が優れた新製品を発売する
+367,6,1,BP,3,speed of development,開発スピード
+368,6,1,HD,3,Training for managerial positions in the manufacturing sector,製造部門における、管理的立場の人の教育
+369,6,1,HD,2,Lack of technology,技術力の不足
+370,6,1,HD,1,We are so busy with day-to-day operations that we are not focused on improvement.,日々の業務に追われ、改善に意識が向かない
+371,6,1,IT,2,Not enough software assets are being reused,ソフトウェア資産の再利用が十分できていない
+372,6,2,BP,2,"When there is a development problem, it is brought to light early",開発上の問題点があった際、早めに表面化させる
+373,6,2,HD,2,Assign tasks to people of varying abilities without relying on intuition and experience.,勘と経験に頼らずに、能力の異なる担当者に仕事を割り当てることができる
+374,6,2,BP,3,"There is no shortage of development resources, even if it's an unexpected event such as a field claim or a special order response.",フィールドクレームや特注対応など突発であっても開発リソースが不足しない
+375,6,2,BP,3,Decide how far you want the quality to go and set quality goals.,どこまでの品質を求めるのか、品質目標を決めておく
+376,6,2,BP,4,"Why do we use these standards for quality, acceptance and inspection standards and for each component? It is clear why it was decided to do so.",品質、受入検査基準、部品毎に何故その基準としているのか。何故そう決まったのか。
+377,6,2,BP,4,Why did the performance you thought you had established at the prototype evaluation stage not fail at the mass production stage?,試作評価段階で確立したと考えていた性能が、量産段階でも不具合が出ない
+378,6,2,BP,4,Consistent part accuracy between prototype and mass production,試作と量産とで、業者が異なる場合でも、部品精度が安定している
+379,6,2,HD,2,Technicians are able to multitask and still manage,技術者がマルチタスクでも、管理ができている
+380,6,2,BP,3,New product launch schedules are taken into account in the frequency of drawing revisions.,新製品立ち上げスケジュールが、図面改訂頻度に考慮されていること
+381,6,2,BP,4,Sharing the image of quality and cost performance of design and procurement vendors,設計サイドと調達サイドの業者のもつ品質・コストパフォーマンスに関するイメージの共有
+382,6,2,CM,5,"Containment in the manufacturing process, not in the final inspection, can be specified by the start of mass production.",最終検査ではなく製造プロセスでの抑え込みが量産立ち上げまでに規定できている
+383,6,2,IT,4,There is design documentation to guarantee quality and is not dependent on the manufacturer's know-how,品質が保障できる設計ドキュメントがあり、製造者のノウハウに依存しない
+384,6,2,IT,3,"Complaints, defects and failures are shared",クレーム・不具合、失敗事例が共有化されている
+385,6,2,CM,5,There is overall governance on common parts.,部品共通化に関して全体的なガバナンスがある
+386,6,2,BP,2,Fewer modules with equivalent functionality,同等の機能を有するモジュールが少ない
+387,6,2,BP,3,Manufacturing of parts (discontinuation and regulatory compliance) is shared,部品の製造（中止・規制対応）が共有されている
+388,6,2,BP,4,The parts we purchase are standardized.,購入部品の標準化が出来ている
+389,6,2,IT,2,3D models (before prototyping) are verified and there is no rework on the actual product.,3Dモデル（試作前）の検証がされ、実機での手戻りがない
+390,6,2,IT,2,"DR using 3D-CAD, etc., and all divisions are using the tools.",3D-CADを活用したDR等行われて、全事業部がツールを活用できていること
+391,6,2,BP,3,"If the specification or design is changed during product design and development, the change procedure is also fixed.",製品の設計開発中に仕様・設計が変更された場合、変更手順も決まっている
+392,6,2,IT,4,No mismatch between the drawings and the 3D data when exchanging 3D data with the vendor during development.,開発時、業者と3Dデータでやり取りする際に、図面とミスマッチが起きない
+393,6,2,IT,4,There's a tool to drop from E-BOM to M-BOM.,E-BOMからM-BOMへの落とし込むツールがある
+394,6,2,BP,1,"It doesn't take a lot of time to investigate the problem because you can track down who changed it, for what, and when.",誰が、何の為に、いつ変更したのか追いかけられるため、問題の調査に時間がかからない
+395,6,2,BP,2,No development delays because there are no omissions in pre-evaluation and verification and performance is produced.,事前の評価・検証に漏れがなく、性能が出るので、開発の遅延がない
+396,7,1,BP,3,It's not development efficiency.,開発の効率化でない
+397,7,1,BP,3,Development schedule delayed.,開発日程が遅れる
+398,7,1,BP,3,There's a lot of backtracking and delays in planning.,後戻りが多く計画が遅れる
+399,7,1,BP,3,Development resource management (with priorities),開発リソース管理（優先順位付）
+400,7,1,CM,4,We don't have the ability to integrate with our global offices.,グローバル拠点との総合力がない
+401,7,1,CM,4,"Global, the organization is not making the most of it.",グローバル、組織が生かせていない
+402,7,1,IT,3,Weak use of 3D data (concurrent engineering),3Dデータの活用が弱い（コンカレントエンジニアリング）
+403,7,1,IT,2,Use of Model Data,モデルデータの活用
+404,7,1,BP,3,Development efficiency is uneven for each product.,製品毎に開発効率がバラバラ
+405,7,1,BP,3,Problems with schedule management (increased number of prototypes),日程管理（試作回数増）の問題
+406,7,1,BP,3,I don't see a development plan.,開発計画が見えない
+407,7,1,CM,3,Product modularity and commonality issues,製品のモジュール化や共通化の問題
+408,7,1,HD,3,The role of the organization is unclear.,組織の役割が不透明
+409,7,1,IT,4,There is no joint design infrastructure with foreign countries.,海外との共同設計インフラがない
+410,7,1,BP,4,The need for front-loading of design and downstream processes,設計と下流工程のフロントローディングの必要性
+411,7,1,BP,4,Collaboration with other departments (data exchange),他部門との協業（データやり取り）
+412,7,1,BP,3,You're not controlling costs.,コスト管理できていない
+413,7,1,BP,3,cost-building,原価作り
+414,7,1,IT,4,The design information is not centralized.,設計情報の一元化ができていない
+415,7,1,IT,3,Communication/retrieval of information is manual (data duplication),情報伝達／検索が人手（データ重複）
+416,7,1,CM,3,New product proposals have not been made.,新商品提案ができていない
+417,7,1,CM,4,New products are not being created.,新商品が創出できていない
+418,7,1,BP,4,I can't see the development process.,開発プロセスが見えない
+419,7,1,BP,4,No development cost control.,開発費管理ができていない
+420,7,1,BP,3,Targeted costs are not being met.,目標コストの達成されていない
+421,7,1,BP,3,It's hard to see the cost at the time of design.,設計時にコストが見えずらい
+422,7,1,IT,3,Lack of industry-specific drawing management,業界別の図面管理ができていない
+423,7,1,IT,2,Failure to pass on technical information and know-how,技術情報やノウハウの継承ができていない
+424,7,1,CM,4,New products cannot be made on a regular basis.,新商品が定常的にできない
+425,7,1,BP,4,"Performance has not been achieved, target of the required specifications",性能出しができていない、要求仕様の目標
+426,7,1,BP,4,The operational rules are obsolete and unclear.,運用ルールが陳腐化で明確でない
+427,7,2,BP,4,The development plan is consistent.,開発計画が一貫している
+428,7,2,CM,4,There are specific management methods (per department and per person),管理方法が決まっている（部門、人毎）
+429,7,2,BP,4,Clear indicators to measure project results,プロジェクト成果を計る指標が明確
+430,7,2,BP,4,The deliverables (tools) are common to all business units.,成果物（ツール）が事業部で共通になっている
+431,7,2,BP,5,Managing the development budget,開発費予算の管理
+432,7,2,BP,4,Managing development delays,開発遅れの管理
+433,7,2,BP,4,"Project management is not on paper (granularity, reliability)",プロジェクト管理が紙でない（粒度、信頼性）
+434,7,2,BP,4,Real-time man-hour tracking and progress management,リアルタイムの工数把握や進捗管理
+435,7,2,CM,3,Simple structure of the product catalog,製品目録の構成がシンプル
+436,7,2,BP,3,Not including procurement and production in the development BOM,開発BOMの中で調達や生産を含めない
+437,7,2,BP,3,No dual use of EBOM and MBOM (no load on the design),EBOMとMBOMを兼用しない（設計に負荷をかけない）
+438,7,2,IT,3,"Centralized management of product information (less time spent searching for related documents, etc.)",製品情報の一元管理（関連文書など検索に時間がかからない）
+439,7,2,IT,3,Updates and revisions are automatic.,更新や改定が自動で実施
+440,7,2,BP,3,Start designing once the specifications are clear.,仕様が明確してから設計スタート
+441,7,2,BP,3,Less time to design to meet requirements,要求を満たす設計に時間がかからない
+442,7,2,IT,3,Change management with 3D data,3Dデータによる変更管理
+443,7,2,BP,4,Data sharing and progress in joint development with overseas companies,海外との共同開発でデータ共有や進捗把握
+444,7,2,IT,3,Quality control with no feedback leakage with 2D and 3D integrated,2Dと3Dが一体でフィードバックの漏れのない品質管理
+445,7,2,IT,4,"Sharing tools, illustration numbers and methods with overseas",海外とツール、図番、図法を共通化する
+446,7,2,BP,2,We don't spend a lot of time communicating.,意思伝達に時間をかけない
+447,7,2,BP,2,Cost and installation defects can be detected in the preliminary stages,前段階でコスト、組付不具合を発見できる
+448,7,2,BP,1,We don't spend a lot of time evaluating performance.,性能評価に時間をかけない
+449,7,2,IT,2,2D and 3D are in sync.,2Dと3Dが同期している
+450,7,2,IT,2,Use of CAE and DMU (Digital Mockup),CAEやDMU（デジタルモックアップ）の活用
+451,7,2,BP,2,No time or money is spent on evaluating and validating prototypes.,試作の評価、検証に時間や費用をかけない
+452,7,2,BP,3,We don't spend a lot of man-hours setting up and backtracking on evaluations.,評価の段取りや後戻りで工数をかけない
+453,8,1,HD,3,Lack of development resources,開発リソースの不足
+454,8,1,BP,3,Lack of resources and work forced on each other,リソース不足、仕事の押し付け合い
+455,8,1,CM,4,There is a lack of investment improvement initiatives on the part of distributors,販社側の投資改善への取組が見えない
+456,8,1,IT,3,There is a lack of knowledge sharing.,知識の共有化ができていない
+457,8,1,BP,4,Many cooks,船頭が多い
+458,8,1,BP,3,The technicians are doing a lot of administrative work.,技術者が管理業務ばかり行なっている
+459,8,1,HD,3,Fewer and fewer people have the ability to think.,考えられる人が減っている
+460,8,1,HD,3,We're not training our people.,人材育成が出来ていない
+461,8,1,BP,3,It's stuck.,停滞している
+462,8,1,BP,3,"Same thing over and over, no evolution.",同じ事の繰り返し、進化なし
+463,8,1,HD,3,We're not developing our people.,人材が育っていない
+464,8,1,HD,4,Insufficient personnel,人員不足
+465,8,1,HD,3,Human resource development and technology transfer,人材育成、技術の伝承
+466,8,1,BP,4,Division of work with other departments (division of responsibilities),他部門との業務分担（責任分担）
+467,8,1,BP,4,Misunderstandings and lack of communication,思い違いコミュニケーション不足
+468,8,1,IT,3,There is no information sharing between groups.,グループ間の情報共有が出来ていない
+469,8,1,HD,3,Insufficient accumulation of knowledge (human dependence),ナレッジの集積が不十分（人依存）
+470,8,1,HD,3,I haven't been able to pass on my skills.,技術伝承できていない
+471,8,1,BP,4,Business priorities are changing.,業務優先順位がコロっとかわる
+472,8,1,CM,5,New generation of new product development plans are untapped,新世代の新商品開発プランが未開拓
+473,8,1,CM,5,Signs of deteriorating company performance and demands to reduce parts costs,会社業績悪化の兆しがあると部品費低減要求がある
+474,8,1,CM,4,No product planning skills.,商品企画力が無い
+475,8,1,BP,4,Design rework.,設計手戻りがある
+476,8,1,BP,3,development efficiency is low,開発効率悪い
+477,8,1,CM,4,We're not working on new technology.,新しい技術に取り組めていない
+478,8,1,CM,5,New Business Creation,新事業の創出
+479,8,1,CM,5,It's a tough situation.,厳しい状況が続いている
+480,8,1,CM,5,No medium- to long-term business vision.,中長期の事業ビジョンがない
+481,8,1,CM,5,Setting of high-level business goals that are difficult to achieve,目標達成困難な上位事業目標設定
+482,8,1,BP,5,Suddenly a big job from Top management,TOPからの突然の大仕事
+483,8,1,CM,5,"China risks, politics, and costs (labor costs)",中国リスク、政治、コスト（人件費）
+484,8,1,BP,3,Prioritize cost and schedule over quality.,品質よりコスト、日程を優先
+485,8,1,CM,4,Winning patterns are unclear.,勝ちパターンが不明確
+486,8,1,CM,4,There is no new business.,新規事業が出ていない
+487,8,1,BP,3,we are not being creative in our work.,創造性のある仕事ができていない
+488,8,1,CM,4,Increasing use of smartphones and other devices has led to a shift away from paper (printed matter),スマホ等の利用拡大による紙離れ（印刷物）
+489,8,1,BP,4,Quality issues with current products are not being resolved,現行製品の品質問題が収束しない
+490,8,1,BP,4,The specifications of the next product have not been determined.,次期製品のスペックが決まらない。
+491,8,1,HD,4,Lack of ability to continue making competitive products,競争力ある製品を作り続ける力不足
+492,8,1,CM,5,An entire organization that cannot grow.,成長できない全体組織
+493,8,1,BP,3,The validity is unclear.,妥当性が不明瞭
+494,8,1,HD,3,Talent is hard to develop.,人材がなかなか育たない
+495,8,2,IT,3,We want to eliminate development waste with IT.,ITにより、開発の無駄をなくしたい
+496,8,2,IT,3,Quick access to the data you need and want.,必要な、欲しいデータがすぐ引き出せること
+497,8,2,IT,4,Smart Wisdom-Based Manufacturing Process (IT that Supports),スマートな英知結集型モノ創りプロセス（を支えるIT）
+498,8,2,IT,3,Centralized management of information and sharing of information among related departments,情報を一元管理し、関連部門で共有
+499,8,2,IT,3,Improving Business Efficiency through Formal Knowledge,形式知化による業務の効率化
+500,8,2,IT,3,All information is shared and visible!,あらゆる情報が共有され、見える化できている！
+501,8,2,IT,3,Real-time information sharing.,リアルタイムな情報共有ができる
+502,8,2,BP,4,No rework.,手戻り”ゼロ”
+503,8,2,BP,4,Product development with no rework,手戻りのない商品開発
+504,8,2,IT,4,Zero rework by sharing design and manufacturing data,設計と製造のデータ共有で手戻りゼロ
+505,8,2,BP,3,Waste-free development!,ムダのない開発をする！！
+506,8,2,BP,4,I don't want to start over.,やり直しはしたくない
+507,8,2,BP,4,"No changes, a one-way process!",変更がなく、一方通行のプロセス！
+508,8,2,BP,4,No reworked development.,手戻りのない開発をする
+509,8,2,BP,4,Zero back-end design changes,後工程での設計変更をゼロにする
+510,8,2,BP,4,"Collaborate with system design, detailed design and verification, and evaluation to develop without rework.",システム設計、詳細設計と検証、評価と連携して行い、手戻りのない開発を行う
+511,8,2,BP,3,I want to make sure that the content designed upstream is taken over.,上流で設計した内容を確実に引き継ぎたい
+512,8,2,HD,4,Teamwork gets it done.,チームワークでやり切る
+513,8,2,BP,3,Share the goal image.,ゴールイメージを共有する
+514,8,2,BP,3,Create value fast!,価値を素早く創る！！
+515,8,2,BP,4,We can output twice as fast as before.,これまでの２倍のスピードでOUTPUTを出せる
+516,8,2,BP,3,We want to share the process with the ideal process.,理想のプロセスでプロセスの共有化を図りたい
+517,8,2,BP,4,I want to develop in cooperation with other departments from upstream.,上流から他部門と連携して開発したい
+518,8,2,HD,3,train people,人を育てる
+519,8,2,BP,4,Product development as expected,思い通りの製品開発
+520,8,2,BP,4,Make it happen as planned.,企画通りすっきり実現する
+521,8,2,CM,3,Consistent Goals.,一貫性のある目標
+522,8,2,BP,4,Establishing a company with the world's lowest cost structure,世界一の低コスト構造の会社確立
+523,8,2,CM,3,Develop attractive products by setting goals that reflect market feedback and customer requirements,市場からのフィードバック、顧客要求を反映した目標設定を行い、魅力ある製品開発を行う
+524,9,1,BP,3,There's no process available.,使えるプロセスが無い
+525,9,1,HD,4,No resource control.,リソースコントロールができない
+526,9,1,BP,2,Not prioritizing issues and initiatives,課題・取組みの優先順位を付けない
+527,9,1,BP,1,We can't always follow the rules.,ルール通りにできないことが多い
+528,9,1,BP,3,The development process milestones are not being followed.,開発プロセスの節目が守られていない
+529,9,1,BP,3,There's a lot of work to be done.,手戻りが多い
+530,9,1,HD,1,We have not been able to train our people.,人材育成ができていない
+531,9,1,IT,2,Stock operations are not progressing.,ストック業務が進まない
+532,9,1,HD,2,We're not using our knowledge effectively.,知識の有効活用が出来ていない
+533,9,1,HD,3,Lack of resources due to rapid overseas expansion,海外展開が早くリソース不足
+534,9,1,HD,4,Different domestic/international capabilities.,国内/海外で能力が異なる
+535,9,2,BP,4,Ability to coordinate resources and schedules between projects at the program level,プログラムレベルでプロジェクト間のリソース、日程調整ができる
+536,9,2,CM,5,We need a process organization to manage the entire project.,全プロジェクト全体をマネジメントするプロセス組織が必要
+537,9,2,CM,4,Improve the accuracy of resource planning,リソース計画精度を向上する
+538,9,2,BP,3,I want to be able to respond flexibly to changes in planning.,企画変更にフレキシブルに対応できるようにしたい
+539,9,2,CM,3,Identify the number of man-hours required.,必要工数を明確にする
+540,9,2,CM,5,Decide at the beginning of the project what the goals of the project are and how to achieve them,プロジェクトの目標と達成手段をプロジェクト最初で決める
+541,9,2,BP,4,Decide what you need to do if you're late from the agreed upon date.,決まった日程から遅れた場合のやるべき事を決める
+542,9,2,BP,4,Processes that allow for risk management against rework.,手戻りに対してリスクマネジメントが出来るプロセス
+543,9,2,BP,3,Strengthening management so that project issues do not give rise to other project issues,プロジェクト課題が他のプロジェクト課題を生まないような管理強化
+544,9,2,CM,3,Stretching the SOPs to the extent that development is delayed.,開発が遅れた分だけSOPを伸ばす
+545,9,2,CM,5,Accurately identify and plan for future benchmarks,将来のベンチマークを正確に把握して企画を立てる
+546,9,2,CM,4,Improving the accuracy of planning (thinking about man-hours upstream),企画の精度向上（投入工数を上流で厚く）
+547,9,2,CM,3,The best way to break down anything (proper planning),何でも一番の打破（ちゃんとした企画）
+548,9,2,CM,4,Accelerate development.,開発を前倒しする
+549,9,2,BP,3,You're clear on what you really need without being greedy.,欲張らず本当に必要なものがクリアになっている
+550,9,2,HD,3,Improved Estimation Accuracy and Inviolability,見積精度の向上と不可侵
+551,9,2,CM,4,Organizations that can close operations in the region,リージョンで業務をクローズ出来る組織
+552,9,2,BP,4,Process management with minimal post-process losses,後工程のロスが少ないプロセス管理
+553,9,2,HD,2,Spend resources so that the design can do its job.,設計が本来業務が出来る様にリソースをかける
+554,10,1,CM,5,Market share is not growing (sales are not growing),シェアが伸びない（売り上げがのびない）
+555,10,1,CM,5,That the focus of sales is changing from goods to solutions.,売り上げの中心がモノからソリューションに変わってしまうこと
+556,10,1,BP,4,A change in the form of business operations from self-made to collaborative.,業務の形が自前主義から協業に変わること
+557,10,1,HD,2,education,教育
+558,10,1,BP,1,The atmosphere at work is gloomy.,職場の雰囲気が暗い
+559,10,1,CM,3,Too many outcome measures.,成果指標が多すぎる
+560,10,1,CM,3,Slow progress in business reform,業務改革の進みが遅い
+561,10,1,BP,2,There are many projects for improvement and it's unclear if they are engaging,改善のためのプロジェクトがたくさんあり、かみあっているのか不明
+562,10,1,BP,2,The PDCA cycle is not working.,PDCAが回せていない
+563,10,1,BP,3,There are many market claims.,市場クレームが多い
+564,10,1,CM,3,Quality problems in the marketplace won't go away.,市場での品質問題がなくならない
+565,10,1,CM,3,Cost increase due to rising material costs,材料高騰によるコストUP
+566,10,1,BP,3,It's too costly to develop a control system.,制御系の開発にコストがかかりすぎ
+567,10,1,BP,3,A long product development period and sluggish sales growth,製品開発期間が長く、売り上げが伸び悩む
+568,10,1,BP,4,We're behind in our product development schedule.,製品開発の日程に遅れがでる
+569,10,1,BP,3,Delayed schedule due to delayed decisions,判断の遅れによる日程の遅れ
+570,10,1,BP,3,Delayed schedule (development schedule delayed against schedule),日程遅れ（開発日程が予定に対して遅れる）
+571,10,1,BP,4,Inadequate collaborative design,協調設計が不十分
+572,10,1,BP,4,There is a lot of design rework.,設計手戻りが多い
+573,10,1,BP,3,Delivery time (schedule),納期（日程）
+574,10,1,CM,4,Delayed decision-making stretches the plan.,意思決定が遅れることで計画がのびる
+575,10,1,IT,3,Design information is dispersed and not used efficiently.,設計情報が分散していて効率的に活用できていない
+576,10,1,IT,5,Investing in information technology is too expensive to start.,情報化投資にお金がかかり、着手できない
+577,10,1,IT,4,Information is not being shared.,情報の共有化が進んでいない
+578,10,2,IT,3,Project management is standardized and there is no variation among model leaders.,プロジェクト管理が標準化され、機種担当のリーダーによるバラツキもない
+579,10,2,IT,3,"Ability to understand the amount of work involved in each project, and the appropriate number of man hours, members, and assignments.",各プロジェクトの業務量が把握でき、適切な工数・メンバー・配置ができる
+580,10,2,BP,2,You can foresee the amount of time required to deal with problems and study issues (you can calculate the number of man-hours required),問題対策や課題検討に要する時間が見通せる（必要工数が算出できる）
+581,10,2,CM,3,Adequate project management and no schedule delays,プロジェクト管理が十分で日程遅れが生じない
+582,10,2,BP,3,"Product development process is complex, but project management is good",製品開発プロセスが複雑であるが、プロジェクト管理は上手にできる
+583,10,2,BP,3,"Additional work (man-hours) will be required for the management process, but it will also be understood by the field and maintain the man-hours in the field",管理プロセスのためには追加の作業（工数）が必要となるが、現場の理解も得られ、現場の工数も維持できる
+584,10,2,BP,3,Development is taking place in other departments and we can see the issues and status of each department. Progress is not delayed even if the technology employed is difficult.,開発が他部門で行っており、各部門の課題・状況が見える。採用技術が難しくても進捗は遅れない
+585,10,2,CM,4,Adequate analysis of capturing customer requirements and a product specification that is superior to the competition,顧客要件の取り込みの分析が十分で、他社に勝る商品仕様になっている
+586,10,2,CM,4,The way the product is used in the marketplace will be communicated to the developers.,市場での商品の使われ方が開発者にも伝わる
+587,10,2,CM,4,Customer requirements can be validated after market deployment,顧客要件が市場展開後にも検証できる
+588,10,2,BP,3,Customer requirements (market requirements/issues) are also made known to the developers so that improvements can be made.,顧客要件（市場要望/課題）を開発者にも知らされることで改善が進む
+589,10,2,IT,3,It doesn't take a lot of time to select a system when information is scattered around.,情報が散らばっていても、システム選定に時間がかからない
+590,10,2,IT,2,Technical documents are available to prevent past problems from recurring.,技術資料があるので、過去の問題が再発するのを防いでいる
+591,10,2,BP,3,"The product development is standardized, which makes development more efficient.",製品開発の標準化ができていて、開発の効率化になる
+592,10,2,BP,2,"Flexibility in business operations, and easy to improve and innovate",業務に自由度があり、改善・改革が入りやすい
+593,10,2,BP,3,"The information you want, such as cost and commonality rates, is readily available to advance your design.",コストや共通化率など、欲しい情報がすぐに得られるので設計が進む
+594,10,2,BP,4,"Standardized evaluation procedures are complete, with no omissions and no rework",評価手順の標準化が完全で、評価漏れが発生せず、手戻りとならない
+595,10,2,BP,3,"We are moving on to the next stage of the process, spending a sufficient number of man-hours (schedule) to make a thorough evaluation.",十分な評価を行う工数（日程）を費やしながら、次の工程にすすんでいる
+596,10,2,BP,2,"The man-hours are sufficient, so we're moving on to the next step with enough evaluation and validation.",工数が十分なので、評価と検証が十分な状態で次のステップに進んでいる
+597,10,2,CM,3,The evaluation method is consistent and the results are not uneven,評価方法が統一されており、結果がバラツキがない
+598,10,2,IT,3,Appropriate provision of design information to the outsourcer,アウトソース先に適切に設計情報の提供ができている
+599,10,2,CM,4,Provide guidance to ODM partners for each development contract so that the technology remains with them,開発委託する毎にODM先を指導し、ODM先に技術が残るようにする
+600,10,2,CM,4,Standardized sharing of the development environment with external parties makes outsourcing easier.,開発環境の外部との共有が標準化・ルール化されているので、アウトソーシングが容易
+601,11,1,CM,3,we can't understand the business strategy of the division.,事業部のビジネス戦略把握できない
+602,11,1,CM,5,Legislation in various countries,各国の法律対応
+603,11,1,IT,3,It's taking a long time to find the material.,資料の検索に時間が かかっている
+604,11,1,HD,4,lack of resources,リソース不足
+605,11,1,CM,5,Product sales (profit),製品の売上げ（利益）
+606,11,1,BP,3,version control,バージョン管理
+607,11,1,BP,4,"Cost reduction, measures and lack of materialization",コスト低減、施策、具体化不足
+608,11,1,BP,3,Workload for designers,設計者の業務量
+609,11,1,BP,3,Lack of time (man-hours) for activities,活動時間（工数）の不足
+610,11,1,BP,2,The design data check takes too much time and does not allow for timely feedback.,設計データチェックに時間がかかってタイミングよくフィードバックできない
+611,11,1,IT,4,The design process is not automated and takes a lot of man-hours.,設計の自動化が進まず工数がかかっている
+612,11,1,BP,4,Short development time,開発期間が短い
+613,11,1,HD,2,Not following the design rules.,設計ルールを守らない
+614,11,1,HD,2,Instructions are not being followed correctly.,指示が正しくつたわっていない
+615,11,1,HD,2,Lack of communication with the field,現場とのコミュニケーション不足
+616,11,1,HD,3,communication,コミュニケーション
+617,11,1,IT,4,Giving up because of poor 3D modeling,3Dモデル化がうまくできずにあきらめる
+618,11,1,IT,2,How to make a 3D design model is disparate.,3D設計モデルの作り方がバラバラ
+619,11,1,HD,1,The designer's ability to design depends on his or her skills.,設計者の能力がスキルに依存している
+620,11,1,HD,2,Insufficient IT skills in the company,自社のITスキル不足
+621,11,1,HD,2,Broad knowledge required,幅広い知識必要
+622,11,1,IT,4,We are experiencing problems with database linkage with overseas offices.,海外拠点とのデータベース連携で問題が生じている
+623,11,1,IT,4,"We don't know what IT information we have on our overseas offices, but we can't control them.",海外拠点のIT情報不明コントロールできない
+624,11,1,HD,2,The quality of design data varies from person to person.,人によって設計データの品質にバラツキがある
+625,11,1,BP,3,"Many quality check items, time consuming.",品質チェック項目が多い、時間がかかる
+626,11,2,CM,5,First the product sells and then the paycheck reflects it.,まず商品が売れて給与に反映
+627,11,2,BP,4,Template design information and centralized BU,設計情報のテンプレート化、BU一元化
+628,11,2,BP,3,The design rules are naturally followed.,自然と設計ルールが守られる
+629,11,2,BP,2,The tools and individuals in each process can be utilized without stress,各プロセスのツールと個人がストレスなく活用できる
+630,11,2,BP,3,Visualization of the design result process of each project,各プロジェクト設計結果過程の見える化
+631,11,2,BP,4,Process visualization and real time,工程の見える化、リアルタイム
+632,11,2,IT,2,Fully automated design problem detection,全自動で設計問題を検出
+633,11,2,BP,3,Validity can be verified.,妥当性が検証できる
+634,11,2,IT,3,"Tools that make it easy for anyone to review design results, and infrastructure that makes it easy for the production floor to check models",誰でも設計結果がレビューしやすいツール、製造現場がモデルをチェックしやすいインフラ
+635,11,2,IT,4,Highly reliable system,信頼性の高いシステム
+636,11,2,BP,3,Longer design time (duration),設計時間（期間）の長期化
+637,11,2,IT,3,You can access and analyze the information you need.,必要な情報にアクセスして分析できる
+638,11,2,IT,4,Immediate access to all design data at any time,全ての設計データをいつでも即見れる環境
+639,11,2,BP,1,I know what I need to do and what my priorities are.,自分のやるべき事、優先度がわかる
+640,11,2,IT,3,Easy to create models,モデルの簡単な作成
+641,11,2,BP,4,Cost Control (Realistic),コスト管理（リアルな）
+642,11,2,IT,3,There's a system where highly reusable data can be used by anyone.,再利用性の高いデータが誰でも使えるしくみがある
+643,11,2,IT,3,Labor savings are achieved through design automation,設計自動化で省力化 できている
+644,11,2,IT,3,Information Sharing,情報の共有
+645,11,2,HD,1,The improvement of each individual's abilities.,各個人の能力がUPすること
+646,11,2,HD,2,Younger people can use the knowledge of veterans → The tool has accumulated knowledge.,若手がベテランの知見を使える → ツールに知見がたまっている
+647,11,2,IT,4,Unification of Design Philosophy → Unification of 3D modeling methods,設計思想の統一 → 3Dモデル化手法の統一
+648,11,2,HD,2,Communicating well (Aunko Kyu),コミュニケーショがうまくできていること（あうんのこきゅう）
+649,11,2,IT,3,Having the information you need at your fingertips.,必要な情報がすぐ手に入ること
+650,12,1,BP,3,Differences in understanding the new product implementation process with the Region,Regionとの新製品導入プロセスの理解の違い
+651,12,1,CM,5,Business strategy is unclear.,ビジネス戦略が不明瞭
+652,12,1,BP,4,Not getting good marketing input (VOC),マーケティングのインプットがしっかりとれていない（VOC）
+653,12,1,BP,4,It's not designed to anticipate legal regulations.,法的規制を先取りした設計がされていない
+654,12,1,BP,4,Design specifications change every time.,設計仕様が都度変化する
+655,12,1,BP,3,We are not doing enough to respond to regulations.,規制対応が十分にできていない
+656,12,1,BP,4,The criteria for determining change control are vague.,変更管理の判定基準があいまい
+657,12,1,IT,3,Who will manage and maintain the drawings?,図面はどこが管理・保守するのか
+658,12,1,BP,4,The Go/NoGo of the project is not clearly shared (escalation path),プロジェクトのGo/NoGoが明確に共有されていない（エスカレーションパス）
+659,12,1,BP,2,Geneticization of processes (patchwork collection of processes),プロセスの属人化（パッチワーク的なプロセスの集合体）
+660,12,1,BP,3,DesignControl is unclear,DesignControlが不明瞭
+661,12,1,BP,2,Management like children's soccer.,子供のサッカーのようなマネージメント
+662,12,1,BP,4,Gap between plan (budget) and reality,計画（予算）と実際とのギャップ
+663,12,1,CM,5,organizational structure in progress,組織ストラクチャー途上
+664,12,1,BP,4,Need to design with quality goals (of numbers),品質目標を持った設計が必要（数値の）
+665,12,1,BP,3,"In uniters and assemblies, assembly drawings may or may not exist.",ユニット・アセンブリで、組図が存在したりしなかったりしている
+666,12,1,BP,2,I don't know the revisions to the product or components.,製品や部品に対するリビジョンがわからない
+667,12,1,HD,3,Communication between Production and Design,製造部と設計部のコミュニケーション
+668,12,1,BP,3,Lack of coordination between departments.,部門間の連携に欠けている
+669,12,1,HD,3,Interdepartmental roles are unclear.,部署間の役割が不明瞭
+670,12,1,BP,3,The transfer of work between departments is not smooth.,仕事の部門間の受け渡しがスムーズでは無い
+671,12,1,BP,4,Design process without going back,後戻りしない設計プロセス
+672,12,1,BP,3,"Since many of the treatment tools have the same contents on many sheets of paper, it is possible to make a single revision.",処置具は、同じ内容の図訂が多数枚に及ぶことが多いため、一度で済ませられないか
+673,12,1,BP,2,Checking the drawings three times when revising them is a pain,図面改定時の図面の3回チェックが面倒
+674,12,1,HD,4,Aging workforce,要員の高齢化
+675,12,1,CM,5,Inadequate global purchasing function,グローバル購買機能が不十分
+676,12,1,BP,4,Production and shipment disruptions due to procurement problems,調達トラブルで生産・出荷に支障
+677,12,1,IT,3,Unable to link target specifications to drawings and other deliverables,目標仕様と図面など成果物とのリンクが取れない
+678,12,1,BP,3,Not registering sufficiently in line with the regulations,規制に沿った登録が十分できていない
+679,12,1,BP,3,There are no consistent rules for what to write on the drawing.,図面に書く内容のルールが統一されていない
+680,12,1,BP,3,"I don't know (or can't remember) the numbering system, the rules for putting them on, or what the symbols mean.",番号体系、付け方のルール、記号の意味がわからない（覚えられない）
+681,12,1,HD,2,Failure to pass on skills and knowledge,技術や知識の伝承ができていない
+682,12,1,BP,4,I wonder how much you think about after-service repairs.,アフターサービス修理の事をどれだけ考えているか疑問
+683,12,1,BP,4,The design department is inconveniencing each department because of the schedule-first product development.,日程優先の製品加発のため、設計部が各部署に迷惑かけている
+684,12,1,BP,4,There's a lot of work to be done backwards.,後戻りの仕事が多い
+685,12,1,CM,4,Some of the design methods have not been established.,設計手法が確立していない部分がある
+686,12,1,IT,4,I want the database of repair parts to be sucked out of production control (not shared).,修理部材のデータベースを生産管理から吸い出して欲しい（共有できていない）
+687,12,1,IT,3,There are no guidelines/procedures on how to store 3D.,3Dはどのように保管するか指針・手順がない
+688,12,1,IT,3,The development documentation is not data-intensive,開発文書がデータ化されていない
+689,12,1,IT,3,There is no rational system of document control.,文書管理の合理的なシステムがない
+690,12,1,IT,3,Lack of information sharing between departments,部署間の情報共有が不足
+691,12,1,BP,3,"There are no rules on how to manage the original data of past review materials, handouts, and approval documents (rules on how to manage the server are not followed)",過去の検討資料・配布資料・承認書類の元データの管理方法のルールがない（サーバ管理方法のルールが守られていない）
+692,12,1,IT,3,There is no way to manage the 3D data.,3Dデータの管理方法がない
+693,12,1,IT,3,"How to manage the old assets, the drawings to date",昔の資産、今までの図面の管理をどうするか
+694,12,1,IT,3,Insufficient control of the raw data in the drawings,図面の生データの管理不十分
+695,12,1,IT,4,"There's a lot of accounting code, production code, project code (development code), etc.",経理コード、生産コード、プロジェクトコード（開発コード）などがたくさんある
+696,12,1,IT,3,I can't track common parts or similar parts.,共有部品、類似部品が追えない
+697,12,1,IT,4,An inquiry comes in because there is a part registered in the ledger with a number different from the part number.,部品番号と異なる番号で台帳登録されている部品があって問い合わせが来る
+698,12,1,IT,3,Searching for specifications is difficult because you have to check the number online and look at the original for content.,仕様書の検索は番号をオンラインで確認し、内容は原本を見なくてはならなず、やりづらい
+699,12,1,IT,4,I want to make a request for approval to the Quality Assurance Division and Production Engineering Group electronically.,品質保証統括部、生産技術グループにも承認依頼書を電子でやりたい（てきていない）
+700,12,1,CM,4,The concept of standard and common parts differs between design and production.,標準部品・共通部品の考え方が設計と生産で異なる
+701,12,1,IT,4,Who maintains and manages the BOM and document management system?,BOM、文書管理システムでの保守・管理者は？
+702,12,1,IT,3,It's hard to rewrite old drawings.,古い図面の書き換えが大変
+703,12,1,BP,4,Weak management coordination (between upper and lower management),マネジメント間の連携が弱い（上下間）
+704,12,1,CM,5,Global Operations,グローバルなオペレーション
+705,12,1,BP,4,The process for product recall is not in place.,製品回収のプロセス等が整っていない
+706,12,1,HD,4,Lack of elemental development (technology),要素開発不足（技術）
+707,12,1,BP,4,Administration's ideas are working negatively on development activities.,管理部の考えが開発活動にネガティブに働いている
+708,12,1,IT,4,The quality system does not fit the QSR,QSRにフィットした品質システムになっていない
+709,12,1,CM,5,Limitations on Funding,Fundingに制限
+710,12,1,CM,5,There is a fundamental gap between top management and Japanese organizations,Topマネージメントと日本の組織に根本的な考え方にギャップがある
+711,12,1,HD,4,There is no rational system of educational management.,教育管理の合理的なシステムがない
+712,12,1,HD,3,We don't have enough people.,人が足りない
+713,12,1,HD,3,Lack of human resource development.,人材育成に欠けている
+714,12,2,IT,5,Clarify product life spans and reduce the number of documents and records to be managed.,製品ライフスパンを明確にし管理すべき文書・記録の数を減らす
+715,12,2,CM,5,To know that the requirements (VOC) match the product specifications.,要件（VOC）と製品仕様がマッチしている事がわかるようにする
+716,12,2,BP,4,Set up a system that allows for clear requirements during development.,開発時の要件が明確にできる仕組みを整える
+717,12,2,CM,5,Realize portfolio management in response to VOCs to develop and manufacture products that meet the needs of the market.,VOCに対応したポートフォリオ管理を実現し、マーケットに対応した製品開発／製造を実現する
+718,12,2,CM,3,Market needs are also in a state where regulatory requirements are consistently coming in as input and the design can start.,マーケットニーズがまた規制要件が着実にインプットとして入ってきて設計がスタートできる状態
+719,12,2,BP,4,"visibility of the project, including in-process",仕掛中も含めてProjectの見えるかをする
+720,12,2,BP,5,"Alignment of design, product certification, technology and production awareness at the start of development",開発スタート時点で設計・品証・技術・生産の認識が整合されること
+721,12,2,BP,4,Project and program management can be managed in a matrix way,プロジェクト、プログラムマネージメントがマトリックス的に管理できる
+722,12,2,BP,4,"You'll be notified of what needs to be done and when to do it, by following a schedule and avoiding delays.",スケジュールに従いやるべき事とタイミングが通知され遅延防止
+723,12,2,CM,4,There should be a development management tool to manage tasks from conception to commercialization (common across the globe).,発想から製品化までのタスクを管理出来る開発マネジメントツールがあるべき（Globalで共通の）
+724,12,2,CM,5,"A state in which marketing, design, proof-of-quality, production, service, etc., are integrated and design control flows smoothly.",マーケティング、設計、品証、生産、サービス等が一体となってデザインコントロールがスムーズに流れている状態
+725,12,2,CM,4,KPIs are automatically retrieved to help management and daily meetings,KPIが自動的に取り出せ、マネージメントや日々のミーティングの助けとなる
+726,12,2,BP,4,"Visibility of the program or project  (level of completion, problems)",プログラム、プロジェクトの見えるか（完成度、問題点）
+727,12,2,BP,3,A process map status display that is visible for everybody,誰が見てもわかるプロセスマップステータス表示
+728,12,2,HD,3,Redefine people and organizations into a structure that corresponds to their work and works with the system.,人、組織を仕事に対応した構造に再定義しシステムとの連携を図る
+729,12,2,IT,4,Develop and implement clear design document management rules,明確な設計文書管理規定の作成と実施
+730,12,2,BP,4,Common formats & processes across the globe,Globalで共通のフォーマット&プロセス
+731,12,2,IT,3,Environmental data management also needs to be established this time,環境関係のデータ管理も、今回、構築必要
+732,12,2,IT,2,"Once designed, the prototype is completed automatically.",設計したら自動的に試作品が完成する
+733,12,2,IT,3,The documents and data from the design are ready to be used in the FDA application as is.,設計での書類やデータがそのままFDAの申請に使える状態になっている
+734,12,2,BP,4,A clear plan for the application of changes (drawings),変更（図面）の適用までの計画を明確に
+735,12,2,IT,3,Ensure that design-related deliverables are clearly identified.,設計に関する成果物が明確にわかるようにする
+736,12,2,BP,3,Establishing a working standard for design,設計の作業標準の確立
+737,12,2,BP,4,Perform development in accordance with DesignControl,DesignControlに則った開発の実行
+738,12,2,IT,5,"Overseeing parts management (common parts, level ideas, product-subpart)",部品管理の統括（共通部品、レベルの考え、製品‐子部品）
+739,12,2,IT,4,Development of a drawing system based on the introduction of BOM,BOM導入を前提とした図面仕組み整備
+740,12,2,IT,4,Let's use IT and let each department enjoy focusing on automated operations (develop better products and make them better).,ITを利用し、各部門は自動業務に専念して楽しみましょう（もっといい製品開発、もっといいものを作る）
+741,12,2,IT,5,Unification of various numbers,各種番号の統一化
+742,12,2,IT,4,"Establishing an information infrastructure that allows product-related drawings, documents and data to be examined in a cold environment.",製品にかかわる図面・文書・データが寒冷性を持って調べられる情報基盤を整える
+743,12,2,IT,3,Ensure BOM + minimum requirements are introduced first,BOM＋最低限の要求をまず確実に導入
+744,12,2,IT,4,Quality documents are generated automatically.,品質ドキュメントが自動生成される
+745,12,2,IT,4,paperless,ペーパーレス
+746,12,2,IT,4,Electronic paper and (improved searchability) electronic approval,紙の電子化と（検索性向上）電子承認
+747,12,2,IT,4,"Design history files are centralized as a database, resulting in a BOM and the ability to publish BOMs and necessary documents",デザインヒストリーファイルがデータベースとして一元化され、結果としてBOMや必要なドキュメントが発行できる
+748,12,2,BP,3,"Get the information you need, when and where you need it (even globally)",必要な情報が必要なとき、必要な場所で入手できるようになる（グローバルでも）
+749,12,2,IT,4,Realizing traceability and transparency through centralized master data management,マスタデータ管理手法の一元化によるトレーサビリティ・トランスペアレンシーの実現
+750,12,2,IT,5,There should be a document management and storage system that is compliant with FDA Part 11 and ISO 13485.,FDA Part11、ISO13485に対応した文書管理保存システムがあるべき
+751,12,2,IT,4,"Digitization of documents (approval, storage, revision)",文書の電子化（承認、保管、改訂）
+752,12,2,IT,4,All the documentation you need on DesignControl is covered (and managed by IT).,DesignControl上で必要となるドキュメントが全て網羅する（それをITで管理する）
+753,12,2,IT,3,Reports and other information will be in an online database.,報告書等の情報はオンラインデータベースにする
+754,12,2,IT,4,A complaint-handling system that meets the legal requirements,法規制を満たす苦情処理システム
+755,12,2,HD,2,Visualization of each individual's skills and the direction of skill development,各個人のスキルの見えるかとスキルアップの方向性を見える化
+756,13,1,IT,5,Basic information such as the rules for naming conventions and other basic information has not been developed.,形名ルール等、基本情報の整備ができていない
+757,13,1,CM,5,Cash flow improvement,キャッシュフロー改善
+758,13,1,HD,3,cost consciousness,コスト意識
+759,13,1,BP,3,Lack of independent product development,自主的な製品開発ができていない
+760,13,1,BP,3,Shipping schedule not being met.,出荷日程が守られない
+761,13,1,BP,3,It is not able to manage your business progress.,業務進捗管理ができていない
+762,13,1,BP,4,Weak development review period.,開発の検討期間が弱い
+763,13,1,CM,3,High inventory levels and lost costs,棚卸在庫が多くロスコスト発生
+764,13,1,CM,4,Approach to Overseas Expansion of Development and Production,開発生産の海外展開に対する考え方
+765,13,1,HD,4,Not many people can handle globalization.,グローバル対応できる人が少ない
+766,13,1,BP,3,Interdepartmental barriers,部門間の壁
+767,13,1,CM,4,Failure to reduce product costs linked to selling prices,売価にリンクした製品コストダウンができていない
+768,13,1,CM,3,No discontinuation of production after a product is made forever (I want a system that can't be produced).,製品を作った後の生産廃止がいつまでも無い（生産できない仕組みが欲しい）
+769,13,1,IT,2,information sharing,情報共有
+770,13,1,IT,3,system improvement,システム改善
+771,13,1,BP,3,A large amount of work on alternative designs for discontinued production,生産中止の代替設計の業務が大
+772,13,1,BP,4,Many changes in orders and confusion in the back-end process,受注の変更が多く、後工程で混乱
+773,13,1,IT,3,The BOM is too big for me to grasp the content.,BOMが大きすぎて内容がつかめない
+774,13,1,HD,2,Taking the initiative to work.,率先して作業を行うこと
+775,13,1,IT,3,A lot of tools,ツールの多さ
+776,13,1,IT,3,Lack of Agile collaboration,Agile連携が不足
+777,13,1,BP,3,"Quality is severely disrupted, production doesn't start up, and the cost of the workpiece increases.",品質が大きく乱れて、生産が立ち上がらず、仕損費が増大
+778,13,1,CM,4,Bringing together global offices.,グローバル拠点をまとめること
+779,13,1,BP,4,Poor quality of electronic components purchased overseas,海外購入の電子部品の品質が悪い事
+780,13,1,BP,4,Prior Disclosure of QA,QAの事前開示
+781,13,1,HD,3,No young people.,若者がいない
+782,13,1,HD,4,Transfer of technology and design know-how,技術、設計ノウハウの継承
+783,13,1,BP,2,underachievement of cost,コスト未達
+784,13,1,BP,2,All the peripheral work and no spirited design.,周辺業務ばかりで気合の入った設計ができていない
+785,13,1,BP,3,The department's lack of explanation,部門の説明不足
+786,13,1,BP,2,The design process is diversified across departments,設計プロセスが各部間で多様化している
+787,13,1,HD,1,Mental weakness of young designers.,若手設計者のメンタルの弱さ
+788,13,1,HD,3,Insufficient staff,人員不足
+789,13,1,HD,2,Manpower shortage (staff),人材不足（人員）
+790,13,1,BP,3,Too many design roles.,設計の役割が多すぎる
+791,13,1,HD,3,We don't have enough design resources.,設計リソースが足らない
+792,13,1,BP,3,Delays in communicating business issues,業務上の問題点に対する連絡遅延
+793,13,1,IT,4,System integration with other business units,他事業部とのシステム統合
+794,13,1,BP,4,A lot of rework (product),手戻り（製品）が多い
+795,13,1,BP,3,It's unlikely that a recurrence prevention plan will be feasible.,再発防止策が実現できそうにない
+796,13,1,CM,4,Exhaustion of discontinued parts,生産中止部品の枯渇
+797,13,1,CM,4,Too many external defects.,社外不良が多すぎる
+798,13,1,CM,4,Market Analysis,マーケット分析
+799,13,1,CM,5,We need to rethink the direction of the company in a new direction.,会社の方向性を新しい方向に考え直すべき
+800,13,2,CM,5,No. 1 product share worldwide,ワールドワイドで製品シェアNo.1
+801,13,2,CM,5,Transition to Solutions Business,ソリューション事業への移行
+802,13,2,BP,3,The system should provide real-time visibility of design progress.,設計進捗がリアルタイムで見えるシステムとする
+803,13,2,BP,3,Visualization of business processes,業務プロセスの見える化
+804,13,2,HD,4,An open workplace and culture where you can say anything you want,何でも言い合える風通しの良い職場、風土
+805,13,2,BP,3,Easier project management,プロジェクト管理がやりやすい状況
+806,13,2,CM,4,division integration,部門統合
+807,13,2,CM,4,Globally controlled companies (including systems),グローバルにコントロールされた企業（含むシステム）
+808,13,2,BP,3,Review the fundamental rules and operations to prevent wastefulness and loss of cost.,ムリ・ムダ、ロスコストを防ぐ為、根本的なルール、業務を見直す
+809,13,2,BP,2,"First of all, reorganize your affairs, abolish the form name, abolish the model.",まず身辺整理、形名廃止、モデル廃止
+810,13,2,HD,3,Establish a system for rotating the right people to the right places,適材適所の人材ローテーション、仕組みを構築する
+811,13,2,CM,3,Make it a challenging and enjoyable work environment for everyone.,全員がやりがいがあり、楽しく仕事ができる環境にする
+812,13,2,CM,3,Specialist groups (especially in the staff sector),専門家集団（特にスタッフ部門）
+813,13,2,HD,3,Stimulate communication.,コミュニケーションを活発にする
+814,13,2,HD,3,Younger workers are comfortable working and skills are passed on,若手が働きやすい、技術伝承が行われる
+815,13,2,IT,3,Easy to search for up-to-date data,最新のデータ検索が容易
+816,13,2,CM,4,Reduced Product Lifecycle,製品ライフサイクルの縮小
+817,13,2,BP,3,Reduced transmission loss and man-hours for each process,各プロセスの伝達ロス、工数削減
+818,13,2,IT,4,Reliable communication of changes,変更の情報の伝達が確実
+819,13,2,IT,4,One tool for smooth production and information exchange at overseas sites (speed up).,ツールが一本化されて、生産がスムーズになり海外拠点での情報交換もスムーズ（スピードUP）
+820,13,2,IT,3,The information you need is readily available.,必要な情報がすぐに入手できる
+821,13,2,IT,4,Management of components that have been finalized due to discontinued production,生産中止でファイナルバイした部材の管理ができている
+822,13,2,IT,5,"One tool to check development documents, design information (BOM, change management), quality information (knowledge), production plans, etc.",一つのツールで、開発資料、設計情報（BOM、変更管理）、品質情報（ナレッジ）、生産計画等が確認できる
+823,13,2,IT,4,All information should be shareable and retrievable. Getting information on each site is a challenge.,全ての情報を共有でき、取り出せること。各サイトで情報を得るのは手間
+824,13,2,IT,3,A system that completes the production design after the development design is completed,開発設計が終わると、生産設計も完了するしくみ
+825,13,2,IT,3,System Automation,システムの自動化
+826,13,2,IT,3,Make the system as simple as possible.,なるべくシンプルなシステムを作ること
+827,13,2,IT,4,Systematization of production variation management,生産のバリエーション管理をシステム化
+828,13,2,IT,4,Unification of systems,システムの一本化
+829,13,2,BP,4,Ability to prioritize quality evaluation items,品質評価項目に優先度付けができる
+830,13,2,BP,3,Consistent quality of products no matter where they are manufactured,どの拠点で作っても安定した品質の製品となること
+831,13,2,BP,4,Zero quality defects,品質不良ゼロ
+832,13,2,IT,4,The time it takes to search for information is short (the tool is light),情報検索に要する時間が短い（ツールの動作が軽い）
+833,13,2,BP,3,More than 90% of designers are engaged in development work. Elimination of wasted work and improved efficiency of peripheral operations.,設計者の開発業務従事率が90%以上。無駄な業務の排除や周辺業務の効率向上
+834,13,2,BP,4,"Commonality of review and evaluation results, etc.",検討、評価結果等の共通化
+835,13,2,HD,3,Include a development department in the selection of new hires.,新人採用時の人選に開発部門を入れる
+836,13,2,IT,4,Process standardization to the point where it can be automated.,自動化できるほどのプロセス標準化
+837,13,2,BP,3,The simplification of indirect work allows ample time for design and development,間接業務の簡素化により、設計開発時間が十分に取れる
+838,13,2,BP,4,A system that enables sharing of change design and quality verification evidence with related departments,変更設計、品質確認エビデンスを関係部署で共有化できる仕組み
+839,13,2,IT,3,Operational information can be collected and analyzed.,稼働情報が収集、分析できる
+840,13,2,IT,3,Building a mechanism for sharing performance status data,パフォーマンス状況データを共有する仕組みを構築
+841,14,1,HD,1,Workloads are too different for different people.,仕事の負荷が人によって違い過ぎる
+842,14,1,HD,3,Shortage of human resources and manpower,人材・工数不足
+843,14,1,BP,2,The workload is high and the work doesn't get done.,工数負荷が高く、仕事がまわらない
+844,14,1,IT,3,Information sharing doesn't work well.,情報の共有化が上手くいかない
+845,14,1,BP,4,The top brass doesn't understand the issues on the ground.,現場の課題を上が把握していない
+846,14,1,IT,3,It's hard to turn tacit knowledge into formal knowledge.,暗黙知を形式知化にできにくい
+847,14,1,HD,3,Too many details to trust.,細か過ぎて任せられない
+848,14,1,BP,3,Value judgments that don't look at the true nature of the situation (only the surface),本質を見ない価値判断（うわべだけ）
+849,14,1,BP,1,The designer didn't design it.,設計者が設計していない
+850,14,1,CM,4,We want to promote the outsourcing of our design process.,設計のアウトソーシング化を推進したい
+851,14,1,BP,3,Disparate attitudes and ideas between designs.,設計間の意識や考え方がバラバラ
+852,14,1,HD,3,The tendency to only do what you're in charge of,自領域主義
+853,14,1,CM,4,Management is inconsistent.,マネージメントに一貫性がない
+854,14,1,IT,3,"Sticking only to the mechanics, the purpose is unknown.",仕組みだけにこだわり、目的が不明
+855,14,1,BP,5,Challenges at the interface of business and technology development,ビジネスと技術開発の折り合い
+856,14,1,CM,5,"Management and frontline consciousness are not aligned, and the company's vector is not aligned.",経営と現場の意識が合わず、会社としてのベクトルがあっていない
+857,14,1,HD,3,We can't agree on anything fast enough.,意見のすり合わせが早く出来ない
+858,14,1,CM,5,Organizational/management strategies cannot be broken down.,組織/経営戦略がブレークダウンできない
+859,14,1,BP,2,The person in charge is not managing his or her time.,担当者の時間管理ができていない
+860,14,1,BP,4,Failure to take a holistic view of the business (sectionalism),全体を見渡した業務が出来ていない（セクショナリズム）
+861,14,1,BP,4,Focus on discussing methods and not the big picture,手法の議論に集中し、全体像の議論ができない
+862,14,1,BP,4,Frequent external disturbances outside of development and a lack of organization in small circles.,開発外の外乱多発と組織の小回りができていない
+863,14,1,CM,5,Weak from the top down.,トップダウンが弱い
+864,14,1,BP,3,Narrowing the scope of development work,開発担当業務範囲の狭小化
+865,14,1,CM,3,lack of new value,新価値不足
+866,14,1,CM,4,A dead end in new value creation,新価値創出の行き詰まり
+867,14,1,BP,2,You're wrong about MBD.,MBDを勘違いしている
+868,14,1,CM,3,Weakening of reaching out power,リーチングアウト力の弱体化
+869,14,1,HD,3,Decline in technology level (hollowing out),技術レベルの低下（空洞化）
+870,14,1,HD,4,Not enough new technology.,新技術が足りない
+871,14,1,HD,3,Failing to generate ideas and attractiveness of products,商品の魅力、アイディアの創出が出来ていない
+872,14,1,CM,3,Holistic 100 Point Theory,全方位100点主義
+873,14,1,HD,2,Lack of creative ideas (brainstorming),独創的アイディア（ワイガヤ）の欠如
+874,14,2,BP,4,Standardization of design procedures and evaluation methods,設計手順、評価手法の標準化
+875,14,2,BP,3,Eliminate waste in the design process and create time for new value creation,設計工程のムダを省き、新価値創出時間を作る
+876,14,2,BP,2,Increasing Efficiency,効率アップさせる
+877,14,2,IT,4,Visualize knowledge and shift resources to creative work,ナレッジを見える化して創造的業務へのリソースシフト
+878,14,2,BP,4,Define a development method that takes advantage of the advantages,良さを生かした開発方式を定義
+879,14,2,BP,4,Elimination of backward work (inventory work),後戻り作業（在庫仕事）の撲滅
+880,14,2,BP,3,Thorough elimination of waste,徹底したムダの削除
+881,14,2,BP,3,The development of specific products can be done in a short period of time.,具体的商品の開発が短期間でできる
+882,14,2,BP,3,"Visible"" development as if it were a small group of people",あたかも少人数で開発している様な「顔の見える」開発
+883,14,2,HD,4,Secure resources for research and development.,研究開発のリソースを確保する
+884,14,2,BP,4,Clarification of roles and standards,役割・基準の明確化
+885,14,2,BP,3,Progress/Resource Visualization,進捗/リソースの見える化
+886,14,2,BP,4,Please make the connection from R&D to design easier to understand.,研究開発から設計への繋がりを分り易くして欲しい
+887,14,2,CM,5,Make the organization smaller and easier to make quick decisions.,組織を小さくして、即断即決し易くする
+888,14,2,HD,3,An environment where decisions based on deep insights can be naturally utilized.,深い洞察を元にした判断が、自然と活用できる環境
+889,14,2,CM,4,Simultaneous study of the vehicle you want to create (concept development) and hardware development,創りたい車（コンセプト作り）とハード開発の同時検討体制
+890,14,2,HD,3,Shared sense of purpose and problems,目的意識、問題点の共有
+891,14,2,BP,5,Enactment of Laws,法律の制定
+892,14,2,BP,4,good view,見晴らしの良さ
+893,14,2,BP,5,I want you to have a hierarchical development style!,ヒエラルキーのある開発スタイルにして欲しい！
+894,14,2,HD,4,You can't fail to delegate authority.,権限委任しても失敗しない
+895,14,2,HD,3,"Creating a communication environment and system that leverages, fuses and sublimates each other's strengths",互いの強みを生かし、融合し、昇華するコミュニケーション環境、仕組み作り
+896,14,2,CM,4,Systematic Evaluation,体系的な評価
+897,14,2,CM,5,Clarification of Product Strategy Policy,商品戦略の方針明確化
+898,14,2,CM,3,Nice desire to get a grip.,ニース・欲求をつかむ
+899,14,2,CM,3,Free Proposals,自由な提案
+900,14,2,CM,4,Strengthening management required for individual strength,個々の力を発揮させる為に必要なマジメント強化
+901,14,2,BP,4,Create a system of preparation before promoting the project.,プロジェクト推進前の仕込みのシステムをつくる
+902,14,2,HD,3,Human resource development (management),人材育成（マネージメント）
+903,14,2,CM,5,We have an assortment of products that can embody the product hypothesis.,商品仮説を具体化出来る品揃えがある
+904,14,2,HD,4,Thinking about value from the customer's perspective,お客様立場での価値を考える
+905,14,2,CM,4,High-precision targets are determined quickly.,高精度の目標値を早く決められる
+906,14,2,CM,4,Strengthening Research and Development,研究開発の強化
+907,14,2,CM,5,We need a clear vision from the top.,分り易いビジョンをトップから発信して欲しい
+908,14,2,CM,5,Visualization of product strategies and market trends and presentation of policies,商品戦略と市場動向の可視化、方針提示
+909,14,2,HD,3,The new value is that we should do human research again.,新価値とは、改めて人間研究をやるべき
+910,14,2,IT,2,I need a story to hypothesize a new value product.,新価値商品を仮説できるネタが欲しい
+911,15,1,IT,1,Failure to utilize existing information.,既存情報の活用ができていない
+912,15,1,BP,3,Low mold utilization,金型の利用率が低い
+913,15,1,HD,2,"Weak horizontal connections, too much work sharing, disparate methods and tools.",横の繋がりが弱い、仕事分担し過ぎ、やり方、ツールがバラバラ
+914,15,1,HD,2,Not designed with manufacturability in mind,製造性を考慮した設計ができていない
+915,15,1,HD,2,"Lack of communication between domestic and international, design and technology, etc.",国内/海外、設計/技術などのコミュニケーション不足
+916,15,1,HD,1,Lack of energy among designers and engineers.,設計者、技術者に元気がない
+917,15,1,BP,3,Quality issues are not being tracked (design changes),品質問題が追えていない_x000B_（設計変更）
+918,15,1,BP,4,Too many design changes and lack of change management,設計変更の多さ、変更管理ができていない
+919,15,1,BP,2,Inadequate validation due to the tight schedule,日程が厳しいため、検証が不十分
+920,15,1,HD,2,There's a big difference in skills in your area of expertise.,専門分野のスキルの差が大きい
+921,15,1,HD,2,"Talent isn't growing, and the generational change isn't working.",人材が育ってない、世代交代がうまくいかない
+922,15,1,IT,3,Multiple locations for storing information are cumbersome.,情報の格納場所が複数あり煩雑
+923,15,1,IT,4,"I can't see the cost, I don't know how much it will cost while designing it.",コストが見えない、設計しながらいくらでできるかわからない
+924,15,1,BP,4,Poor coordination between business units.,業務部門間の連携が悪い
+925,15,1,CM,5,Product planning and strategy are not yet defined.,製品の企画・戦略が定まっていない
+926,15,2,HD,3,"The people who have to make the decisions make them right (no looking for the culprit, no assigning blame).",決めるべき人がちゃんと決める（犯人探しをしない、責任を押し付けない）
+927,15,2,BP,4,Monitors who are aware of the platform at the conceptualization stage,構想段階でプラットフォームを意識できているモニター
+928,15,2,BP,4,"Visualize all electronics and mechanics (easy, fast and cheap)",エレキ、メカすべてを見える化する（簡単に、早く、安く）
+929,15,2,IT,4,The design process is common.,設計のやり方が共通化されている
+930,15,2,IT,3,"Design for ease of reuse, information management and visualization",流用しやすい設計、流用しやすい情報管理、可視化
+931,15,2,IT,4,The quality of design data appears to be linked to the quality of the factory (manufacturing),設計データの品質と工場（製造）の品質が紐付いて見える
+932,15,2,IT,2,"Maximizing the benefits of three dimensions (evaluation, validation and measurement analysis)",三次元のメリットを最大限に利用する（評価、検証、計測解析）
+933,15,2,HD,3,The work product of those who have the know-how is available to the public.,ノウハウを持っている人の成果物が公開されている
+934,15,2,IT,2,A system that allows for communication of design and technology and sharing of evaluation results,設計・技術のコミュニケーションできるもの　評価結果を共有できる仕組み
+935,15,2,IT,4,Organize duplicate information (system integration),重複した情報の整理（システムの統合）
+936,15,2,IT,2,Daily changes in design data are visible to everyone.,日々の設計データの変更が誰にも見えるようになっている
+937,15,2,BP,3,The cycle of change and countermeasures is managed.,変更と対策のサイクルの管理ができている
+938,15,2,HD,2,"Sharing of case studies (failures, successes) so that when you need help, you know who to ask, specialist map",事例の共有（失敗、成功）困った時には誰に聞けばわかるようにする、スペシャリストマップ
+939,16,1,IT,3,Development design procedures are not standardized and the output is uneven,開発設計手順が標準化_x000B_されておらず、アウトプットにバラツキがある
+940,16,1,CM,4,I haven't been able to decide what to do.,決める事が決めきれていない
+941,16,1,CM,4,Not understanding the work flow from a higher perspective,高い視点での業務フローが把握できていない
+942,16,1,CM,3,External factors have prevented it from being executed as planned.,外的要因により_x000B_計画通りに_x000B_実行できない
+943,16,1,BP,4,There are many specification and design changes in the latter half of the development process,開発プロセス後半での仕様変更・設計変更が多い
+944,16,1,IT,4,Poor computer performance and reduced business efficiency.,パソコンの性能が悪く、業務効率ダウン
+945,16,1,HD,3,Lack of communication.,コミュニケーションが不足している
+946,16,1,IT,2,Information is not well coordinated in the development process,開発プロセスで_x000B_情報連携が_x000B_うまくできていない
+947,16,1,IT,3,There is a shortage of system personnel.,システム人材が不足している
+948,16,1,IT,4,IT systems are disparate.,ITシステムがバラバラである
+949,16,1,BP,4,There's a lot of pressure on the back end of the process.,後工程にしわ寄せがきている
+950,16,1,BP,4,The environment is not conducive to business transfer.,業務移管がしにくい環境である
+951,16,1,IT,3,Knowledge is not being passed down.,ナレッジの伝承がされていない
+952,16,1,HD,1,Skill improvement has stalled.,スキル向上が停滞している
+953,16,2,BP,3,"Real-time tracking and management of all schedules, including product development and technical information",商品開発と技術情報含む_x000B_全スケジュールの_x000B_把握と管理が_x000B_リアルタイムでできる
+954,16,2,CM,4,chain of decisions,決裁の連鎖
+955,16,2,BP,3,Visualization and standardization of business processes,業務プロセスの見える化・標準化が出来ている
+956,16,2,BP,3,"Visualization of quality, cost and development process (PDCA)",開発プロセスのQ・C・Dの_x000B_見える化（PDCA)
+957,16,2,BP,4,Design changes and specification changes are smoothly transferred to the next process.,設計変更・仕様変更が後工程へスムーズに伝わっている
+958,16,2,BP,4,No reworked design,手戻りのない設計
+959,16,2,BP,4,winning hand containing a single stroke of the sword,一気通貫
+960,16,2,IT,4,Centralized data management,データの一元管理
+961,16,2,IT,4,"One source, multiple uses",ワンソース、マルチユース
+962,16,2,IT,4,Detailed design and product information are created simultaneously in coordination with each other.,詳細設計と商品情報が連携して同時に作られる
+963,16,2,HD,2,Improving the skills (abilities) of human resources,人材のスキル（能力）アップ
+964,16,2,IT,3,Knowledge is made visible and updated.,ナレッジが見える化され、更新されている
+965,16,2,IT,4,Reuse of Information,情報のリユース
+966,16,2,CM,4,Manufacturing intervention in planning (front loading),企画への製造介入_x000B_（フロントローディング）
+967,16,2,IT,4,Variation information will be ready as soon as the specifications are determined.,バリエーション情報が仕様決定と同時に出来上がる
+968,16,2,HD,2,Further improvement of communication skills,コミュニケーション_x000B_能力の更なる向上
+969,16,2,IT,3,Automated variation design,バリエーション_x000B_設計の自動化
+970,16,2,CM,3,The specifications are fixed early on.,早い段階で仕様が確定している
+971,17,1,IT,4,Difficult to convert from Intranet Notes to Web,イントラネットNotesからWeb化が難しい
+972,17,1,IT,4,Strict rules make it difficult to introduce new tools.,ルールが厳しく新しいツールの導入が困難
+973,17,1,IT,4,Many limitations prevent the deployment of new tools.,制限が多く新しいツールの展開ができない
+974,17,1,CM,5,The development department has become a subsidiary of the company.,開発部署が全社と同様化（子会社化）している
+975,17,1,BP,4,The departments that are involved are bureaucratic and inflexible.,関所となる部署がお役所仕事で融通がきかない
+976,17,1,BP,3,Sometimes it's difficult to relate to other companies (contractors).,他社（委託先）との関わりが難しい時がある
+977,17,1,HD,2,Lack of English language skills to communicate with overseas companies,海外法人とのコミュニケーションをとるための英語力不足
+978,17,1,BP,3,Lack of horizontal cooperation in the business,業務で横の連携ができていない
+979,17,1,IT,3,Every section is not kept up to date.,あらゆるセクションで最新管理がされていない
+980,17,1,IT,3,The management documents are not up to date.,管理資料の最新化ができていない
+981,17,1,BP,3,Information is not shared within the Technology Management Department,技術管理部内で情報共有されていない
+982,17,1,HD,2,"There's a lot of silent design, but I don't see any measures to address the opinions that come up when you take a survey.",無口な設計が多いがアンケートをとると出る意見に対する対策が見当たらない
+983,17,1,HD,3,Shortage of interim personnel,中間人材の不足
+984,17,1,CM,3,Criteria for concentration and decentralization,集中・分散の基準
+985,17,1,HD,3,Staffing shortages due to team member retirements,チームメンバーの退職による人材不足
+986,17,1,IT,3,I feel that we are not able to share workloads and respond in the shortest possible time.,業務の共有化ができておらず最短での対応ができていないと感じる
+987,17,1,HD,3,Lack of human resources for planning and conceptualization (man-made),企画・構想にかかわる人材不足（人工）
+988,17,1,HD,4,Authority and responsibility,権限と責任
+989,17,1,BP,4,There are many rules and regulations that often put the brakes on the business.,ルール・規制が多く業務のブレーキをかける事が多い
+990,17,1,IT,4,The division of roles between Corporate It and technical IT is unclear.,全社ISと技管ICT推進の役割分担が不明確
+991,17,1,IT,3,No progress in implementing new tools (the rules are too tight. Lack of authority),新規ツールの導入が進まない（ルールがきつい。権限がない）
+992,17,1,HD,3,Lack of knowledge of operations within the team,チーム内業務の知識不足
+993,17,1,BP,3,"Lack of collaboration between departments, groups and teams",部署・グループ・チーム間の連携がない
+994,17,1,IT,2,Lack of knowledge about ICT may cause work to be delayed,ICTについて知識が足りず業務が滞ることがある
+995,17,1,IT,2,Difficulty or inability to find out what you want to find out,調べたいことが調べにくい・調べられない
+996,17,1,IT,3,information storage standards,情報保管基準
+997,17,1,CM,3,Not enough building area for the number of people.,人数に対する建屋面積が足りない
+998,17,1,HD,2,There is a reluctance to change.,変革することに対して消極的な部分がある
+999,17,1,HD,3,"A strong sense of stove-pipedness in the department, forcing responsibility to other departments",部門の縦割り感が強く他部署へ責任を押し付ける
+1000,17,1,HD,3,We have not been able to take measures to change people's attitudes.,人の意識改革の対策ができていない
+1001,17,1,IT,3,Information is often limited.,情報が制限されることが多い
+1002,17,1,BP,4,Cooperation with other departments,他部署との連携
+1003,17,1,HD,2,There's a disconnect in my work.,仕事に片寄りがある
+1004,17,1,CM,2,I don't have a specific job description (task) in mind.,仕事の内容（やる事）が具体的におりてこない
+1005,17,1,BP,3,"The progress of the business is interfered with by rules (e.g., confidentiality)",業務の進行がルール（機密など）によってさまたげられる
+1006,17,2,CM,4,I can see the plan and the results.,計画と実績が見える
+1007,17,2,HD,4,Human resources trade (rotation),人材トレード（ローテーション）
+1008,17,2,IT,4,"Centralized management of information (people, goods, and money)",情報の一元管理　（人・物・金）
+1009,17,2,IT,4,Information exchange with other departments,他部門との情報交換
+1010,17,2,HD,4,The whole team will see and discuss the real thing together.,チーム全員で実物を見て話し合う
+1011,17,2,IT,5,"Support for introduction of state-of-the-art tools in line with the times (e.g., optimization of introduction rules)",時代に沿った最先端ツールへの導入支援　（導入ルール最適化等）
+1012,17,2,IT,4,Optimizing System Support,システムサポートの最適化
+1013,17,2,IT,5,Renewal and unification of business systems,業務システムの刷新・統一化
+1014,17,2,BP,4,Revisions to the Rules,ルールの改訂
+1015,17,2,BP,4,Trial environment with no rules (no confidentiality),ルールのない試行環境　（機密管理レス）
+1016,17,2,HD,4,Request transfer to other business,他業務へのリクエスト異動
+1017,17,2,CM,4,Clarify roles and authority and their responsibilities,役割と権限とその責任を明確化する
+1018,17,2,IT,5,Establishment of Engineering IT Department (Delegation of authority from company-wide IS),エンジニアリングIT部の創設　（全社ISからの権限委譲）
+1019,17,2,IT,4,Renewal of information management system,情報管理システムの刷新
+1020,17,2,CM,4,Review the layout of the floor (work on the same floor as the collaborating department),フロアのレイアウトを見直す（連携部署と同じフロアで仕事をする）
+1021,17,2,BP,4,Reviewing the rules and compromising with the current situation,ルールの見直し、現状との折衷案
+1022,17,2,BP,3,Visualization of roles and work promotion,役割と業務推進の見える化
+1023,17,2,HD,4,Personnel changes on the horizontal axis,横軸での人事異動
+1024,17,2,HD,3,Human Resource Development (OJT),人材の育成（OJT)
+1025,17,2,BP,3,Cut out the wasteful parts of the complex approval process.,煩雑な承認手続きのムダな部分を削る
+1026,17,2,HD,4,"Personnel exchange (e.g., seconded to each other)",人材交流　（互いに出向など）
+1027,17,2,IT,4,Making information sharing tools smarter (easier for everyone to understand),情報共有ツールのスマート化 （誰でもわかりやすく）
+1028,17,2,IT,5,system rebuild,システム再構築
+1029,17,2,IT,4,Improving and relaxing the rules,ルールの改善・緩和
+1030,17,2,IT,4,ICT rule making in deregulation.,規制緩和でのICTルール作り
+1031,17,2,CM,4,Unification of administrative departments,管理部署の統一
+1032,17,2,BP,3,"Selection of a small number of elite, selection of themes to work on",少数精鋭、取組テーマの取捨選択
+1033,17,2,IT,4,Consolidation of IT operations,IT業務の集約
+1034,17,2,IT,4,I know the input and output.,インプット・アウトプットがわかる
+1035,17,2,IT,3,Create a standard for information management.,情報管理の基準を作る
+1036,17,2,IT,4,Regular meetings are held with different collaborating departments to share information.,連携している部門が違う部署と定例会議を開き情報共有をする
+1037,17,2,BP,3,Increase check and action ratio.,チェック＆アクション比重を高める
+1038,18,1,BP,1,There's a lot of reporting requirements,報告資料義務多い
+1039,18,1,BP,1,I can't prioritize.,優先順位がつけられない
+1040,18,1,HD,2,group members' proficiency level (low),Grメンバーの習熟度（が低い）
+1041,18,1,CM,3,Unclear area of responsibility,責任区域の不明確
+1042,18,1,BP,2,Lack of development man-hours,開発工数不足
+1043,18,1,IT,3,No past knowledge of the defective event and how to deal with it remain.,不具合事象の過去トラと対処方法が残っていない
+1044,18,1,BP,4,Problems that did not become apparent during development occur on the race track.,開発時には顕在化しなかった問題がレース現場で発生する
+1045,18,1,BP,3,Unexpected defects in development testing,開発テストでの予期せぬ不具合発生
+1046,18,1,BP,2,Analysis and results do not match.,解析と結果が合わない
+1047,18,1,BP,4,The process from drafting to production to delivery to shipping is not consistent.,出図～制作～納入～発送までが一貫していない
+1048,18,1,CM,2,The inability to tackle the development theme at all.,Rテーマに全く取り組めていないこと
+1049,18,1,BP,4,Parts have not been delivered as planned.,計画通りに部品が納入されてこない
+1050,18,1,BP,4,Short time from drawing to delivery,出図～物納までが短い
+1051,18,1,BP,4,Schedule ramp up in the late stages of development.,開発後期でのスケジュール暴れ
+1052,18,2,IT,4,Centralized component information,部品に関する情報の一元化
+1053,18,2,IT,3,Create an information sharing tool and have everything in there.,情報共有ツールを作成し、そこに何でも入っている
+1054,18,2,IT,3,Part changes are visible in real time.,パーツ変更がリアルタイムに見える
+1055,18,2,IT,4,Everyone can see the progress of the development.,開発の進捗が誰でも見えてわかる
+1056,18,2,BP,4,Prompt response to changes,変更への迅速な対応
+1057,18,2,IT,4,Specification management is visible.,仕様管理が見える
+1058,18,2,IT,4,"Part information coordination tool (requirements, study documents, cost, delivery date)",部品情報連携ツール（要件、検討書、コスト、納期）
+1059,18,2,CM,4,Development of criteria and requirements that show why.,理由がわかる判断基準や要件の整備
+1060,18,2,BP,4,"Reflects specification changes as needed (L/O, application and production)",仕様変更を随時反映（L/O、適用、制作）
+1061,18,2,IT,4,Linking verification results/requirements to changes (number of man-hours and period required),検証結果・要件と変更点の紐付け（必要工数・期間）
+1062,18,2,IT,4,Dedicated Race Logistics System,レース専用物流システム
+1063,18,2,IT,3,All processes from arrangement to delivery should be done mechanically.,手配から物納まで、機械的に行えるようにする
+1064,18,2,IT,4,A system that can reflect speed-oriented changes.,スピード重視の変更を反映できるシステム
+1065,18,2,IT,3,Automatic generation of a development schedule from requirements,要件から開発日程を自動生成
+1066,18,2,IT,3,Automatic generation of test plans from changes,変更点からテスト計画を自動生成
+1067,19,1,CM,4,Global Coverage,グローバル対応
+1068,19,1,BP,1,I do a lot of development work.,開発の仕事が多い
+1069,19,1,IT,3,Information is not shared across business units,事業部を越えての情報共有ができていない
+1070,19,1,HD,1,I'm not going to change from my current work.,現在の作業から変えようとしない
+1071,19,1,BP,2,"Insufficient coordination between departments (electronics, mechanical and software)",部門間（エレキ/メカ/ソフト）の連携が不十分
+1072,19,1,CM,2,Not enough electric designers.,エレキ設計者が少ない
+1073,19,1,BP,1,I don't have time to consider new technologies.,新しい技術を検討する時間が割けない
+1074,19,1,BP,3,Cost-related initiatives in each department,コストに関する各部門の取組み
+1075,19,1,CM,3,Product planning is vague.,商品企画があいまい
+1076,19,1,BP,3,Different design procedures are used by different development departments.,設計手順が開発部によって違う
+1077,19,1,BP,4,There's a lot of rework in development.,開発の手戻りが多い
+1078,19,1,BP,3,Strengthen manufacturing quality,製造品質の強化
+1079,19,1,BP,4,Different businesses do things differently.,事業によってやり方が異なる
+1080,19,1,HD,1,Dependent on others.,人に依存することが多い
+1081,19,1,IT,2,It's hard to share information.,情報共有がしにくい
+1082,19,1,BP,4,Departments are divided vertically and interdepartmental cooperation is weak.,部門が縦割で部門間連携が弱い
+1083,19,1,CM,3,Inadequate response to risk,リスクへの対応力が不十分
+1084,19,1,CM,3,Lack of portfolio in new product areas.,新商品分野のポートフォリオが足りない
+1085,19,1,CM,5,We only have a 1% share of the market opportunity.　,市場機会の占有率が１％しかない　
+1086,19,1,CM,4,Cross-departmental decisions can't be made.,部門をまたがる決定事項が決まらない
+1087,19,1,BP,3,Poorly defined requirements and a lot of rework.,要件定義が不十分で手戻り多い
+1088,19,1,IT,3,Information management (not enough),情報管理（が不十分）
+1089,19,1,BP,4,There is little interaction between departments.,部門間のやり取りが少ない
+1090,19,1,IT,3,Inadequate version control of embedded software,組込みソフトの版管理が不十分
+1091,19,1,CM,3,Weak goal management and low awareness of goal adherence,目標管理が弱く、目標を守る意識が低い
+1092,19,1,BP,3,The definition of the development process is unclear.,開発プロセスの定義が不明
+1093,19,1,BP,3,Project management is vague (mood-oriented and family-oriented) ,PJ管理が曖昧 （ムード重視でファミリー的） 
+1094,19,1,CM,4,The department responsible for the lack of a responsible person is unclear.,責任者がいない責任部門が不明確
+1095,19,1,HD,4,Optimal staffing (not done),最適人員配置（できていない）
+1096,19,1,CM,3,Clarity of departmental roles and flexibility (no),部門の役割の明確化と柔軟性（がない）
+1097,19,1,BP,2,No speed.,スピードがない
+1098,19,1,IT,3,The traceability of regulatory information is not possible.,規制情報のトレーサビリティができない
+1099,19,1,BP,4,There's still a wall between the departments.,部門間でまだ壁がある
+1100,19,2,BP,4,Strengthen internal and external collaboration and concurrent engineering,社内外のコラボレーション、コンカレントエンジニアリングの強化
+1101,19,2,BP,4,front-loading,フロントローディング
+1102,19,2,BP,3,Standardization of the development process,開発プロセスの標準化
+1103,19,2,IT,4,Linking and combining distributed product information,分散した製品情報の連携/結合
+1104,19,2,CM,3,Reflecting the Voice of the Customer (VOC) in Design,設計に顧客の声（VOC）を反映
+1105,19,2,IT,2,Establishing ways to reuse knowledge,ナレッジの再利用方法の確立
+1106,19,2,IT,3,Promotion of modularized design,モジュール化設計の推進
+1107,19,2,BP,3,Enhancement of product design,製品の意匠デザイン性の強化
+1108,19,2,IT,2,Reuse of Design Information in Services,設計情報をサービスで再利用
+1109,19,2,BP,2,Designed with serviceability in mind,サービス性を考慮した設計
+1110,19,2,BP,3,Improving the total cost of products and services,製品とサービスのトータルコストの改善
+1111,19,2,BP,3,Regulatory Risk Reduction,規制に関するリスク低減
+1112,19,2,BP,4,Reduction in the number of post-process design changes,後工程の設計変更回数の削減
+1113,19,2,BP,4,Reduction of manufacturing defects and rework,製造不良や手戻りの削減
+1114,19,2,BP,3,Designed with quality in mind,品質を考慮した設計
+1115,19,2,BP,4,Interdepartmental cooperation between hardware and software,ハードとソフトの部門間連携
+1116,19,2,BP,4,Visualizing Project Progress,プロジェクト進捗の見える化
+1117,20,1,HD,5,We can't develop new products.,新規開発品が出来ない
+1118,20,1,BP,4,There's a lot of rework in the design.,設計の手戻りが多い
+1119,20,1,BP,3,Short design time,設計期間が短い
+1120,20,1,BP,4,There are no established design standards.,設計基準の確立されていない
+1121,20,1,BP,4,"Don't make mistakes with your product (design, policy and construction)",製品（設計・政策・施工）でミスをしない
+1122,20,1,BP,3,"New demands come in during development, resulting in a total delay",開発中にあらたな要求が入り、結果、全体が遅れる
+1123,20,1,BP,2,That's a lot of time for one site.,１つの現場にかかる時間が多い
+1124,20,1,BP,3,I can't afford to miss the deadline.,出図期限まもられない
+1125,20,1,BP,4,I'm having trouble managing my goals.,目標の管理がうまくできない
+1126,20,1,HD,3,a shortage of talented people,人材不足
+1127,20,1,BP,5,Change of construction start date,着工日の変更
+1128,20,1,HD,2,It's going to take some time for your people to become fully qualified.,部下が一人前になるまで時間がかかる
+1129,20,1,HD,3,An environment that doesn't nurture talent (they quit quickly),人材を育てない環境（すぐ辞めてしまう）
+1130,20,1,CM,4,We have not been able to establish a maintenance system after delivery to the customer.,お客様に引渡した後の保守体制が確立できていない
+1131,20,1,IT,4,It is difficult to share information between the production and maintenance sides,生産側と保守側で情報共有が難しい
+1132,20,1,CM,3,Increase confidence in your product.,製品への信頼度を上げる
+1133,20,1,BP,3,Respond quickly to customers.,顧客への対応をスピーディーに行う
+1134,20,1,HD,2,Differences in the level of field service technicians,フィールドサービス技術員のレベル差
+1135,20,1,BP,3,"A lot of time is spent on service support, which interferes with design and development work.",サービス支援に対する時間が多く、設計・開発業務に支障が出る
+1136,20,1,IT,2,Not updating necessary data,必要データの更新をしない
+1137,20,1,IT,3,Information about problems occurring in the company is not collected and not improved.,社内で発生している不具合の情報が集まらないので改善されない
+1138,20,1,BP,3,Slow to respond to customer requests,お客様からの要望に対応するのが遅い
+1139,20,1,BP,3,"Specification decisions, no decisions.",仕様決定、決まらない
+1140,20,1,BP,3,We don't have all the information we need to make a decision.,判断する為の材料がそろっていない
+1141,20,1,IT,3,Information sharing within the company is not working well.,社内での情報共有がうまく出来ていない
+1142,20,1,BP,4,Lack of communication between departments.,各部署間のコミュニケーションが足りない
+1143,20,1,BP,4,Lack of openness between departments,部署間での風通しの悪さ
+1144,20,2,CM,4,Classify and summarize the design specifications and determine the areas to be increased,設計仕様の分類と内容のまとめと、増やす部分の決定
+1145,20,2,BP,4,Promotion of Drawing Standardization,図面の標準化推進
+1146,20,2,BP,4,Design period protection and variation,設計期間を守る、バリエーション展開
+1147,20,2,BP,3,Creation of specification information and manuals during product design,製品設計時に仕様情報とマニュアルの作成
+1148,20,2,BP,3,Separate field design from development design.,現場設計と開発設計を切り分ける
+1149,20,2,HD,3,human resources development,人材育成
+1150,20,2,IT,3,Create a manual for each part (business) and make sure everyone uses it.,各部位（業務）のマニュアルを作成し、必ず全員が使用する
+1151,20,2,BP,3,Properly manage the process from order to completion of product and construction,受注から製品完成、工事完了までの工程をきちんと管理する
+1152,20,2,HD,3,Long-term human resource development,長期的な人材育成
+1153,20,2,IT,3,Enhanced maintenance manuals,保守マニュアルの充実
+1154,20,2,BP,4,Identification of discontinued parts,製造中止部品の洗い出し
+1155,20,2,HD,3,Training of maintenance technicians and establishment of a service manual writing department,保守技術員の教育、サービスマニュアルの作成部門の確立
+1156,20,2,HD,4,Set up an axis system and make sure all employees use it (one source of data).,軸となるシステムを設け、全社員が必ず活用する（データの出所を１つにする）
+1157,20,2,IT,4,Clarification of roles in each department and sharing of that information,各部署での役割の明確化、その情報の共有化
+1158,20,2,BP,3,We meet regularly.,定期的に会議をする
+1159,20,2,IT,3,Organizing information on service parts,サービス部品の情報整理
+1160,20,2,IT,3,Creating and updating necessary information,必要情報の作成及び更新
+1161,20,2,IT,3,Prepare a system that allows each department to share information with each other.,各部署同士情報が共有出来るシステムを用意する
+1162,20,2,BP,4,Reliable Operation,確実な運用
+1163,20,2,BP,4,Establish a system of communication when there is a change,変更箇所が有った際の連絡体制を確立する
+1164,20,2,IT,3,Match the drawing to the database,図面とデータベースを一致させる
+1165,20,2,IT,3,Document Sharing Management,ドキュメント共有管理
+1166,20,2,BP,2,Establishing communication methods,コミュニケーション方法の確立
+1167,20,2,BP,3,Creation of a standard configuration of parts and publication of end-of-life products,部品の基準構成の作成と終息対応品の公開
+1168,20,2,IT,3,How to use the existing system.,既存システムをどう使うか
+1169,20,2,IT,3,Sharing Information,情報の共有化
+1170,21,1,BP,2,The latest design standards are not known. Defects are not shared.,最新の設計標準がわからない。不具合等が共有されていない
+1171,21,1,HD,i,It takes a long time to change the shape of the mold because we don't have the know-how on mold shape.,金型形状のノウハウを知らないので形状変更に時間がかかる
+1172,21,1,HD,i,No record of past problems and reliance on human memory,過去トラが記録されておらず、人の記憶頼み
+1173,21,1,IT,3,Existing materials cannot be retrieved.,既存資料が検索出来ない
+1174,21,1,IT,3,Failure to share core materials and findings,コア材料や検討結果の共有ができていない
+1175,21,1,IT,2,"It's not possible to search for information, so it takes a long time to select the right one",情報の検索が出来ないので選定に時間が掛る
+1176,21,1,IT,1,Difficulty in searching results.,結果の検索が困難。
+1177,21,1,BP,3,"The presence or absence of substrate mold, shape and size are not controlled.",基板金型有無、外形、サイズが管理できていない
+1178,21,1,IT,3,Tool location data is not shared. To contact purchasing.,金型所在のデータが共有されていない。購買への問い合わせに
+1179,21,1,BP,1,It takes a lot of time and effort.,手間がかかる。
+1180,21,1,IT,1,You have to open the drawing to search for information.,図面を開かないと情報が検索できない
+1181,21,1,IT,2,I can't confirm the specifics without opening the drawings one by one.,諸元を図面を一つ一つ開かないと確認出来ない
+1182,21,1,IT,3,"Can't search for information by category (how many watts, airflow), it takes a long time.",カテゴリ毎(何W、風量）に情報が検索できない、時間がかかる。
+1183,21,1,IT,3,"Information is not organized. I don't know if data is available or not, and whether it is mass produced or not.",情報が整理されていない。データの有無、量産しているのか、していないのかわからない。
+1184,21,1,IT,3,"2D and 3D are not linked to each other, so it is difficult to modify the data when the dimensions are changed.",2Dと3Dが連動していないので寸法変更が入った場合の修正が大変
+1185,21,1,IT,3,"The conversion from a 3D model to a 2D drawing is time-consuming (automatic linkage is not possible, and there is waste from 3D to DXF to 2D).",3Dモデルから2D図面へ落とし込みが手間（自動連携が出来ず、3D⇒DXF⇒2Dといった無駄が生じている）
+1186,21,1,BP,3,It takes time to check standards and environmental requirements.,規格、環境要求の確認に時間がかかる
+1187,21,1,HD,4,shortage of people,人手不足（人を掛けたくない）
+1188,21,2,IT,4,Centralized management of design data in a database,設計データをデータベースで一元管理する
+1189,21,2,IT,3,Manage various document data related to individually managed products by linking them to the product configuration.,個別に管理されている製品に関する各種ドキュメントデータを製品構成に紐付け管理する
+1190,21,2,BP,3,Allows access to various product configuration information related to the part,部品が関連する様々な製品構成情報にアクセス可能とする
+1191,21,2,IT,4,Cross-search a variety of information related to products using categories and keywords.,分類やキーワードを用いて製品に関連する様々な情報を横断的に検索できる
+1192,21,2,BP,4,"Proactively review specifications with customers, cross-functional reviews and specific feedback",顧客との仕様確認、部門を超えたレビューや具体的なフィードバックなどを積極的に実施する
+1193,21,2,HD,1,Automate routine processes to improve efficiency and help newcomers to work without mistakes.,定型的なプロセスを自動化して、効率化を図るとともに、新人でも間違えずに作業を行えるようにサポートする
+1194,21,2,BP,3,Automate and standardize the change process and implement changes efficiently by visualizing the change process and consolidating information.,変更プロセスの自動化・標準化を行い、変更プロセスの可視化と情報集約により、効率的に変更を実施する
+1195,21,2,BP,4,Respond flexibly to increasingly complex and diverse customer requirements,複雑化多様化する顧客要望の変更にも柔軟に対応する
+1196,21,2,BP,3,"Create and manage product configurations to ensure specifications are met, along with specifications.",仕様を確実に満たした製品構成を作成、仕様と共に管理する
+1197,21,2,IT,2,The know-how and past trouble information that are managed individually can be managed centrally and linked to CAD and configuration information.,個別に管理されているノウハウや過去トラを、一元管理し、CADや構成情報と紐付け管理する
+1198,21,2,IT,4,Automatically notify the relevant departments when information related to the product is registered or updated.,製品に関連する情報が登録・更新された際に関係部署に自動通知する
+1199,21,2,BP,4,Establishing a way to communicate with each other on the web,Web上で双方向にコミュニケーションする手段を確立する
+1200,21,2,IT,4,Manage information from other systems as attributes and link information.,他システムの情報を、属性やリンク情報として管理。
+1201,21,2,BP,2,Efficient search and information verification.,検索や情報確認を効率的に行う。
+1202,22,1,IT,5,The company continues to use legacy IT systems due to the lack of an IT strategy.,IT戦略がないためレガシーなITシステムを使い続けている。
+1203,22,1,IT,5,Limited secondary use of data has not led to increased corporate competitiveness.,データの二次利用が限定的なため企業競争力強化につながっていない。
+1204,22,1,HD,4,Poorly planned human resource development does not foster the next generation of leaders.,人材育成が計画的でないため次代のリーダーが育っていかない。
+1205,22,1,BP,2,Lack of understanding of the root cause of defects leads to temporary fixes.,不具合に対し根本原因がわからず暫定処理に走ってしまう。
+1206,22,1,BP,3,There is a lack of awareness of security.,セキュリティーに対する認識に差がある。
+1207,22,1,IT,3,The reliability of information is unclear.,情報の信頼性が不明。
+1208,22,1,CM,5,Market is in a downward trend.,市場が下降傾向。
+1209,22,1,IT,2,Too much information flow.,情報の流れがたくさん有りすぎる。
+1210,22,1,BP,3,Low awareness of service parts supply.,サービスパーツ供給に対して意識が低い。
+1211,22,1,CM,2,Difficult to see what kind of products customers want.,顧客の望む商品像が見えにくい。
+1212,22,1,CM,5,Unclear business growth strategy.,ビジネスとしての成長戦略が不透明。
+1213,22,1,BP,4,It is difficult to see the cost over the product's lifetime.,商品生涯を通してのコストが見えにくい。
+1214,22,1,CM,5,"The roadmap is shown, but it is not clear if there is a strategy.",ロードマップは示されるが戦略があるかわからない。
+1215,22,1,BP,4,It is unclear whether the direction of design and manufacturing is appropriate.,設計と製造の方向性があっているかわからない。
+1216,22,1,BP,3,"The market demands have been raised, but there is no convincing explanation as to whether it is really necessary or not.",市場からの要求は上がってくるが本当に必要性があるか、納得感のある説明ができない。
+1217,22,1,BP,1,It takes time to make a report.,レポート作成に時間がかかる。
+1218,22,1,BP,2,There is a lot of rework in the development of new products.,新機種開発の手戻りが多い。
+1219,22,1,BP,4,There are many design changes after mass production.,量産後の設計変更が多い。
+1220,22,1,BP,4,"There is a lot of rework, changes afterwards, and insufficient information at the beginning.",手戻りが多い、後からの変更、最初の情報不足。
+1221,22,1,BP,2,It is not possible to understand things from many angles.,物事が多面的にとらえられない、コストを忘れている等。
+1222,22,1,HD,2,Lack of young people.,年齢層が偏っている、若者不足。
+1223,22,1,BP,1,Some tasks do not know the rules.,ルールがわからない作業がある。
+1224,22,1,IT,1,"Can't see the data you want to see, don't know how to look at it.",見たいデータが見られない、見方が分からない。
+1225,22,1,IT,2,The proposal is not prepared with the correct data.,企画書が正しいデータの元で作成されていない。
+1226,22,1,CM,5,Cheap sale of equipment that cannot be recovered (project decisions).,回収できない機器の安売り（案件判断）。
+1227,22,1,CM,5,Planning and pricing are done with unclear market conditions.,市場の状況が不明確なまま企画、値決めが行われる。
+1228,22,1,BP,1,There are many ancillary tasks.,付帯業務が多い。
+1229,22,1,IT,1,It takes time to obtain information (cannot be obtained).,情報を入手するのに時間がかかる（取れない）。
+1230,22,1,IT,1,There is a lot of tacit knowledge (information is subjective).,暗黙知が多い（情報が属人的）。
+1231,22,1,BP,3,Quality standards for each product category are the same.,製品カテゴリ毎の品質基準が同じ。
+1232,22,1,BP,4,Work is not transferred to overseas plant members.,海外工場メンバーへの業務移管が出来ていない。
+1233,22,1,IT,1,"There is a lot of tacit knowledge, and what is accurate is not understood.",暗黙知が多く、何が正確か分からない。
+1234,22,1,IT,3,There are many cases of trying to systematize operations whose requirements have not been assessed yet.,要件が未査定の業務をシステム化しようとするケースが多い。
+1235,22,1,BP,2,There is a lot of postponement work.,後追いの作業が多い。
+1236,22,1,BP,4,Sometimes the head office and the factory do not have a common understanding of the issues.,本社と工場で課題の共通認識が出来ていない時がある。
+1237,22,1,IT,4,The IT infrastructure from the factory to the head office is weak (thin) and can't handle the amount of data.,工場～本社のITインフラ弱い（細い）、データ量に耐えられない。
+1238,22,1,IT,3,"Data formats are not always the same, and understanding does not progress.",データ形式がそろっていない、理解が進まない。
+1239,22,1,IT,4,The location of information is uneven.,情報のありかがバラバラ。
+1240,22,1,HD,2,Old age.,高齢。
+1241,22,1,HD,1,Language and English language skills.,言葉、英語力。
+1242,22,1,IT,3,Disparate systems.,システムがバラバラ。
+1243,22,1,IT,3,"Inconsistent data, lack of itemization, different systems.",データに一貫性がない、品目整理できていない、異なるシステム。
+1244,22,1,BP,1,"Individual work, different opinions, different methods.",個人任せの業務、各人で意見が異なる、やり方が異なる。
+1245,22,1,CM,4,Unattainable goals.,達成できない目標。
+1246,22,1,IT,4,Information does not reach the end of the line in a timely manner.,情報が末端までタイムリーに伝わらない。
+1247,22,1,BP,3,"Schedule for new product launch is not met, target cost cannot be achieved.",新製品の立ち上げにおいてスケジュールが守られない、目標コストが達成できない。
+1248,22,1,BP,3,Too many meetings.,会議が多すぎる。
+1249,22,1,IT,2,Lack of awareness of information security.,情報セキュリティの認識が薄い。
+1250,22,1,IT,1,The method of centralized data management is not consistent among people.,データの一元管理方法が人によってバラバラ。
+1251,22,1,BP,3,Resistance to changing the business process.,業務プロセスを変える事に抵抗がある。
+1252,22,1,CM,3,Objectives are not thoroughly communicated.,目標が周知徹底されていない。
+1253,22,1,IT,4,Figures (data) are not integrated.,数値（データ）が一本化されていない。
+1254,22,1,BP,4,Operations are duplicated in other departments.,業務が他部門と重複している。
+1255,22,1,CM,4,Objectives and goals are not broken down into concrete measures.,目的・目標から具体的な手段にブレークダウンされない。
+1256,22,1,BP,3,Past deficiencies are not easily applied to the next.,過去の不具合がなかなか次に活かせていない。
+1257,22,1,BP,2,Each person or department is carrying out similar tasks in their own way.,各人、各部署が似たような業務を各々で進めている。
+1258,22,1,BP,4,There are many design changes.,設計変更が多い。
+1259,22,1,IT,3,Centralized management of data and information is not done.,データ、情報の一元管理が出来ていない。
+1260,22,1,CM,5,Policy and point of victory as a company are unclear.,会社としてのポリシー、勝負所が不明確。
+1261,22,1,HD,5,There are many people who do not understand that our industry is a declining industry.,我々の業界は斜陽産業ということがわかっていない人が多い。
+1262,22,1,BP,5,The cost does not correspond to the market price.,市場価格にコストが対応できていない。
+1263,22,1,BP,3,The reality of development and sales field is not shared.,開発および営業現場の実態が共有されていない。
+1264,22,1,BP,2,There is no system to investigate the point of cause when a defect occurs.,不具合が起きた場合に原因のポイントを究明する仕組みがない。
+1265,22,1,IT,3,Information is not centralized.,情報の一元化が出来ていない。
+1266,22,1,BP,4,Large number of design changes.,設計変更の数が多い。
+1267,22,1,CM,4,No tolerance for globalization of bases.,拠点のグローバル化への耐性ができていない。
+1268,22,1,HD,2,Exhaustion of human resources.,人的資源の枯渇。
+1269,22,1,HD,3,We have not been able to pass on our manufacturing and technical know-how.,ものづくり・技術のノウハウ伝承できていない。
+1270,22,1,BP,4,Defects and design changes after mass production.,量産後の不具合や設計変更。
+1271,22,1,BP,4,Quality and productivity problems can't be identified because the factory is located far away from the production site overseas.,工場の現場が海外で遠いことによる品質、生産性問題が見えない。
+1272,22,1,IT,3,There is a lot of wasted work due to the lack of consistency in data.,データの一貫性が無い事による整理業務のムダが多い。
+1273,22,1,CM,5,Product roadmap is not fixed.,製品ロードマップが確定しない。
+1274,22,1,BP,3,There are many cases where the basis for design is not clear.,設計根拠が明確になっていないことが多い。
+1275,22,1,IT,2,Information cannot be gathered without referring to various databases.,様々なDBを参照しないと情報が集まらない。
+1276,22,2,IT,2,It is clear where the necessary information is located.,必要な情報のありかが明確になっている。
+1277,22,2,IT,3,There is a process for determining which information is to be managed centrally.,一元管理する情報はどれなのかを決定するプロセスがある。
+1278,22,2,IT,4,Information should be shared among multiple departments.,複数の部門で情報を共有する。
+1279,22,2,IT,3,The system allows secure retrieval of information from other departments.,他部門の情報が安全に検索できるシステム。
+1280,22,2,CM,4,Market changes and new product information can be seen.,市場の変化、新製品情報が見える。
+1281,22,2,IT,3,Data is disclosed in a secure manner.,セキュリティーが確保されたデータが開示されている。
+1282,22,2,IT,3,Necessary data can be extracted just like the Internet.,インターネットの様に必要なデータを抽出出来る。
+1283,22,2,IT,2,We can easily simulate past and present products by changing conditions.,過去、現製品に対して条件を変えてシミュレーションが簡単に出来る。
+1284,22,2,BP,3,Past problems and current problems can be linked.,過去の問題と現在の問題が紐づけされる。
+1285,22,2,CM,3,Consistent product concepts are shared.,製品コンセプトに一貫した思想が共有されている。
+1286,22,2,IT,3,Sharing of past problem information in a form that can be easily understood by anyone,過去トラ情報が誰でもすぐに理解できる形で共有されている。
+1287,22,2,BP,3,Quality functions are analyzed and passed down reliably,品質機能の分析が成され確実に伝承されている。
+1288,22,2,BP,3,A database that enables easy confirmation of production costs is required.,製造コストを容易に確認できるDBが必要。
+1289,22,2,BP,3,A system that enables anyone to trace the change history is needed.,誰でも変更履歴をトレーサビリティーできる仕組みが必要。
+1290,22,2,CM,4,It is necessary to explain detailed strategies.,細かな戦略の説明が必要。
+1291,22,2,IT,4,It is necessary to link information on defects that have occurred.,発生した不具合内容を情報連携する。
+1292,22,2,HD,2,Create a manual for human resource development.,人材育成のためのマニュアル作成。
+1293,22,2,BP,3,Extract and utilize internal information of the product.,製品の内部情報を吸い上げて活用する。
+1294,22,2,IT,3,Q&A using artificial intelligence.,人工知能活用によるQ&A。
+1295,22,2,IT,3,Centralize information.,情報の一元化。
+1296,22,2,BP,4,Shorten the product life cycle.,製品ライフサイクルの短縮。
+1297,22,2,BP,3,Acquire the latest technology and create new product quality.,最新の技術を修得し、新規製品品質を作る。
+1298,22,2,HD,2,Implement the process of handing down technical know-how (system).,技術ノウハウの伝承する（しくみ）プロセスを実行する。
+1299,22,2,HD,2,Create and implement a strategy for human resources utilization.,人材の活用戦略を作成し実行する。
+1300,22,2,CM,3,Visualize the market's voice and create a system to feed back to new products.,市場の声を見える化し新製品へフィードバックできる仕組を作る。
+1301,22,2,IT,3,Clarify the rules and mechanisms concerning information security.,情報セキュリティに関するルール、仕組みを明確にする。
+1302,22,2,BP,3,Automate areas where ancillary work can be reduced.,付帯作業が減らせる所は自動化する。
+1303,22,2,BP,3,Double standard of quality,品質のダブルスタンダード基準。
+1304,22,2,BP,3,Group quality evaluation at the development stage,開発段階の集団品質評価。
+1305,22,2,IT,2,Periodic security-related testing.,セキュリティ関係の定期的なテスト。
+1306,22,2,CM,4,Review (delete) organizational hierarchy,組織階層の見直し（削除）。
+1307,22,2,IT,4,Examination of utilization of accumulated data (fusion of manufacturing and sales teams),蓄積したデータの活用検討（ものづくり系と営業系の融合）。
+1308,22,2,BP,4,"Improvement in wastefulness of business operations, including the factory floor",工場現場含め業務のムダロスの改善。
+1309,22,2,IT,3,Streamlining of the system,システムのスリム化。
+1310,22,2,IT,3,Review of information transmission channels.,情報の伝達経路の見直し。
+1311,22,2,HD,4,Implementation of human resource rotation.,人材のローテーションの実施。
+1312,22,2,IT,3,Introduction of a monitoring system at the manufacturing site and in the market,製造現場と市場へのモニタリングシステム導入。
+1313,22,2,CM,5,Clarification of product roadmap,商品ロードマップの明確化。
+1314,22,2,IT,4,Construction of information database management and coordination (feedback system) for each department.,部門毎の情報DB管理と連携（フィードバックシステム）構築。
+1315,22,2,HD,4,Globalization of human resources.,人材グローバル化。
+1316,22,2,IT,4,Restructuring of the system.,システム再構築。
+1317,22,2,CM,4,Business in developing countries,途上国ビジネス。
+1318,22,2,IT,3,Clarify and unify what is currently available as data and what is lacking,現状、何がデータとして合って、何が不足しているかを明確化して統一する。
+1319,22,2,IT,3,Make the target setting more information-based and logical.,目標設定をより情報を元にして理屈が通るようにする。
+1320,22,2,BP,4,Systematize the work flow among other departments.,他部門間での業務フローをシステム化する。
+1321,22,2,IT,3,Make it easier to analyze and utilize knowledge.,ナレッジを分析活用する方法をやり易くする。
+1322,22,2,CM,4,To match the design with the sales method of the product.,製品の販売方法と設計をマッチングさせる。
+1323,22,2,IT,4,Manufacturing to obtain market information quickly.,市場の（製品の）情報を早く取得する製造。
+1324,22,2,BP,3,Develop operations manuals.,業務マニュアルを策定する。
+1325,22,2,IT,4,Implement a common system.,共通システムを導入する。
+1326,22,2,HD,2,Prepare training content in the form of on-the-job training.,OJTのような形での研修内容を整える。
+1327,22,2,IT,3,Centralize data management.,データを一元管理する。
+1328,22,2,CM,3,Decide on things by numbers.,数値で物事を決める（できるだけ・・・みたいな決め方はしない）。
+1329,22,2,CM,4,Analyze the market and reduce the number of competitors following.,市場分析し他社の後追いを減らす（ヨソがこうだからウチも必要）。
+1330,22,2,HD,4,Strategic recruitment and training of young people.,戦略的な若手採用と育成。
+1331,22,2,BP,3,Sharing of quality problems and countermeasures.,品質問題と対策の共有。
+1332,22,2,CM,5,Clarify the product concept.,製品コンセプトの明確化。
+1333,22,2,HD,3,Actively hiring young people (for important projects).,若手の積極的採用（重要なプロジェクトに）。
+1334,22,2,CM,4,We need to focus on customers and should be more market oriented.,顧客を重視しなければいけないので、もっと市場に出るべき。
+1335,22,2,BP,3,How profitable it is for cost reduction is only shared by some people.,コスト低減の為、どれだけの採算かは一部の方にしか共有されていない。
+1336,22,2,IT,4,Plan for training young people.,若手の育成計画。
+1337,22,2,IT,4,Data encryption.,データの暗号化。
+1338,22,2,IT,2,"Information (know-how) held by individuals is documented, systematized, and shared.",個人で持っている情報（ノウハウ）を文書化、システム化して共有する。
+1339,22,2,CM,5,Build a mother factory in Japan.,日本にマザー工場を作る。
+1340,22,2,IT,4,Use a common system for each department.,各部門で共通のシステムを使う。
+1341,22,2,IT,4,"Centralized data management system, rulemaking and utilization.",データの一元管理システム、ルール化、活用。
+1342,22,2,IT,4,Build a unified database.,統一されたデータベースの構築。
+1343,22,2,BP,4,Share production costs in real time.,製造原価のリアルタイムな共有。
+1344,22,2,HD,3,Handing down of know-how and tacit knowledge.,ノウハウ、暗黙知の伝承。
+1345,23,1,BP,3,Failure to reduce the cost of purchased parts,購入部品のコストダウンがうまくいかない
+1346,23,1,CM,3,The increase in raw materials and labor costs for purchased parts is not reflected in the selling price.,購入部品に対する原材料UP、人件費UPが売価に反映されない
+1347,23,1,BP,3,The mold for new parts does not stand up properly,新規部品の金型がうまく立ち上がらない
+1348,23,1,HD,4,We don't have the talent for the next five years.,５年後の人材がいない
+1349,23,1,HD,2,Little knowledge of how the product is used,製品の使われ方に対する知識が少ない
+1350,23,1,CM,4,I can't make old products.,古い製品が作れない
+1351,23,1,BP,3,The development schedule is very short.,開発日程がとても短い
+1352,23,1,BP,3,You are not informed of the delay.,遅延に対して周知していない
+1353,23,1,BP,3,Departments are not managing their schedules.,各部門がスケジュール管理をしていない
+1354,23,1,BP,2,Lack of quality awareness,品質意識が低い
+1355,23,1,BP,4,Sectionalism is strong.,セクショナリズムが強い
+1356,23,1,BP,2,not very cost-conscious,コスト意識が低い
+1357,23,1,HD,2,shifting of people,人の入れ替わり
+1358,23,1,BP,3,delivery time,納期
+1359,23,1,CM,4,price,価格
+1360,23,1,CM,4,Low price competitiveness.,価格競争力が低い
+1361,23,1,CM,5,Weak differentiation from other companies (product),他社との差別化が弱い（製品）
+1362,23,1,CM,4,Few new products.,新製品が少ない
+1363,23,1,BP,2,Work is concentrated at one point in time.,業務が一時期に集中する
+1364,23,1,BP,3,New demands are coming in from customers.,顧客から新たな要求が入ってくる
+1365,23,1,BP,3,"Short turnaround time for estimates, etc.",見積り等、短納期になっている
+1366,23,1,BP,1,It's taking too long to figure out what's going on.,現状把握に時間がかかり過ぎてる
+1367,23,1,BP,3,Projects and assignments are not being done or completed as planned,プロジェクトや課題を計画通りに進められていない、やり切れていない
+1368,23,1,BP,1,It's not a speedy response.,スピーディな対応が出来ていない
+1369,23,1,BP,3,defect,不具合
+1370,23,1,BP,3,Not on time (deadline),時間（納期）を守らない
+1371,23,1,BP,1,You don't keep your promises.,約束を守らない
+1372,23,1,BP,3,defective product,不良品
+1373,23,1,BP,3,delay in delivery,納期遅延
+1374,23,1,BP,3,It's higher than the stipulated cost.,規定コストより高くなる
+1375,23,1,CM,2,Lack of awareness of sales,売上への意識が低い
+1376,23,1,BP,3,You're not controlling costs.,コスト管理が出来ていない
+1377,23,1,BP,3,The speed of product evolution is slow.,製品進化のスピードが遅い
+1378,23,1,IT,2,The database is weak.,データベースが弱い
+1379,23,1,CM,1,Customer-facing design and products are not ready,客先を向いた設計、製品の準備が出来ていない
+1380,23,1,BP,1,Slow response time.,対応スピードが遅い
+1381,23,1,BP,3,quality,品質
+1382,23,1,CM,3,profit,利益
+1383,23,1,CM,3,delivery time,納期
+1384,23,1,CM,2,"The spirit of compliance, the system is weak.",コンプライアンス精神、システムが弱い
+1385,23,1,CM,3,The organizational design is bullshit.,組織設計がデタラメ
+1386,23,1,HD,2,Poor interdepartmental relationships.,関係部門間の人間関係が悪い
+1387,23,1,BP,3,"Too many projects, equipment, etc. to redo.",プロジェクト、設備など、やり直しが多すぎる
+1388,23,1,BP,3,Process validation is too lax.,プロセス検証が甘すぎる
+1389,23,1,BP,3,Insufficient number of man-hours to meet requirements,要求に対して業務工数が不足
+1390,23,1,BP,3,Cost and patent search after development.,コストや特許の調査が開発の後
+1391,23,1,CM,4,I wouldn't invest without a sale.,売りがないと投資しない
+1392,23,1,BP,1,I can't suggest that.,提案できない
+1393,23,2,IT,3,Clarify the rules for how information is shared.,情報共有の仕方のルールを明確にする
+1394,23,2,HD,3,Define the rules of how to train your people.,人材育成方法のルールを明確にする
+1395,23,2,BP,4,Take an interest in the work of other departments.,他部門の業務に関心を持つ
+1396,23,2,BP,4,"Select a supplier that meets your requirements in terms of delivery time, cost, etc.",納期・コスト等、諸条件に合うサプライヤを選定する
+1397,23,2,BP,2,Build and evaluate prototypes whenever possible.,可能な限り試作型を作成して評価する
+1398,23,2,IT,3,Share information with the back-office department when you receive an order for a product from a customer.,製品を顧客から受注した段階で間接部門と情報共有する
+1399,23,2,IT,3,Create a forum for information sharing and keep it operational.,情報共有の場を作り運用を続ける
+1400,23,2,BP,3,Creating a work ethic and environment.,仕事のやり方や環境作り
+1401,23,2,BP,2,Spend the money you need by comparing quality and cost.,品質とコストを見比べて必要なお金の使い方をする
+1402,23,2,BP,4,"Be able to keep an eye not only on your own department, but also on the activities of other departments.",自部門の事だけでなく他部門の動きにも目を向けられる様にする
+1403,23,2,IT,3,Enable information sharing at subcommittees as well as at DR meetings,DR会議だけでなく分科会にて情報共有が出来る様にする
+1404,23,2,BP,3,Create and operate not only a large schedule but also an internal departmental schedule,大日程だけでなく部門内日程を作成し運用できる様にする
+1405,23,2,BP,3,Strengthen the quality and evaluation department.,品質・評価部門の増強
+1406,23,2,HD,3,Replace staffing on a regular basis.,人材配置を定期的に入れ替えをする
+1407,23,2,CM,3,Determine a project leader to oversee the multifunctional team.,多機能チームを統括するプロジェクトリーダーを決める
+1408,23,2,IT,3,system standardization,システム標準化
+1409,23,2,BP,3,standardized component,標準化部品
+1410,23,2,BP,3,Design to Cost Awareness,設計からコスト意識向上
+1411,23,2,BP,3,Review of delivery date management,納期管理の見直し
+1412,23,2,HD,3,"Increase in staffing, distribution of responsibilities",人員増加、担当配分
+1413,23,2,IT,4,system integration,システム統合
+1414,23,2,BP,3,standardization,標準化
+1415,23,2,BP,1,keeping things neat and tidy,整理整頓
+1416,23,2,BP,1,decision to adopt or reject,取捨選択
+1417,23,2,IT,3,database enrichment,データベース充実
+1418,23,2,BP,3,standardization,標準化
+1419,23,2,BP,2,Review of allocation,分担見直し
+1420,23,2,BP,3,standardization,標準化
+1421,23,2,HD,1,raising awareness,意識向上
+1422,23,2,BP,3,research,リサーチ
+1423,23,2,CM,4,Consolidation of processing and manufacturing sites,加工、製造拠点の集約化
+1424,23,2,BP,3,Review of the creation of standard cost tables,標準コストテーブル作成の見直し
+1425,23,2,BP,3,Centralized management of the start-up process,立ち上げプロセスの集中管理
+1426,23,2,BP,2,Reducing duplication of effort,重複作業の削減
+1427,23,2,CM,4,Review of Organizational Roles,組織の役割見直し
+1428,23,2,HD,1,Review your personal business design.,個人の業務設計を見直す
+1429,23,2,BP,4,"The roles themselves are clearly divided: Purchasing -> mass production and development, Design -> elements, precedence and importance, Sales -> marketing and proposal.",役割自体明確に分ける、購買→量産と開発、設計→要素と先行と重要、営業→マーケティングと提案
+1430,23,2,BP,3,Removing processes that cannot be clearly explained as necessary (ISO-based),明確な必要性を説明できない工程の削除（ISOベース）
+1431,23,2,BP,3,Clarification of responsibilities (to avoid duplication of effort),責任の明確化（工数の重複を避ける）
+1432,23,2,CM,5,Organizational Change Review,組織の変更見直し
+1433,23,2,BP,4,Review of the process,工程の見直し
+1434,23,2,IT,3,systematization,システム化
+1435,23,2,BP,3,Release Management and Process Flow Review,リリースマネジメントとプロセスフローの見直し
+1436,23,2,BP,3,"Removing waste and duplicate work, simplifying and using IT",ムダ、ダブり業務の削除、簡易化、IT使う
+1437,23,2,IT,5,Expansion of core system modules,基幹システムのモジュール拡充
+1438,23,2,BP,4,Change the way we work by aligning the objectives of the collaborative organization,連携組織の目的を一致させ仕事の進め方を変える
+1439,23,2,IT,4,Conduct a review of the management system.,管理システムの見直しを実施する
+1440,23,2,IT,4,System Integration,システムの統合
+1441,23,2,BP,2,Dedicated operations,業務の専任化
+1442,23,2,HD,2,Unified education on how to work,仕事の進め方の統一教育
+1443,23,2,IT,3,Sharing the latest information,最新情報の共有化
+1444,24,1,BP,2,Pending specifications due to a decline in the customer's technical capabilities,客先技術力の低下による仕様の未決
+1445,24,1,HD,1,"Technology shortage, data, new technology",技術不足、データ、新技術
+1446,24,1,HD,1,"New products, lack of ideas",新商品、アイデア不足
+1447,24,1,BP,3,"Inadequate quality, design review, study, verification, lack",品質不足、設計検討、検討、検証、不足
+1448,24,1,HD,1,How do you raise the level of the designer?,設計者のレベルをどうやって上げるのか
+1449,24,1,BP,3,No standardization or commonality.,標準化、共通化が出来ない
+1450,24,1,HD,2,There are many careless mistakes in design and manufacturing.,設計・製造のケアレスミスが多い
+1451,24,1,HD,2,Not enough employees to see both the process and cost (including profitability figures),工程と原価（採算数字含）の両方を見れる社員が少ない
+1452,24,1,HD,1,Skills to rely on.,スキルだより
+1453,24,1,CM,2,Lack of planning.,計画性の無さ
+1454,24,1,BP,4,I can't see any progress.,進捗が見えない
+1455,24,1,HD,2,They tend to avoid taking responsibility.,責任を負う事を避ける傾向が有る
+1456,24,1,HD,2,poor execution,実行力不足
+1457,24,1,HD,5,shortage of personnel,人材不足
+1458,24,1,BP,1,Female staff are isolated.,女性スタッフが孤立している
+1459,24,1,CM,3,We don't have any younger employees.,若手社員がいない
+1460,24,1,CM,4,"Administration has a low rating, compared to other departments.",管理部門は評価が低い、他部門と比べ
+1461,24,1,BP,2,Lack of communication.,コミュニケーションが不足
+1462,24,1,BP,2,"Uncooperative, low.",協調性がない、低い
+1463,24,1,BP,3,Failure to implement defect information and countermeasure instructions in a timely manner,不具合情報と対策指示をタイムりーに実施できていない
+1464,24,1,HD,1,You don't know that.,知らないで済ましてしまう
+1465,24,2,HD,4,Create a manual that gives the same results no matter who does it (human resource development and skill development),誰がやっても結果が同じになるマニュアルを作る（人材開発及びスキルアップ）
+1466,24,2,HD,1,Drinking and communication skills are improved through communication.,飲みニケーションで、コミュニケーション力をUP
+1467,24,2,BP,4,Create a manual that has the same results no matter who does it (project management).,誰がやっても結果が同じになるマニュアルを作る（PJ運営）
+1468,24,2,CM,5,Manage the entire project in one place,プロジェクト全体を一括管理する
+1469,24,2,CM,5,Convenient production schedule,都合の良い生産スケジュール
+1470,24,2,CM,4,There are project management templates. All projects are managed in the same way.,プロジェクト管理のテンプレートが有る。全ての案件を同様に運用。
+1471,24,2,IT,4,Reduce human operational processes and increase rulemaking and automation,属人的運用処理を減らしルール化、自動化を増やす
+1472,24,2,BP,3,Visualizing the progress of the process,工程の進捗状況の見える化
+1473,24,2,BP,4,Increasing the credibility and visibility of the plan,計画の信頼性を上げ、見える化を実施
+1474,24,2,HD,1,Positive actions and decisions,積極的な行動と判断
+1475,24,2,HD,2,Securing top talent,優秀な人材の確保
+1476,24,2,BP,3,We know the cost of the product at the time of drawing and concept design phase.,図面を書いた時点、構想段階で製品コストが分かる
+1477,24,2,CM,4,Standardization of products with variations.,バリエーションがある製品の標準化
+1478,24,2,HD,4,Create a manual that will have the same results no matter who does it (design and manufacturing outsourcing).,誰がやっても結果が同じとなるマニュアルを作る（設計、製造アウトソーシング）
+1479,24,2,CM,5,Product aggregation through platform design,プラットフォーム設計による製品の集約
+1480,24,2,BP,4,Subdivision and specialization of operations (division of labor),業務の細分化、専任化（分業体制）
+1481,24,2,CM,5,To make it a semi-ordered product order for internal customers (but an order for external customers),社内に向けてはセミオーダーの商品受注となるようにする（社外に向けてはオーダー）
+1482,24,2,CM,5,Effective use of outsourcing,アウトソーシングの有効利用
+1483,24,2,IT,3,It can build things without drawings.,図面を書かなくても無くても物が作れる
+1484,24,2,CM,5,Move to standardization and platform design (drive),標準化、プラットフォーム設計へ移行する（推進する）
+1485,24,2,HD,5,Building a pyramid structure for human resources and skills,人材、スキルのピラミッド構造の構築
+1486,25,1,HD,3,Lack of communication with users,ユーザーとのコミュニケーション不足
+1487,25,1,BP,3,Development of differentiated products,差別化のある製品開発
+1488,25,1,CM,3,Lack of ideas for new products and market development,新商品・新市場展開のアイデア不足
+1489,25,1,CM,4,Low growth in contract rates.,契約率の伸びが低い
+1490,25,1,BP,4,Difficulty in sharing policies with sales,営業との方針の共有難
+1491,25,1,BP,3,cost reduction,コストダウン
+1492,25,1,HD,4,"Product development in Japan, human resource development, business theme proposals",自部門商品の日本展開、人材育成、業務テーマ提案
+1493,25,1,IT,4,Lack of information on the status of bases,拠点状況情報不足
+1494,25,1,IT,2,"Too few people familiar with the new information technology, too few electrical employees!",新情報技術に詳しい人が少な過ぎる、電気系の社員が少ない！
+1495,25,1,BP,3,Reduced awareness of production quality,生産品質に対する認識の低下
+1496,25,1,HD,3,Decreased roles in grades and positions,等級、役職の役割が低下
+1497,25,1,BP,4,Cooperation in the workplace,職場での連携
+1498,25,1,CM,3,A large number of products,製品数が多い
+1499,25,1,BP,3,Optimization of development steps,開発ステップの適正化
+1500,25,1,BP,3,"Operations, countermeasures and accident reports abound.",作戦、対策、事故報告が多い
+1501,25,1,HD,2,Young engineers cannot be trained.,若手技術者が育てられない
+1502,25,1,HD,1,Motivating young people,若手の動機づけ
+1503,25,1,BP,3,quality,品質
+1504,25,1,HD,3,man of talent,人材
+1505,25,1,CM,4,We're falling behind more and more often because we're not doing the research to stay ahead of the world's progress.,世の進歩を先んじる為の研究行為がなされていないので、遅れを取る事が多くなってきた
+1506,25,1,BP,3,Increase in material and processing costs,材料費、加工費の上昇
+1507,25,1,HD,3,Cultivating the quality of engineers,技術者の質の育成
+1508,25,1,HD,3,human resources development,人材育成
+1509,25,1,HD,3,Shortage of personnel and human resources,人員・人材不足
+1510,25,1,CM,4,Low growth in divisional proposals,事業部の提案の伸びが低い
+1511,25,1,CM,4,Many complaints about new products and tired engineers,新規商品のクレーム多数、技術者の疲弊
+1512,25,1,CM,4,Struggling to find a way to increase revenue through after-sales service,アフターサービスで収益の上がる手法に苦慮
+1513,25,1,BP,1,lack of technology,技術不足
+1514,25,1,HD,2,"If you don't value your dignity as a boss and try to develop your subordinates, they will go out of business or they will quit.",上司として品格を重視し、部下を伸ばす様にしないと、つぶれたり、辞めたりしている
+1515,25,1,CM,5,"Competition, increased competition",競争、競合の激化
+1516,25,1,CM,4,Short- and medium-term quality issues,短中期的な品質課題
+1517,25,2,BP,3,Further input from maintenance sales.,さらにメンテナンス営業の意見を聴く
+1518,25,2,CM,5,Clarification of policy and vision,方針やビジョンの明確化
+1519,25,2,BP,3,Participate in the sales and marketing of conceptual design,構想設計時のメンテ営業参画
+1520,25,2,BP,3,Design Priority Disclosure,設計優先の公開
+1521,25,2,CM,3,Increase the verification period and number of partners' machines,パートナーの機械の検証期間、台数を増やす
+1522,25,2,HD,3,Strengthening Communication,コミュニケーション強化
+1523,25,2,IT,3,Screening of information,情報の選別
+1524,25,2,IT,4,Information sharing and communication between organizations,組織間での情報共有とコミュニケーション
+1525,25,2,HD,2,Rotating personnel to increase the experience.,人材のローテーションで体験を増やす。
+1526,25,2,HD,1,"Look deep at the user's destination, think, and build methods.",ユーザ先で奥を見る、考える、手法の構築
+1527,25,2,HD,2,Review of employee training,社員教育の見直し
+1528,25,2,CM,5,"Review the business organization, especially of engineers.",事業組織の見直し、特に技術者の。
+1529,25,2,BP,3,Delegate or let go of important tasks!,重要な業務を任せる、手放す！
+1530,25,2,CM,4,Visualization of the overall flow,全体の流れの見える化
+1531,25,2,BP,3,Enhance discussions when setting quality targets,品質目標設定時の協議充実
+1532,25,2,BP,3,Effective DR,効果のあるDR
+1533,25,2,HD,3,Significantly increase staffing and make room for more,人員を大幅に増やし、余裕を作る
+1534,25,2,HD,3,human resources development,人材育成
+1535,25,2,BP,4,Selection and Focus,選択と集中
+1536,25,2,HD,3,Communication between subordinates and supervisors,部下と上司のコミュニケーション
+1537,25,2,CM,4,Creation of a research activity department that will be recognized if it is utilized in 30% of all products.,全体の３割の商品に活かされれば認められる研究活動部署の創出
+1538,25,2,HD,3,Reviewing the process of training new employees,新人育成のプロセス見直し
+1539,25,2,CM,5,"The role of the research sector, especially after 10 years.",研究部門の役割、特に１０年後の。
+1540,25,2,HD,2,Optimism,楽天的な考え
+1541,25,2,IT,3,Improving the information collection system,情報収集の仕組み改善
+1542,25,2,HD,2,Trust and nurture them.,信じて任せて育てる
+1543,25,2,HD,3,Truly useful training and development methods,本当に役立つ研修と人材育成手法
+1544,25,2,CM,3,Increase responsibility and motivation for manufacturing companies.,製造会社の責任やモチベーションを上げる
+1545,25,2,HD,4,Interaction and absorption with other industries,異業種との交流と吸収
+1546,25,2,HD,4,A Long-Term Perspective on Human Resource Development,人材育成の長期視点
+1547,25,2,BP,4,Clarifying the division of roles between organizations,組織間での役割分担の明確化
+1548,25,2,HD,3,We want to create an atmosphere in which engineers can feel at ease and promote management that takes this into account.,技術者の心のゆとりが出来る雰囲気作り、それを大事に考えるマネジメントを推進したい
+1549,25,2,BP,3,Strengthen the department dedicated to cost control.,コスト管理の専門部署強化
+1550,26,1,HD,3,I don't have the time to grow human resources.,人材を育てる時間的余裕がない
+1551,26,1,BP,4,Information linkage between departments.,部署間の情報連携
+1552,26,1,IT,4,Sharing information globally.,グローバルで情報共有行うこと
+1553,26,1,BP,3,"Since the department is independent, there is no place for regular meetings and information sharing, so I do not know what they are doing.",部署が独立しており、定期的なミーティング、情報共有の場がないため、何をしているのかわからない
+1554,26,1,BP,2,Cooperation,協力
+1555,26,1,IT,1,"Necessary input data is the same every time, but the location is different for each project. I have to ask the person in charge.",必要なINPUTデータは毎度同じなのにプロジェクト毎に置場が異なる。担当者に聞くしかない。
+1556,26,1,IT,3,I can't identify at a glance where to find the format I want to use.,利用したい書式がどこにあるか一目で分からない
+1557,26,1,BP,3,Lack of cooperation between departments.,部門間の連携不足
+1558,26,1,BP,1,Overtime decreases as work increases; Lack of consideration.,仕事量は増えるのに残業時間が減る→検討不足
+1559,26,1,IT,2,"Standard document is registered, but it is difficult to use; Hard to find.",標準書登録しているが使いにくい。探しにくい。
+1560,26,1,BP,2,I don't know what people are doing now.,人が今何をやっているのか分からない
+1561,26,1,IT,3,Lack of data utilization.,データ活用ができていない
+1562,26,1,BP,3,Rework and redo.,手戻りとやり直し
+1563,26,1,CM,3,Clarification of required costs.,必要コストの明確化
+1564,26,1,IT,4,Information management is not centralized.,情報の管理が一元化されていない
+1565,26,1,BP,2,How to work efficiently?,効率の良い作業をするには？
+1566,26,1,BP,3,Lack of communication in the workplace.,職場内コミュニケーション不足
+1567,26,1,IT,1,"It's not data driven, but it's a way of working based on experience.",データドリブンでなく、経験をもとにした仕事の進め方になっている
+1568,26,1,HD,1,Many personalized tasks.,属人化された業務が多い
+1569,26,1,BP,3,Uncoordinated.,まとまりがない
+1570,26,1,CM,4,Produce results., 成果を出す
+1571,26,1,HD,3,Education system.,教育システム
+1572,26,1,HD,3,retirement.,退職
+1573,26,1,CM,4,Unified direction on a global level.,グローバルレベルでの方向の統一
+1574,26,1,IT,3,Few documents.,資料が少ない
+1575,26,1,CM,5,Maintain security.,セキュリティーの維持
+1576,26,1,HD,2,Personification of work.,作業の属人化
+1577,26,1,CM,3,"Overall motivation for improvement is high, but the vectors do not match.",総じて改善意欲は高いがベクトルが合っていない
+1578,26,1,HD,3,communication. ,コミュニケーション
+1579,26,1,BP,3,Coordination between organizations is difficult and tends to be individual optimization.,組織間の連携が取り辛く、個別最適化になりがち
+1580,26,1,CM,5,"People are being pulled out of the workplace, even though there are no more people.",人は増えないのに、人が職場から抜かれていく
+1581,26,1,HD,3,Business knowledge is specialized and cannot be seen from a bird's-eye view.,業務知識が専門化しており俯瞰的に見れていない
+1582,26,1,IT,5,IT literacy is not high company-wide.,ITリテラシーが全社的に高くない
+1583,26,1,HD,4,Education and work are not standardized.,教育・作業が標準化されていない
+1584,26,1,CM,5,Not sharing goals.,目標の共有ができていない
+1585,26,1,HD,5,Can we continue to hire excellent human resources?,優秀な人財を継続して採用していけるのか
+1586,26,1,HD,2,Education for young people.,若手の教育
+1587,26,1,CM,3,Action on President's Comments.,社長のコメントに対する実行
+1588,26,1,HD,3,Insufficient time to raise young employees; The future of the company.,若手社員を育てる時間が十分に取れない→会社の将来
+1589,26,1,HD,3,Specific goals regarding young employee education are not clear.,若手社員の教育に関して具体的な目標がはっきりしていない
+1590,26,2,BP,3,Share progress.,進捗共有
+1591,26,2,IT,4,Adopting an interface that is easy for people to handle (Cyber ​​vs. reality),人が扱いやすいインターフェースの採用（サイバ⇔現実）
+1592,26,2,IT,3,Create time and place for information sharing between departments.,部署間で情報共有の時間と場をつくる
+1593,26,2,IT,4,Efficiency improvement using IT for business work.,業務作業のITを使った効率化
+1594,26,2,IT,5,Improve business efficiency with consistent data.,一気通貫したデータによる業務効率向上
+1595,26,2,IT,5,Streamline information sharing; so I can find the information I need quickly.,情報共有を効率化（必要な情報をすぐに見つけられるように）
+1596,26,2,IT,5,Information sharing. ,情報共有
+1597,26,2,IT,5,Information sharing. ,情報共有
+1598,26,2,CM,4,Visualize how the results of daily operations are affecting management.,日々の業務の結果が経営にどう影響しているか見える化する
+1599,26,2,BP,3,Enhance collaboration between business processes.,業務プロセスの連携の強化
+1600,26,2,IT,3,Visualization of work contents and manualization.,業務内容の見える化マニュアル化
+1601,26,2,IT,5,Realizes high-speed data communication.,高速データ通信を実現
+1602,26,2,CM,4,Launch a dedicated problem solving team.,課題解決専任チームを作る
+1603,26,2,BP,3,Periodically provide opportunities for cross-functional cooperation between employees at the responsible level.,担当レベルの社員同士で業務横断的に連携する場を定期的にもつ
+1604,26,2,IT,4,"Linkage of information, such as design - process, design - cost.",情報の連携、設計→工程、設計→原価
+1605,26,2,BP,5,Standardization.,標準化
+1606,26,2,IT,3,Elimination of personnel work and data conversion.,属人作業の撤廃とデータ化
+1607,26,2,IT,5,Unification of in-house systems.,社内システムの統一
+1608,26,2,IT,4,Resources; unified management of information.,資源（情報の一元管理）
+1609,26,2,IT,4,Creating an information sharing system.,情報共有システムの作成
+1610,26,2,CM,5,Clarification of goal.,目標の明確化
+1611,26,2,CM,3,Visualization of costs.,コスト見える化
+1612,26,2,IT,2,Creating a mechanism that allows people on site to use digital data.,現場の人がデジタルデータを使える仕組み作り
+1613,26,2,IT,4,"Centralize data using CPS, BOM, and POM.",CPS、BOM、POMを活用したデータ一元化
+1614,26,2,HD,3,Human resource development to achieve goals.,目標を達成するための人材開発
+1615,26,2,HD,1,Individual skill up.,個々のスキルアップ
+1616,26,2,BP,2,Elimination of unnecessary man-hours.,不要工数の削除
+1617,26,2,HD,3,Education with clear objectives and goals.,教育目的と目標を明確にした教育
+1618,26,2,CM,4,Regular implementation of subcommittee meetings.,分科会の定例実施
+1619,26,2,CM,3,"Introduce a system that enables everyone to be positive; such as  problem sharing, and collaboration activities.",皆が前向きになれる仕組みを導入する（問題共有、コラボ活動）
+1620,26,2,CM,5,Optional job rotation.,ジョブローテーションの任意化
+1621,26,2,IT,4,Regular information sharing between departments.,部署間での定期的な情報共有
+1622,26,2,CM,4,Secure resources.,リソースの確保
+1623,26,2,CM,5,Establish design before development.,開発前に設計を確立する
+1624,26,2,HD,4,Preparation of educational materials; elimination of personalization.,教育資料の整備（属人化解消）
+1625,26,2,BP,4,Inter-departmental cooperation.,部門間の協力
+1626,26,2,HD,3,Retain and inherit technical data.,技術資料を残し、継承する
+1627,26,2,HD,3,Create opportunities for communication.,コミュニケーションを与える機会をつくる
+1628,26,2,IT,5,"Safe data usage, such as dataless PC.",安全なデータ利用（データレスPC）
+1629,26,2,BP,4,Full participation.,全員参加
+1630,26,2,CM,4,Sharing and standardizing goals and procedures.,目標や手順の共有/標準化
+1631,26,2,HD,5,Human resource development.,人材育成
+1632,26,2,HD,4,Standardization of educational process.,教育プロセスの標準化
+1633,26,2,HD,3,Create an education system.,教育システムを作成
+1634,26,2,HD,4,Review educational content and clarify goals.,教育内容の見直し、目標の明確化
+1635,27,1,BP,4,Deployment between plants is not progressed.,工場間の横展開が進まない
+1636,27,1,HD,3,Human resource development is slow.,人材育成が進まない
+1637,27,1,CM,4,Productivity and costs are not going according to plan.,生産性やコストが計画通り進まない
+1638,27,1,CM,5,There is a shortage of people to hire.,人の採用が不足している
+1639,27,1,BP,2,There's too much material to scrap.,スクラップする材料が多すぎる
+1640,27,1,CM,4,It doesn't come up with a theme to increase productivity.,生産性を上げるためのテーマが出てこない
+1641,27,1,CM,4,"Natural disasters, earthquakes, typhoons",自然災害、地震、台風
+1642,27,1,CM,4,Lack of themes to improve productivity,生産性を改善するためのテーマが不足している
+1643,27,1,HD,2,"Human resource development, lack of successors",人材育成、後継者不足
+1644,27,1,BP,5,Failure to provide best-selling products in a timely manner,売れ筋商品がタイムリーに提供できていない
+1645,27,1,CM,5,Low revenue.,収益が低い
+1646,27,1,BP,1,Redo work is not eradicated.,やり直し業務が撲滅できていない
+1647,27,1,CM,5,Low profit margin.,利益率が低い
+1648,27,1,HD,2,Human resource development is slow.,人材育成が進まない
+1649,27,1,CM,4,Plant costs do not go down.,工場コストが下がらない
+1650,27,1,CM,5,The company is not well managed and turnover is high.,会社のマネジメントが良くなく、離職が高くなっている
+1651,27,1,CM,5,They're being conservative about investing in the future because their returns are low.,収益が低いので将来に対する投資に保守的になっている
+1652,27,1,CM,1,"Workers in the field are working hard, but the company is performing poorly",現場の作業員は一生懸命働いているが、会社の業績が悪い
+1653,27,1,HD,2,education system,教育システム
+1654,27,1,CM,4,Unification of facilities,設備の統一
+1655,27,1,CM,4,cost structure,コスト体質
+1656,27,1,CM,4,The cost of production is not going down.,製造原価が下がっていない
+1657,27,1,CM,3,The factory's productivity doesn't get better.,工場の生産性が良くならない
+1658,27,1,CM,4,Production at overseas factories is low.,海外工場の生産量が低い
+1659,27,1,CM,3,The role of the facilities department is seen as low across the board,設備部門の役割が全社的に低くみられている
+1660,27,1,CM,5,Equipment specifications are not uniform.,設備仕様が統一していない
+1661,27,1,HD,2,Younger staff members leave the company.,若手スタッフが退職する
+1662,27,2,CM,4,Develop a cost strategy.,コスト戦略を立案する
+1663,27,2,BP,3,"Streamline people, goods, money and time.",人、物、金、時間を効率化する
+1664,27,2,BP,2,"Improving the ability to improve (discovery, resolution, and continuity)",改善力の向上（発掘力、解決力、継続力）
+1665,27,2,IT,2,RPA of indirect personnel routine work,間接人員のルーティーンワークのRPA化する
+1666,27,2,IT,2,Automation and robotization of field operations,現場作業の自動化とロボット化
+1667,27,2,CM,4,Recruitment and development of people and measures to keep them from leaving,人の採用と育成と離職させない対策
+1668,27,2,CM,3,Establish a project team to solve problems and promote activities,課題解決のプロジェクトチームを発足し、活動を推進する
+1669,27,2,IT,2,"Visualization of production site activities (data, systems, time)",生産現場活動の見える化（データ、システム、時間）
+1670,27,2,CM,3,"Development of human resources capable of driving projects (statistics, management)",プロジェクトを推進できる人材の育成（統計、マネジメント）
+1671,27,2,BP,1,Streamline analysis operations,解析業務を効率化
+1672,27,2,BP,2,Passing on technical know-how at an early stage,技術ノウハウを早期に伝承する
+1673,27,2,BP,4,Predictive maintenance of equipment,設備の予知保全
+1674,27,2,HD,3,Promote an exchange program with engineers from overseas factories.,海外工場のエンジニアとの交換制度を進める
+1675,27,2,IT,2,Make strong progress in monitoring facilities,設備のモニタリングを強力に進める
+1676,27,2,IT,3,Develop highly efficient manufacturing systems that are not available from other companies.,他社にない高効率な製造システムを開発する
+1677,27,2,BP,4,Departments work together to develop new manufacturing methods,部門間が連携して、新しい製造方法を開発する
+1678,27,2,BP,4,Realization of product manufacturing technology with high quality that is unmatched by other companies,他社に負けない高い品質を持つ製品製造技術の実現
+1679,27,2,HD,3,human resource development,人材育成
+1680,27,2,CM,4,Speeding up the deployment of technology and unifying facilities.,技術の展開のスピードアップ、設備を統一。
+1681,27,2,HD,4,"Human resource development, systematic recruitment and development",人材育成、計画的な採用と育成
+1682,27,2,BP,2,Plant improvements,工場の改善
+1683,27,2,IT,4,Create a system that allows to view the production status of all plants in real time,全工場の生産状況をリアルタイムに見れるシステムを作る
+1684,27,2,IT,5,Real-time view of the cost performance of all plants.,全工場のコスト実績をリアルタイムで見れる様にする
+1685,27,2,IT,4,To be able to see the correct production capacity of all plants.,全工場の正しい生産能力を見れる様にする
+1686,27,2,IT,1,Reduce the workload through IT systems,IT化などによって、業務の負荷を下げる
+1687,27,2,IT,4,Early realization of the future of IoT,IoTの将来像を早期に実現
+1688,27,2,CM,4,Recruiting to get people interested in factory work,工場の仕事に興味を持ってもらう採用活動
+1689,28,1,BP,2,There is a lot of auxiliary design work to be done and no time for design.,設計付帯業務が多く、設計に時間をかけられない
+1690,28,1,BP,2,All sorts of data are randomly created and left unattended.,種々のデータが無造作に作られ放置される
+1691,28,1,BP,3,Insufficient production space to handle the workload (shipping is not possible),生産スペースが足りず仕事量がこなせない（出荷ができない）
+1692,28,1,BP,3,Lack of lateral cooperation between departments,部門間の横連携が弱い
+1693,28,1,CM,5,We don't have the right equipment (plant area and production facilities) to meet the volume of orders,受注量に合った設備（工場エリア、生産設備）がない
+1694,28,1,HD,3,"Different business development groups in the same department, but with a low sense of unity",異なる事業の開発グループが同じ部署だが一体感が低い
+1695,28,1,HD,2,"Poor reporting, communication and consultation, and a lack of willingness to communicate to the end",報告、連絡、相談が悪く、意思が末端まで伝わらない
+1696,28,1,CM,4,Unable to quantitatively evaluate product quality,製品品質の定量的な評価ができない
+1697,28,1,HD,1,Inability to cope with the customer's technology level (skill level),顧客の技術レベルに対応できない（スキルレベル）
+1698,28,1,HD,2,Order loads and workmanship are not matched,受注量負荷と技量がともなわない
+1699,28,1,BP,3,Wasteful work occurs and accidents and disasters occur.,無駄な作業が発生し事故や災害が起こる
+1700,28,1,HD,2,Low technology and lack of coverage,技術力が低く、対応範囲が広がらない
+1701,28,1,CM,3,There are no rules for work (no uniformity),業務に対してのルールがない (統一されていない)
+1702,28,1,BP,2,"Handling and response to defects, many of which are defects.",不具合の処理と対応、不具合が多い
+1703,28,1,BP,3,"We can't keep up with the rapid increase in production, including quality.",急激な生産量に品質含めて対応出来てない
+1704,28,1,HD,1,Lack of skilled workers stalls field operations,熟練工が不足しているので現場の業務が滞る
+1705,28,1,BP,4,"Work, documentation and product specifications are not standardized or rule-based",作業・資料や製品仕様の標準化・ルール化がなされていない
+1706,28,1,BP,3,Problems with deadlines and changes in delivery dates when making arrangements,手配の際の納期と納期変更に問題
+1707,28,1,IT,1,"We are doing low-tech work, such as transcribing by hand from paper to data.",紙からデータに人の手で書き写す等、ローテクな仕事をしている
+1708,28,1,CM,2,We're short-handed and can't get the job.,人手不足で仕事が取れない
+1709,28,1,HD,4,Not enough young people to sustain the organization.,若手が少ないので組織が維持できない
+1710,28,1,HD,1,Can't keep up with customer demands (market changes),顧客の要望(市場の変化)についていけない
+1711,28,1,BP,3,Progress in the field is controlled by daily reports and is not quantified.,現場での進捗が日報で管理されており、数値化できていない
+1712,28,1,HD,4,Not enough resources.,リソースが足りない
+1713,28,1,BP,4,can't see the cost.,コストが見えない
+1714,28,1,BP,3,delivery time is tight,納期が厳しい
+1715,28,1,BP,4,We don't see any production progress.,生産進捗が見えない
+1716,28,1,BP,3,Production costs are hard to see.,生産コストが見えにくい
+1717,28,1,IT,2,Unevenness in the content and information entered into the arrangement data.,手配データの入力内容、入力情報のムラ
+1718,28,1,IT,3,Inability to monitor cost performance and work progress,費用実績と作業進捗のモニタリングができない
+1719,28,1,CM,4,"Inability to manage overall production and load, and continued to respond on an ad hoc basis",全体の生産・負荷の管理ができず、その場しのぎの対応が続く
+1720,28,2,IT,3,"Data Aggregation, Information Management","データ集約, 情報管理"
+1721,28,2,IT,2,"Input and output data from work processes can be reused, eliminating waste and ensuring traceability",作業工程にかかわる入力・出力データを再利用可能にし、ムダをなくしてトレーサビリティを確保
+1722,28,2,IT,4,Creation of a common overall process (information sharing),共通の全体工程の作成（情報共有）
+1723,28,2,IT,3,Accumulate and share knowledge,ナレッジの_x000B_蓄積と共有
+1724,28,2,IT,4,Collective management of all information,全情報の_x000B_集合管理
+1725,28,2,IT,4,Asset Data and Sharing,資産のデータ化と共有
+1726,28,2,IT,4,Information sharing and centralized management,情報の共有、一元管理
+1727,28,2,HD,2,Training (increase) of on-site (local) personnel,現場（現地）人員の育成（増員）
+1728,28,2,IT,4,Establishment of a system and structure for sharing information,情報共有できる仕組・体制の構築
+1729,28,2,BP,4,Establishment of rules and evaluation criteria,"ルールの設定, 評価基準の策定"
+1730,28,2,BP,4,Clarify the evaluation rules for product and part quality,製品品質・部品品質の_x000B_評価ルールを明確にする
+1731,28,2,BP,3,Accurate feedback of field information,現場情報の正確なフィードバック
+1732,28,2,IT,3,Unification of drawing entries (data consolidation),図面記入内容の統一(データの集約)
+1733,28,2,BP,4,Improvement and production efficiency,改善と生産効率の向上
+1734,28,2,IT,4,You can create a quantitative standard (DATA) and measure it easily.,定量の基準(DATA)を作り、簡単に計測ができる
+1735,28,2,BP,4,Creating a standardized manual,標準化された_x000B_マニュアルの作成
+1736,28,2,BP,4,Agreeing on and documenting business rules,業務ルールの取り決め、及びドキュメント化
+1737,28,2,BP,4,Standardization and modularization of specifications,"仕様の標準化,Core化・Module化"
+1738,28,2,IT,5,Standardization and documentation of work on new products,新製品に対する作業の標準化・ドキュメント化
+1739,28,2,CM,5,Standardization of core parts,コア部分の標準化
+1740,28,2,BP,4,Standardization and automation of low value-added operations,付加価値の低い業務を_x000B_定型化・自動化
+1741,28,2,BP,4,Validation for standardization in product development,製品開発での標準化のための検証
+1742,28,2,HD,5,Organizational Pyramid Formation (Human Resource Development),組織のピラミッド形成（人材育成）
+1743,28,2,BP,4,Establishment of measures to increase production capacity,生産能力向上の手段確立
+1744,28,2,BP,3,Visualization of project progress (sales -> production),プロジェクト進捗の見える化（販売→ 生産）
+1745,28,2,BP,4,Visualization of production costs and progress,生産コストと進捗の見える化
+1746,28,2,BP,4,Manage the schedule and results of the work process from planning to delivery numerically.,計画ー引き渡しまでの作業工程について予定と実績を数値管理する
+1747,28,2,CM,5,New business products are used as products of the division,新規事業製品を事業部の製品として使用する
+1748,28,2,BP,4,Visibility of production management,生産管理の見える化
+1749,28,2,CM,5,Enhanced marketing,マーケティングの強化
+1750,28,2,CM,5,Develop customers in the market.,市場の顧客を開拓する
+1751,28,2,CM,5,Change the new business to another division that is more appropriate for the market.,新事業を市場に見合った他事業部に変更
+1752,29,1,CM,2,"The lack of a marketing department has resulted in a poor product development strategy, with requests from specific customers being the main source of information.",マーケティング部門がないため、製品開発戦略が貧弱で、特定顧客からの要望が主たる情報源となっている。
+1753,29,1,BP,1,There is no place to do process design for the outside. There is no process drawings.,外部のための工程設計をやるところが無い。工程図がない。
+1754,29,1,BP,4,"This is an industry where capital investment is important, but because of the fast turnover, problems can come to light later.",設備投資が重要な業界だが、回転が速いため、後から問題が顕在化する
+1755,29,1,BP,4,Prolonged problems with business partners.,取引先との問題が長期化する。
+1756,29,1,BP,3,"Staffing is not optimized, resulting in a concentration of people on the job.",人員配置が最適化されておらず、業務が集中する人が発生する。
+1757,29,1,CM,5,Medium- and long-term plans,中長期的な計画
+1758,29,1,CM,4,"There are many parallel cases and no priorities, resulting in an overall delay.",並行する案件が多く、優先順位もないため、総合的に遅れが生じる。
+1759,29,1,CM,3,"When we start a new development project, we estimate the schedule and development cost, but we don't have a culture of estimating man-hours, so we can't compare it with existing projects.",新規開発案件を始める際に、スケジュール、開発費の見積をするが、工数を見積もる文化がなく、既設プロジェクトとの優劣がつけられない。
+1760,29,1,CM,3,"We are not able to prioritize, select, and focus on projects.",優先順位決め、取捨選択、注力案件等をつけることができていない。
+1761,29,1,BP,1,"Because each person makes a convenient decision, things don't move in the direction of finding their downfall. As a result, it is not completed.",各人が都合の良い判断をするため、落としどころを見つける方向に物事が進んでいかない。結果的に完了しない。
+1762,29,1,CM,5,"As a company, our priorities for projects change from time to time, and each one is given top priority.",会社として案件の優先順位がその都度変わり、どれもが最優先となる。
+1763,29,1,CM,3,"The business is not progressing as it should be, and in the end the wrinkle comes.",本来のあるべき姿で業務が進まず、最後にしわ寄せが来る。
+1764,29,1,BP,3,"If the business process is carried out without us being able to see it, important parts are overlooked, and as a result, problems become apparent after publication.",業務プロセスが、我々の見えないところで進めれれ、重要な部分が見落とされ、その結果　上梓後に問題が顕在化する
+1765,29,1,BP,2,How to prioritize,優先順位のつけかた
+1766,29,1,BP,1,Speed of work,仕事のスピード
+1767,29,1,BP,1,Dealing with urgent business matters,急な業務の対処
+1768,29,1,BP,1,"Everyone thinks of their own work first and foremost, so they don't think about the situation in other departments.",みんな自分の仕事を最優先で考えるため、他の部門の状況等を考えない。
+1769,29,1,BP,3,"There is poor coordination between departments. Because we are a vertically divided company, it takes a long time to develop information. Also, it filters.",部門同士の連携が悪い。縦割り会社のため、情報を展開するのに時間がかかる。また、フィルターもかかる。
+1770,29,1,BP,3,Our own departments are picking up what someone else has to do because there is a wall of work between departments,部門間で業務に壁を作るため、誰かがやらなくてはならないことを自分たちの部門が拾っている
+1771,29,1,BP,4,"There is no one to judge the overall optimum and they are thinking of individual optimum solutions. As a result, we will miss something.",全体最適を判断する人がおらず、個別最適の解法を考えている。結果的に何かを見落としてします。
+1772,29,1,BP,1,"If I send progress via email, they won't recognize me unless I tell them in person.",メールで進捗を送っても、直接言わないと認識してくれない
+1773,29,1,BP,2,"There are so many meetings that even if everyone got together, they do not try to solve the problem in the end. It just ends up raising the issue.",打合せが多く、みんなが集まっても結局解決しない。問題提起するだけで終わる。
+1774,29,1,IT,3,"If we're going to do something, we have to start by gathering people and gathering information. Process, documentation, and tooling are essential.",何かをするにあたり、人を集めて情報収集から始めないとならない。プロセス、ドキュメンテーション、ツール化が必須。
+1775,29,1,IT,4,It takes a lot of man-hours to copy and stamp the drawings and other documents to the destination when they are issued because they are mainly managed by paper.,紙での管理が主の為、図面等出図する際の配布先分のコピーや押印にかなり工数がかかる
+1776,29,1,IT,4,CAD system versions vary and multiple CAD data are incompatible.,CADシステムのバージョンがバラバラで、しかも複数のCADデータの互換性がとれない。
+1777,29,1,IT,3,Information sharing among departments is not possible. I am asked the same questions over and over again.,部内間での情報共有ができていない。同じことを何度も聞かれる。
+1778,29,1,IT,1,Learning and updating the latest technical information,最新の技術情報の更新、学習
+1779,29,1,HD,1,"Since most of the designers have been with the company for about four years, they have no accumulated engineering knowledge.",設計者のほとんどが勤続４年程度のため、エンジニアリング知識の蓄積が無い。
+1780,29,1,HD,1,Lack of design capability for manufacturing facilities.,製造設備に関する設計能力の不足。
+1781,29,1,HD,3,"There is a lack of standardization of operations and knowledge, leaving it up to the person in charge.",業務や知識の標準化が進んでおらず、担当者任せになっている。
+1782,29,1,BP,1,Mistakes are made when making equipment because of the use of old drawings.,古い図面を使ってしまい、設備を作るときにミスが発生する。
+1783,29,1,BP,2,"Some products have not been sufficiently verified in the past, and if they are verified again, they may not meet the standards.",過去に検証が十分されていない製品があり、改めて検証をすると規格を満たさないことがある。
+1784,29,1,BP,3,It takes a long time for newcomers to be able to do their jobs because the operational procedures for quality control are vague and have not been established.,品質管理に関する業務手順があいまいで確立されていないため、新しく入った人が業務をこなせるようになるのに時間がかかる。
+1785,29,1,BP,4,"quality control is not well established, and the same audit points are repeated.",医療機器メーカとして重要な品質管理の定着が浅く、同じ監査指摘を繰り返す。
+1786,29,1,BP,3,"There is a lot of rework on quality issues, which is increasing costs.",品質問題について手戻りが多くコスト増になっている
+1787,29,1,BP,1,"There is a lot of interruption work, so I don't have time to think about it.",飛び込みの業務が多く集中して、考える時間が取れない。
+1788,29,1,BP,1,There is no time to look back on the past for issues.,課題について過去を振り返る余裕がない。
+1789,29,1,BP,1,There are too many cases and not enough manpower.,案件が多すぎて、マンパワー不足している。
+1790,29,1,BP,1,"I don't have the time to think about developing my company. However, I'm in a state where I'm just doing my day-to-day work.",会社を発展させるための考える時間が取れず、ただ、日々の仕事だけやっている状態である。
+1791,29,1,BP,2,There's not enough time for work.,業務に対して時間が足りない
+1792,29,1,HD,3,"The capacity of the business is dependent on the individual, and the work is not averaged in any department, resulting in a large number of tasks being performed by a particular person.",業務の能力が個人に依存しており、どの部門でも業務の平均化がされず、特定の人が多数の業務を抱えてしまう。
+1793,29,1,HD,5,"Many people leave the company, so skills are not accumulated.",離職する人がおおいため、技術が蓄積しない。
+1794,29,1,HD,4,"There is no generation in their late 30s and 40s, so there is a lack of manpower.",３０代後半から４０代の世代がおらず、マンパワーが不足している。
+1795,29,1,CM,2,I would like all employees to be motivated by the importance of delivering our products to our customers.,製品を顧客に届けることの重要さを、全職員にモチベーションとしてもっていただきたい。
+1796,29,1,HD,2,"The workload is high, but there are not enough resources to match it. The skills are mixed and the work is subordinate.",業務量が多いが、それに見合ったリソースが足りていない。スキルもまちまちで業務が属人的になっている。
+1797,29,1,HD,1,The education system is not in place and there is a lack of skills as a business person.,教育制度が整っておらず、ビジネスパーソンとしてのスキルが不足している。
+1798,29,1,HD,2,There are many people with a sense of indifference to the problem.,問題に無関心という意識の人が多い。
+1799,29,2,CM,4,Visualization of the entire project,プロジェクト全体の見える化
+1800,29,2,IT,5,Need tools to enable management to make good decisions,経営者が適切な意思決定ができるツールが必要
+1801,29,2,HD,1,Change yourself before you look to others for change.,変化を他社に求める前に自分自身を変える
+1802,29,2,IT,3,Building a tool to automatically create a development schedule,開発スケジュールの自動作成ツール構築
+1803,29,2,CM,5,Clear priorities should be set by management so that they can be confirmed by everyone from time to time.,明確な優先順位を経営者で決めて、随時皆が確認できるようにする。
+1804,29,2,CM,4,Establishing a system for determining priorities,優先順位を決定する仕組みの構築
+1805,29,2,CM,3,A system that correctly checks each milestone.,マイルストーン単位で正しく確認が入る仕組み
+1806,29,2,IT,4,Make decisions based on data logic,データ・ロジックをベースに意思決定を判断
+1807,29,2,IT,3,Build a tool to automatically create product costs based on parts costs and manufacturing man-hours,部品コストや製造工数などから、製品原価の自動作成ツール構築
+1808,29,2,BP,5,Create an overall schedule across the organization and share it with everyone,組織横断的な全体日程をつくり、みなで共有する
+1809,29,2,BP,5,Process Standardization,プロセスの標準化
+1810,29,2,IT,5,Fundamental reforms to realize visualization. In-house systems.,見える化実現のための抜本的改革。社内システム。
+1811,29,2,CM,4,Putting a key person in each department,各部署にキーマンを配置
+1812,29,2,IT,3,Construction of a database to compare and reference the cost and initial cost of similar parts,類似部品のコストやイニシャル費用を比較参照できるデータベース構築
+1813,29,2,CM,4,Create a person who can lead operations across the organization,組織を横断的に指示できる人を立てる
+1814,29,2,BP,3,Set up a standard quotation,標準見積もりの設定
+1815,29,2,IT,4,Tools for information integration,情報統合のための道具
+1816,29,2,CM,4,Recruitment of medical device as key personnel in the manufacturing department,製造部キーマンに医療機器出身者を採用
+1817,29,2,IT,3,Build a database that shows the yield rate of each product.,各製品の歩留まりが分かるようなデータベース構築
+1818,29,2,IT,3,Use the IT system to release a drawing.,出図をシステムで行う
+1819,29,2,BP,4,Interdepartmental collaboration and decentralization,部門間の連携、分権化
+1820,29,2,IT,3,Monitoring system for manufacturing process and defect information,製造工程、不具合情報の監視システム
+1821,29,2,BP,3,Linking manpower estimates to actual results,工数見積もりと実績との紐づけ
+1822,29,2,IT,2,Build a tool that allows the planning department to make decisions based on overall profit and loss,企画部門が総合損益から判断できるツール構築
+1823,29,2,BP,4,Clarifying the claim process.,苦情処理の清流化
+1824,29,2,CM,4,"Introduction of experts, including medical device and regulatory engineers",医療機器及び法規制のエンジニア含むエキスパート導入
+1825,29,2,HD,3,Nurturing young engineers,若手エンジニアの育成
+1826,29,2,IT,4,Tools and authority decisions that can determine priorities,優先順位を判断できるツールと権限決定
+1827,29,2,HD,4,"Lightening of overall quality control, education",品質管理全体の軽量化、教育
+1828,29,2,IT,2,Awareness-raising tool for each medical device and quality control,各自の医療機器と品質管理に関する意識高揚のツール
+1829,29,2,CM,5,Introduction of an executive retirement system,役職定年制
+1830,29,2,IT,4,Building a database of benchmark results of other companies' products,他社製品のベンチマーク結果のデータベース構築
+1831,29,2,BP,3,Raising awareness of medical device laws and regulations,医療機器の法規制の意識の植え付け
+1832,29,2,BP,3,"Reforms in the proper way of doing business, not just speed.",単にスピード優先ではない、適切な業務の進め方改革
+1833,29,2,CM,3,Motivation as a medical device manufacturer,医療機器製造としてのモチベーション
+1834,29,2,CM,4,Definition of a technology roadmap by the planning department,企画部門による技術ロードマップ構築
+1835,30,1,IT,2,The location of the necessary data for each department is unknown.,各部門の必要データの在り処が不明
+1836,30,1,CM,3,The roles of each department are unclear.,各部門の役割が不明確
+1837,30,1,BP,4,What was decided in the meeting was not decided.,会議で決まったことが決まってない
+1838,30,1,BP,1,A lot of people don't come here to get much information.,情報をあまり取りに来ない人が多い
+1839,30,1,IT,4,Data credibility (new product specifications),データの信ぴょう性（新製品仕様）
+1840,30,1,CM,2,It doesn't know what the real market demands.,本当の市場の要求がわからない
+1841,30,1,IT,4,Poor network environment.,ネットワーク環境が悪い
+1842,30,1,IT,4,Where to share data,データの共有場所
+1843,30,1,CM,3,"The roles, duties and decision-making authority of each department are unclear and cheating.",各部門の役割・業務・決定権が曖昧、ズルズルする
+1844,30,1,BP,3,"It's not clear what MUST and WANT: Everything is ""as much as possible...",MUSTとWANTが明確でない：なんでも「できるだけ・・・」
+1845,30,1,BP,3,It's not clear how the specifications are determined.,仕様の決め方が明確でない
+1846,30,1,HD,2,"It's impossible to make a decision without the actual object, numbers and comparison patterns.",現物や数値・比較パターンがないと判断できない
+1847,30,1,BP,3,No FM on the input side and no checklist on the receiver side either: inconsistent and wasteful/often omitted.,インプット側のFMがない、受け手側もチェックリストがない：一貫性がなく無駄・漏れが多い
+1848,30,1,IT,1,"A lot of verbal and email-based communication, not form-based, so there's a lot of said and unsaid after the fact.",帳票ベースではなく、口頭・メールベースでのやり取りが多いので、後から言った言わないが発生する
+1849,30,1,CM,1,There's an atmosphere where everything has to be on target to be evaluated and praised.,全てが目標通りでないと評価・褒められない雰囲気がある
+1850,30,1,BP,2,"it is not good at quantifying or writing down images and sensations, so it can't be recorded.",イメージや感覚を数値化・文字化することが苦手なので記録として残せない
+1851,30,1,CM,3,"The launch date is set, but it's delayed because the deadline for starting theme development has not been set.",発売の時期が決まっているが、テーマ開発スタートの締め切りが決まっていないので遅れる
+1852,30,1,BP,3,Stagnate when cost targets cannot be met because they are the same for different categories,コスト目標が、カテゴリーが違っても同一のため達成できない場合がおこると停滞する
+1853,30,1,HD,2,A failure to meet quality standards occurs just before mold manufacturing and there is a month or two delay in starting over.,"金型製作の直前になって品質基準を満たさないことが発生し、やり直しに1,2ヶ月遅延する"
+1854,30,1,BP,3,"In some cases, new products are tested using old standards in quality verification tests, and there is no meaning to the original test.",品質確認試験で新しい製品を昔の基準で試験する場合があり本来の試験のいみがない
+1855,30,1,CM,5,"The timing of the development theme plan is delayed year by year, which delays the start of the project, but we don't want to have to wait until the timing of the launch is fixed.",開発テーマの企画がフィックスする時期が年々遅れておりスタートが遅れるが、発売のタイミングは決まっていて困る
+1856,30,1,CM,3,"Sales methods have not been reformed due to sales proposals, and new sales methods are needed but cannot be improved.",販売方法が営業による提案営業でやり方が改革されていない、新しい販売手法が必要だが改善できない
+1857,30,1,HD,1,Training and other policies and plans are unclear and do not progress or grow because of the lack of clarity in the skills and techniques of development designers.,開発設計者の技能や技術が明確化されていないので教育などの方針や計画が不明確で進まない、成長しない
+1858,30,1,IT,2,"Information required for the development theme (proposal, quality requirements, product assortment, design drawings, data...) and other necessary documents are not in place, the level of each is low, and it is necessary to redo the process again.",開発テーマに必要な情報(企画書、要求品質、品揃、デザイン図、データ････)などの必要書類が整備されない、それぞれのレベルが低い、もう一度やり直しが必要
+1859,30,1,CM,4,There is no core technology to compare with other companies. There is no research department.,他社と比較できるコア技術がない。研究部門もない。
+1860,30,1,HD,1,The work is so subjective that you have to ask the person in charge at the time to find out. The task has not been passed on at that time and the same mistakes are made.,仕事が属人化していて、その当時の担当者に聞かないとわからない。そのときの課題が引き継がれておらず、同じ失敗をしてしまう。
+1861,30,1,CM,4,"While developing new products, we are crushing the bottleneck technology and are not able to develop advanced technology. Planning is not planned over a long period of time, so we cannot eliminate bottleneck technologies in advance. There are not enough people to handle the design.",新製品開発を行いながら、ネック技術を潰しており、先行技術開発ができていない。企画も長期スパンで計画されていないので、ネック技術を事前に潰すことができない。設計対応する人も足りない。
+1862,30,1,BP,1,"Time is running out in dealing with the most recent issue that's on fire, and you can't deal with it in a long span of time.",火のついている直近の課題対応で時間が過ぎてしまい、長いスパンでの対応ができない
+1863,30,1,IT,3,Many of the necessary forms are not formatted within the company and are not standardized.,必要な帳票類が社内でフォーマットが定められていないものが多く、統一されていない。
+1864,30,1,IT,4,The lack of a uniform format makes it difficult to process data in post-processing.,フォーマットが統一されていないので、後加工でデータ処理をすることが難しい
+1865,30,1,HD,2,"New employees need to be trained, but training materials are not in place",新入社員を教育する必要があるが、教育資料が整備されていない
+1866,30,1,IT,1,"it doesn't go to get new information, including CAD, etc., and it exists in its old form.",CADなども含めて新しい情報を取りにいかず、古いままで存在している。
+1867,30,1,CM,4,"Projects are being released without marketing research, so no plans are being released that are ahead of the competition.",マーケティングリサーチができていないまま企画が出ているので、他社より先行する企画が出ない
+1868,30,1,BP,1,Reworks due to poor product planning (lack of experience and time for planning staff),商品企画の内容が薄いことによる手戻り（企画担当の経験不足、時間が足りない）
+1869,30,1,CM,4,"The target cost ratio is uniform and strict, regardless of the product. If it tries to force you to achieve it, it ends up being a cheap product.",目標の原価率が商品に関係なく一律で、厳しい。無理に達成しようとしてチープな製品になってしまう。
+1870,30,1,BP,4,"Since we have become a small quantity and variety producer, it is difficult to consolidate production numbers and lower unit prices (poor production planning efficiency).",少量多品種になってきているので、生産数を固められず単価を下げ辛い（生産計画の効率が悪い）
+1871,30,1,BP,2,"Direct communication between the factory and the planning side often fails to make sense, and meetings become a waste of time, which in turn makes design and development more time-consuming.",工場側と企画側で直接話をしても通じない事が多く、打合せも無駄な時間になるため、設計開発が全て間に入る手間。
+1872,30,1,CM,4,"Since the basis for the sales forecast of the plan is naive or is not practically held with the sales team, there is a possibility of over-investment even if the investment is calculated to be good in reality.",企画の販売予測の根拠が甘いもしくは営業と実質握れていないので、計算上して良い投資でも実際は投資過多の可能性
+1873,30,1,BP,2,"What the person in charge of the project has been working on is quickly turned over to the ""planning committee"" (rework).",担当者が進めてきたことが「企画委員会」ですぐにひっくり返る（手戻り）
+1874,30,1,HD,2,There is an imbalance in the age of the design team members and not enough people in charge to turn it around by themselves (some leaders and many newcomers),設計メンバーの年齢バランスが悪く、1人で回せる担当者が不足している（一部のリーダーと多くの新人）
+1875,30,1,CM,5,The world doesn't need an office.,世の中がオフィスを必要としていない。
+1876,30,1,CM,5,There are no products that can really make the world more convenient and fundamentally solve the problem.,本当に世の中が便利になる、困ったを根本解決できる商品がでない。
+1877,30,1,IT,1,There is no time or setting (place) for the new knowledge learned to be shared or made available.,学習した新しい知識を共有したりされたりする時間や設定（場）がない。
+1878,30,1,HD,1,it doesn't have time to update (or learn) new knowledge.,新しい知識をアップデート（学習）する時間がない。
+1879,30,1,BP,2,it's getting used to following.,後追いになれてしまっている
+1880,30,1,BP,1,The scope of one person's work is too broad.,一人の業務範囲が広すぎる。
+1881,30,1,BP,2,Not being able to work with an awareness of importance. Not priority oriented.,重要度を意識して仕事ができていない。重点指向でない。
+1882,30,1,IT,1,weakness for ICT-related issues has not been improving.,ICT関係への苦手意識が消えない。
+1883,30,2,IT,3,A tool that provides an objective view of market value.,市場価値を客観的に把握できるツール。
+1884,30,2,IT,3,"Deployment combination arrangement simulation application (easy to sell, simple to design without worrying about procurement).",展開組合せ手配シミュレーションアプリ（売りやすさ、手配気にせずシンプルに設計できる）。
+1885,30,2,CM,5,"Increase the number of satellites and feel for oneself first in the future of IT, mobile tools, communication tools and ways of working.",サテライトを増やし、今後のITやモバイルツール、コミュニケーションツール、働き方に、まずは自分で実感する。
+1886,30,2,BP,5,"The basis for sales forecasts and the basis for planning volumes, such as existing products that are affected, are tabulated and made visible (an accurate review) using a set rule.",販売予測の根拠や、影響の受ける既存商品など企画数量の根拠を決まったルールで集計、見える化（正確なレビュー）。
+1887,30,2,BP,4,alignment between the inputter and receiver. The accuracy of the output is determined by the input.,インプットする側、される側の目線合わせ。アウトプットの精度はインプットで決まる。
+1888,30,2,BP,3,"Progress management should be visible from everywhere, so that it can see how each department is working.",進捗管理が、どこからも見ることができ、どのように各部門が動いているかわかるようにする。
+1889,30,2,CM,4,Strengthen governance to clarify and ensure compliance with the rules for sharing information required for PLM.,PLMに必要な情報を共有するルールの明確化と順守を徹底するガバナンスの強化。
+1890,30,2,CM,3,Focus cost reductions only on products that sell. Try to get it out first.,売れる製品にのみコストダウンを集中する。まずは、出してみる。
+1891,30,2,CM,3,"Clearly set QCD targets for each development theme, and the committee will authorize them before starting development.",開発テーマ別のQCD目標を明確に決め、委員会でオーソライズしてから開発スタートする。
+1892,30,2,CM,3,"After new product development, acknowledge and create technical reports as a job, and make time for them.",新製品開発後には技術レポート作成を業務として認めて作成する、時間を作る。
+1893,30,2,BP,3,Grouping of development products. Indicate which development patterns are present in the plan.,開発製品のグルーピング。企画にどの開発パターンがあるのかを示す。
+1894,30,2,HD,2,A professional education organization.,教育専門の組織。
+1895,30,2,BP,5,Make sure that steps are taken to share the status of the development design with top management.,開発設計の状況を経営トップと共有するステップを必ず実施する。
+1896,30,2,CM,4,The system is 90% practical work and the remaining 10% goes to research.,実務9割、残りの1割は研究に回す制度。
+1897,30,2,CM,3,Separate the designers who design the immediate product from those who design the product in the next few years.,直近の製品を設計する設計者と、数年後の製品を設計する設計者をわける。
+1898,30,2,BP,2,The conference be able to say the truth.,本音を言える会議を開催。
+1899,30,2,BP,4,"Launch = All QCDs accomplished ⇒ Launch is not the next theme, but rather a milestone in the process, and the initial flow and launch period are also considered as a period of development and brush-up.",発売＝QCD全て達成⇒次テーマではなく、発売も一つの通過点として、初期流動や発売期間も開発・ブラッシュアップの期間と捉える。
+1900,30,2,IT,4,An organization that develops information systems and integrated development environments.,情報システムと統合された開発環境を開発する組織。
+1901,30,2,IT,4,Inventory holding simulator.,在庫の持ち方シュミレーター。
+1902,30,2,BP,3,An organization dedicated to these activities. No development practices are carried out.,このような活動専門の組織。開発実務は行わない。
+1903,30,2,HD,2,Skill Check System.,スキルチェック制度。
+1904,30,2,HD,2,Develop the ability to imagine things.,モノを想像する力をつける。
+1905,30,2,IT,3,"We collect and analyze data from not only orders, but also quotations and inquiries (accuracy of the planning basis).",受注したものだけでなく、見積り取ったもの、問い合わせあったものなどのデータも収集分析（企画根拠の正確性）。
+1906,30,2,IT,3,"An application that allows you to visually propose to your customers, like a car color and option simulation, and also shows customizable colors and size limits (sales promotion and inquiry efficiency).",車のカラー・オプションシミュレーションのように、ビジュアルでお客様へ提案できるアプリ、カスタマイズ可能なカラーやサイズ制限等もわかる（販売促進、問い合わせ効率）。
+1907,30,2,IT,3,"Gathering and analyzing what each salesperson is thinking in real time, just like Twitter. Resolution of only picking up the opinions of some of the most vocal salespeople (planning basis).",ツイッターのように各営業が思っていることをリアルタイムに収集・分析。一部の声の大きい営業の意見しか拾えていないことの解決（企画根拠）。
+1908,30,2,IT,3,"A system that finds similar shapes, like an image search, to find parts that can be used in the same way to improve the efficiency of design and standardize parts (reducing development lead time and inventory).",画像検索のように類似形状のを見つけるシステムで、共通で使える部品を見つけて設計の効率化と部品共通化（開発リードタイム、在庫低減）。
+1909,30,2,IT,3,"A system that finds similar shapes, like an image search, to find potential patent and design infringement quickly (development lead time).",画像検索のように類似形状のを見つけるシステムで、特許や意匠の侵害の可能性を早く見つける（開発リードタイム）。
+1910,30,2,IT,3,"A system in which the discount rate is determined by the availability of inventory, like a system of price variation based on hotel availability (reducing inventory and increasing profits).",ホテルの空室状況による価格変動システムのように、在庫状況に合わせて値引き率が決まるシステム（在庫低減、収益アップ）。
+1911,30,2,IT,3,"As there are many similar excel sheets in the company, we are publishing a collection of internal templates as examples of improvements.",同じようなエクセルが社内で多くあるので、改善事例として社内テンプレート集とし公表する。
+1912,30,2,IT,4,"The development environment, including ICT, will be raised to the same level as the world.",ICT含めて開発環境は世間同等にはあげるようにする。
+1913,30,2,CM,5,"Change the rules and attitudes so that product release dates are flexible, and that what's ready is listed in the catalog.",製品の発売日を柔軟にする、できている物をカタログに掲載するようにルール、意識を変える。
+1914,30,2,HD,3,Conducting online in-house study sessions.,オンラインを用いた社内勉強会の実施。
+1915,30,2,IT,3,The rules include how to save the data and file names.,データの保存方法、ファイル名も含めてルール化。
+1916,30,2,IT,2,"Since product tests only leave results for passing or failing, the amount of data will be increased by attaching sensors and other means.",製品試験は合格、不合格しか結果が残らないので、センサーをつけるなどしてデータ量を増やす。
+1917,30,2,HD,3,To ensure that the rationale for promoting design based on product planning can be shared in a situation where it can be viewed at any time.,商品企画をもとに設計を推進するための根拠資料がいつでも閲覧できる状況で共有できるようにする。
+1918,30,2,BP,1,Clarify the designer's role and which tasks need to be accomplished to be completed.,設計者の役割分担の明確化、どの業務を達成すれば完了なのかを明らかにする。
+1919,30,2,HD,4,"Strengthening the training system for digital transformation, divided into new employees, mid-level employees, veterans and managers.",新入社員、中堅、ベテラン、管理職に分けたデジタルトランスフォーメーションに向けた教育体制の強化実施。
+1920,30,2,HD,4,"In addition to the knowledge and advanced technology required for the future, research and major development on how to do the work.",将来に向けて必要な知識、先端技術に加えて、仕事の進め方に関する研究や専攻開発の実施。
+1921,30,2,IT,4,"In order to make all the vast amounts of past design information available digitally, a separate task force will be organized to digitize all the information.",過去の膨大な設計情報を全てデジタルで活用できるようにするために、別働隊を組織して情報を全てデジタル化する。
+1922,30,2,HD,3,"Change the atmosphere from ""it's natural to do it, if you can't do it, you're a failure"" to ""accomplishments are appreciated, if you don't do it, you've done well.",「できて当たり前、できないと失敗」という雰囲気を「達成は評価、未達はよく頑張ったという」雰囲気に変える。
+1923,30,2,CM,3,"Identify ""themes to be developed through proper consultation"" and ""themes to be tried in the meantime. It's also necessary to back down in a friendly manner.",「ちゃんと協議して開発すべきテーマ」と「とりあえずやってみるテーマ」を明確にする。いさぎよく引き下がることも必要。
+1924,30,2,CM,4,"Clarify ""standards"" and understand your competence. What is not set in stone is part of competence. It's not a matter of responsibility.",「基準」の明確化と実力の把握。決まっていないことも実力の内。責任問題じゃない。
+1925,30,2,CM,4,"Identify a concept that can be used as a guide and a voluntary priority. Add ""if possible"" to it.",指針となる・自主的に優先順位を決めれるコンセプトを明確にする。それに「できれば」を追加する。
+1926,30,2,BP,4,Stop and format the documents and forms for the moment only. Keep the information collected and picked up by the side that needs it. Design man-hours and idea maintenance should be the main task.,その場だけの資料・帳票をやめる・書式化する。情報を集めておいて、必要な側がピックアップする。設計工数・アイディアメンテナンスがメインのタスクであるべき。
+1927,30,2,HD,1,The system is a one-size-fits-all system. It's not a complete system. Recognize that it's something we can brush up on ourselves with our running. Don't leave it to others and go catch it yourself.,システムは一長一短がある。完結しない。ランニングで自分たちでブラッシュアップするものと認識すること。人任せにしないで自分からキャッチしにいく。
+1928,30,2,CM,4,Determine the criteria for internal or external production.,内外作の基準を決める。
+1929,30,2,CM,3,"The quality assurance department will have one quality assurance department structure, rather than one supplier for inside production and one for outside production.",品質保証部の体制を内作外作ではなく、内作は外作のサプライヤーに一つとする。
+1930,30,2,HD,1,Younger employees will be assigned to take charge of the development of diversion of existing products in the development pattern grouping. Make them aware of our products.,若い子には、開発パターングルーピングの中の既存品流用開発から担当してもらう。自社製品を知ってもらう。
+1931,30,2,CM,4,"Decide on a development concept at the beginning. Define what the new technology is, etc.",開発構想をはじめに決める。新技術が何かなど明確にする。
+1932,30,2,BP,3,"Depending on the content of the project, a deadline for planning input will be set, after which it will not be accepted.",企画内容によって、企画インプット期限を設けるそれ以後は受け付けない。
+1933,30,2,IT,1,We will use the communication tools of the future.,これからのコミュニケーションツールを使っていく。
+1934,30,2,CM,3,"As we proceed with development and design, the basis for sales and the quantity of the plan need to be understood and authorised.",開発設計を進めるにあたり、販売根拠や企画数量が、腹落ちし、オーサライズ必要。
+1935,30,2,IT,3,Quickly stabilize and improve the system (including the way the files are shared).,システム（ファイル共有の在り方含む）の安定化や改善を迅速に行う。
+1936,30,2,IT,3,The minimum data sharing location should be the same for all themes. Horizontal connections should be visible.,最低限のデータの共有場所は、どのテーマでも同じにする。横の繋がりは、確認できるようにする。
+1937,30,2,CM,5,"Determine how the company decides on its direction and how decisions are made, so that they can be clearly defined and assigned to themes and responsibilities.",会社としての方向性の決め方、意思決定の方法を、明確にし、テーマや担当に振り分けられるようにする。
+1938,30,2,BP,1,A change in the way we work. New IT and places and all that. Feeling more efficient or a more rewarding way of working.,働き方の変化を実感する。新しいITや場、もろもろ。効率的なのか働き甲斐のある方法を感じる。

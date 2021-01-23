@@ -44,4 +44,6 @@ apostrophes = dict({
 	"market's": "market",
 	"wouldn't": "would not",
 	"partners'": "partner",
-	"user's": "user"})
+	"user's": "user",
+	"employees'": "employee",
+	"everyone's": "everyone"})

@@ -13,20 +13,20 @@ def compare_word(word1, word2):
     
     return word1_synset[0].wup_similarity(word2_synset[0])
 
-def get_hypernyms(word):
-    hypernyms = set()
+def get_hyponyms(word):
+    hyponyms = set()
     word_wn = wordnet.synsets(word)
     if len(word_wn) == 0:
         return []
 
-    for hyp in word_wn[0].hypernyms():
+    for hyp in word_wn[0].hyponyms():
         for l in hyp.lemmas():
             hypernym = l.name().replace("_", " ").replace("-", " ").lower()
             hypernym = "".join([char for char in hypernym if char in ' qwertyuiopasdfghjklzxcvbnm'])
-            hypernyms.add(hypernym) 
-    if word in hypernyms:
-        hypernyms.remove(word)
-    return list(hypernyms)
+            hyponyms.add(hypernym) 
+    if word in hyponyms:
+        hyponyms.remove(word)
+    return list(hyponyms)
 
 file_name = sys.argv[1] if len(sys.argv) > 1 else ""
 mode = sys.argv[3] if len(sys.argv) > 3 else ""
@@ -48,10 +48,10 @@ for s in sentences:
     while done_replace < num_replace:
         word_candidate = random.choice(new_s)
         word_index = new_s.index(word_candidate)
-        word_hypernyms = get_hypernyms(word_candidate)
+        word_hyponyms = get_hyponyms(word_candidate)
         
-        if len(word_hypernyms) > 0:
-            hyp_candidate = random.choice(word_hypernyms)
+        if len(word_hyponyms) > 0:
+            hyp_candidate = random.choice(word_hyponyms)
             sim_score = compare_word(word_candidate, hyp_candidate)
             if sim_score > 0.75:    
                 print(sim_score, word_candidate, hyp_candidate)
@@ -61,19 +61,17 @@ for s in sentences:
     
     new_sentences.append(new_s)
 
-with open('hyp_' + file_name.split("/")[-1], 'w') as f:
+with open('hypooo_' + file_name.split("/")[-1], 'w') as f:    
     if mode == "normal":
         for i in range(len(sentences)):
             old_s = sentences[i]
-
-            f.write(" ".join(old_s) + "\n")
-
-        for i in range(len(new_sentences)):
-            old_s = sentences[i]
             new_s = new_sentences[i]
 
+            f.write(" ".join(old_s) + " ")
             if old_s != new_s:
                 f.write(" ".join(new_s) + "\n")
+            else:
+                f.write("\n")
     else:
         for i in range(len(new_sentences)):
             old_s = sentences[i]

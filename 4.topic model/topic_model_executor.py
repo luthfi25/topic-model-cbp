@@ -13,7 +13,7 @@ import os
 parser = argparse.ArgumentParser(description="Implement BK-LFLDA topic model to dialog dataset with background knowledge")
 parser.add_argument("-dialog", required=True, type=str, help="Dialog file location. Please input full path but without extention. [default:]")
 parser.add_argument("-bk", required=True, type=str, help="Background Knowledge file location. Please input the already augmented file. Please input full path but without extention. [default:]")
-parser.add_argument("-alg", type=str, default="BKLFLFDA", help="Please input if you want to use alternative algorithm. The default is BKLFLFDA(Luthfi, 2020), the alternative is currenty SRC(Wood, 2016)")
+parser.add_argument("-alg", type=str, default="BKLFLDA", help="Please input if you want to use alternative algorithm. The default is BKLFLFDA(Luthfi, 2020), the alternative is currenty SRC(Wood, 2016)")
 args = parser.parse_args()
 
 ntopics = 0
