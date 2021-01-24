@@ -3,6 +3,7 @@ from nltk.corpus import wordnet
 import sys
 import random
 import math
+import sys
 
 def compare_word(word1, word2):
     word1_synset = wordnet.synsets(word1)
@@ -28,12 +29,15 @@ def get_hypernyms(word):
         hypernyms.remove(word)
     return list(hypernyms)
 
+reload(sys)
+sys.setdefaultencoding('utf8')
+
 file_name = sys.argv[1] if len(sys.argv) > 1 else ""
 mode = sys.argv[3] if len(sys.argv) > 3 else ""
 sentences = []
 with open(file_name, "r") as f:
     sentences = f.readlines()
-    sentences = [s.rstrip(" \n").split(" ") for s in sentences]
+    sentences = [s.decode('utf-8').rstrip(" \n").split(" ") for s in sentences]
 
 degree = sys.argv[2] if len(sys.argv) > 2 else ""
 degree = float(degree)

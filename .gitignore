@@ -1,6 +1,7 @@
 4.topic model/wiki.en.text
 4.topic model/dataset/
 4.topic model/*/
+4.topic model/*.txt
 dataset/*/
 .vscode/
 5.finalize/*.txt
