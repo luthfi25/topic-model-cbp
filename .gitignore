@@ -1,2 +1,2 @@
-dataset/
+dataset/*
 topic_model/*.text
