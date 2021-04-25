@@ -14,7 +14,6 @@ Make sure to install and download the following stuffs before running the progra
 * nltk (python package)
 * pandas (python package)
 * scipy (python packaage)
-* Wikipedia Corpus ([Here](#)) **Put the file in topic_model folder!**
 * Global Vectors ([Here](https://nlp.stanford.edu/projects/glove/))  **Put the file in dataset folder!**
 
 ### Step 2: Running Topic Model for CBP
