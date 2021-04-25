@@ -69,8 +69,16 @@ def clean(input_dataset, mode):
 
     print("Start cleaning {}...".format(input_dataset))
     if mode == "dataset":
-        sentences = dataset_df["sentence_english"]
-        sentences = [s for s in sentences]
+        sentences = [s for s in dataset_df["sentence_english"]]
+        companyIDs = [c for c in dataset_df["company_id"]]
+        companyIDmap = {companyIDs[0]: {"start": 0}}
+
+        for i in range(1, len(companyIDs)-1):
+            if companyIDs[i] not in companyIDmap:
+                companyIDmap[companyIDs[i-1]]["end"] = i
+                companyIDmap[companyIDs[i]] = {"start": i}
+        
+        companyIDmap[companyIDs[-1]]["end"] = len(companyIDs)-1
 
         #remove empty sentence "-"
         while "-" in sentences:
@@ -79,7 +87,7 @@ def clean(input_dataset, mode):
         clean_sentences = [clean_single(s) for s in sentences]
         print("Done cleaning!")
         
-        return clean_sentences
+        return clean_sentences, companyIDmap
 
     elif mode == "background":
         sentences = dataset_df["definition"]
