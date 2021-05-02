@@ -22,10 +22,11 @@ def remove_label(output_eda):
 
 import math
 import random
+random.seed(1)
 from nltk.corpus import wordnet
 
 def get_extension(word, mode):
-    extension_set = set()
+    extension_set = []
     word_wn = wordnet.synsets(word)
     if len(word_wn) == 0:
         return []
@@ -36,12 +37,12 @@ def get_extension(word, mode):
         for l in hyp.lemmas():
             hyp_word = l.name().replace("_", " ").replace("-", " ").lower()
             hyp_word = "".join([char for char in hyp_word if char in ' qwertyuiopasdfghjklzxcvbnm'])
-            extension_set.add(hyp_word)
+            extension_set.append(hyp_word)
 
     if word in extension_set:
         extension_set.remove(word)
     
-    return list(extension_set)
+    return extension_set
 
 def compare_word(word1, word2):
     word1_synset = wordnet.synsets(word1)
@@ -61,16 +62,18 @@ def do_aug_extension(aug_dataset, mode):
         done_replace = 0
 
         while done_replace < num_replace:
-            word_candidate = random.choice(new_d)
+            cand_index = random.randrange(len(new_d))
+            word_candidate = new_d[cand_index]
             word_index = new_d.index(word_candidate)
             word_hyp = get_extension(word_candidate, mode)
 
             if len(word_hyp) > 0:
-                hyp_candidate = random.choice(word_hyp)
+                hyp_index = random.randrange(len(word_hyp))
+                hyp_candidate = word_hyp[hyp_index]
                 sim_score = compare_word(word_candidate, hyp_candidate)
                 if sim_score > 0.75:
                     print(sim_score, word_candidate, hyp_candidate)
-                    new_d[word_index] = hyp_candidate
+                    new_d[cand_index] = hyp_candidate
 
             done_replace += 1
         

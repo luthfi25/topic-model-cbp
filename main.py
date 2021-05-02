@@ -3,9 +3,7 @@
 # Muhammad Luthfi
 
 #TODO
-#1. Documentation specifying desired input format
-#2. Instruction to install java, python3, nltk, pandas, scipy in advance
-#3. Fix random seed
+#1. Push PK-STTM and Source-LDA to corresponding forked repos
 
 #arguments to be parsed from command line
 import argparse
@@ -50,7 +48,7 @@ if __name__ == "__main__":
     #step 3.1: print prepared background knowledge
     with open("dataset/{}/prepared_background.dat".format(background_folder), 'w') as f:
         f.write("\n".join(prepared_background))
-    
+
     #step 4: topic model execution
     results_folder = execute("dataset/{}/hyponym+hypernym+aug_1".format(dataset_folder), dataset_folder, "dataset/{}/prepared_background.dat".format(background_folder), len(prepared_background))
 
